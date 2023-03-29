@@ -5,7 +5,7 @@ import Modal from "./Modal";
 
  function NavBar() {
   return (
-    <div className="navbar bg-rose-100 fixed h-10 z-10">
+    <div className="navbar bg-rose-100 fixed w-full h-10 z-[100]">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -59,7 +59,7 @@ import Modal from "./Modal";
             </li>
             <li> */}
 
-              <a className="justify-between">Contact</a>
+            <a className="justify-between">Contact</a>
             </li>
             <li>
               <a>Pricing</a>
