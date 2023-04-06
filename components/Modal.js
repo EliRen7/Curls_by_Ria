@@ -12,13 +12,13 @@ function Modal() {
       <input type="checkbox" id="my-modal-4" className="modal-toggle" />
       <label htmlFor="my-modal-4" className="modal cursor-pointer">
         <label className="modal-box relative bg-tan" htmlFor="">
-          <h3 className="text-lg font-bold text-center">Request an appointment</h3>
+          <h3 className="text-lg font-bold text-center">Welcome!</h3>
          
 
           <h4 className="pt-10 m-5">Step 1: Click to request an appointment date</h4>
         
           <a href="https://calendly.com/liz774/curlsbyria-treatments" target="_blank"
-          className="mt-5 px-6 py-3 ml-40 text-black no-underline btn-sm bg-amber-300 rounded hover:bg-yellow-500">Link
+          className="mt-5 px-6 py-3 ml-40 text-black no-underline btn-sm bg-amber-300 rounded hover:bg-yellow-500">Request
           </a>
 
             <div className="divider"></div> 

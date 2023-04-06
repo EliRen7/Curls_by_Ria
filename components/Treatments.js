@@ -2,7 +2,7 @@
 function Treatments(){
     return(
       <div className='bg-tan'>
-       <div className="flex flex-col w-10/12 pt-20 ml-[8rem] ">
+       <div className="flex flex-col w-10/12 pt-40 ml-[8rem] ">
        <h1 className="font-headers text-6xl mb-0 text-rose-300" >Services/Information</h1>
        {/* <h3 className="mt-0 ml-5 text-lg">What to expect</h3> */}
        <h6 className="font-descriptions ml-5">During your first visit and any following full visits, we will do a consultation first followed by dry cutting,
@@ -67,8 +67,9 @@ function Treatments(){
       <p>
       This will go towards the service you scheduled and you will only need to pay the <b>remaining balance</b> after your appointment
       </p>
-      <p>
+      
       <h5><b>!! The deposit is non-refundable !!</b> </h5>
+      <p>
       For any changes, you must notify me no less than 72 hours before your appointment. Otherwise, your appointment will be considered canceled 
       </p>
 
