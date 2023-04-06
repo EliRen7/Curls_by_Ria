@@ -15,6 +15,10 @@ module.exports = {
         'tan2' : ' #e3dac9',
       },
     },
+    fontFamily:{
+      headers:['Amatic SC', 'cursive'],
+      descriptions:['Patrick Hand', 'cursive']
+    },
   },
   plugins: [require("daisyui")],
 }

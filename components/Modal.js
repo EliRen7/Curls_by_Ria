@@ -18,8 +18,8 @@ function Modal() {
           <h4 className="pt-10 m-5">Step 1: Click to request an appointment date</h4>
         
           <a href="https://calendly.com/liz774/curlsbyria-treatments" target="_blank"
-          className="mt-5 px-6 py-3 text-black no-underline btn-sm bg-yellow-400 rounded hover:bg-yellow-500">Link
-          Button</a>
+          className="mt-5 px-6 py-3 ml-40 text-black no-underline btn-sm bg-amber-300 rounded hover:bg-yellow-500">Link
+          </a>
 
             <div className="divider"></div> 
 
@@ -33,9 +33,10 @@ function Modal() {
                   Cut Only (45min-1hr) Deposit-
                 </option>
                 <option>Olaplex Treatment Deposit- </option>
-                <option>Online Consultation (45 mins) Deposit- </option>
+                <option>Online Consultation (45 mins) Deposit- </option> 
               </select>
             </label>
+          
 
 
             <label className="input-group input-group-sm m-4">
