@@ -1,13 +1,11 @@
 
 function Modal() {
-
   return (
     <div>
       <label
         htmlFor="my-modal-4"
         className="btn bg-rose-300 border-rose-300 text-base mb-30">
-        Book Now
-      </label>
+        Book Now</label>
       <form>
       <input type="checkbox" id="my-modal-4" className="modal-toggle" />
       <label htmlFor="my-modal-4" className="modal cursor-pointer">
@@ -18,7 +16,7 @@ function Modal() {
           <h4 className="pt-10 m-5">Step 1: Click to request an appointment date</h4>
         
           <a href="https://calendly.com/liz774/curlsbyria-treatments" target="_blank"
-          className="mt-5 px-6 py-3 ml-40 text-black no-underline btn-sm bg-amber-300 rounded hover:bg-yellow-500">Request
+          className="mt-5 px-6 py-3 ml-40 text-lg text-black font-descriptions no-underline btn-sm bg-amber-300 rounded hover:bg-yellow-500">Request
           </a>
 
             <div className="divider"></div> 
@@ -37,7 +35,9 @@ function Modal() {
               </select>
             </label>
           
-
+            {/* <PaypalScriptProvider>
+            <PayPalButtons />
+            </PaypalScriptProvider> */}
 
             <label className="input-group input-group-sm m-4">
               <span>Payment</span>
@@ -50,7 +50,6 @@ function Modal() {
               <span>Email</span>
               <input type="text" placeholder="e.g: xxxxx@email.com" className="input input-bordered w-80 input-warning" />
             </label> 
-        
           <div className="modal-action">
             <label htmlFor="my-modal" className="btn">
               Submit!
@@ -60,6 +59,7 @@ function Modal() {
       </label>
       </form>
     </div>
+
   );
 }
 

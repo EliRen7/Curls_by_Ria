@@ -6,8 +6,8 @@ function Treatments(){
        <h1 className="font-headers text-6xl mb-0 text-rose-300" >Services/Information</h1>
        {/* <h3 className="mt-0 ml-5 text-lg">What to expect</h3> */}
        <h6 className="font-descriptions ml-5">During your first visit and any following full visits, we will do a consultation first followed by dry cutting,
-        washing, styling, and setting your curls. Throughout the entire process, I will be giving you <b>step by step guidance </b> 
-         so you will be able to do this at home.
+        washing, styling, and setting your curls. <br></br> Throughout the entire process, I will be giving you <b>step by step guidance </b> 
+         so you will be able to do this at home. 
        </h6>
   <div className="grid h-90 card bg-tan place-items-center border-2 border-tan2 text-xl ">
     <h5 className="font-headers text-4xl">Treatments </h5>
@@ -29,7 +29,7 @@ function Treatments(){
   </div> 
   <div className="divider"></div> 
   <div className="grid h-100 card bg-tan place-items-center border-2 border-tan2 text-xl ">
-    <h5 className="font-headers text-4xl">Prepping</h5>
+    <h5 className="font-headers text-4xl">Prepping</h5> 
   <ul className="list-disc text-lg pl-40 pb-5">
         <li className="p-5">
           Come with a <b>fresh, clean hair</b> (no more than 2 days since your last wash) 
@@ -49,17 +49,16 @@ function Treatments(){
           (<b>clarify</b> your hair if you have been using them prior to yor cut)
         </li>
       <small>**If you do not follow the proper preparations when you come in for your cut and we need to reschedule, you will
-        be <b>charged the full appointment price</b> and will need to <b>reschedule again at full price</b>
+        be <b>charged the full appointment price <br></br></b> and will need to <b>reschedule again at full price</b>
       </small>
       </ul>
-  
-  
   </div>
   <div className="divider"></div> 
-  <div className="grid h-80 card bg-tan place-items-center border-2 border-tan2 text-xl ">
+  <div className="grid h-80 card bg-tan place-items-center border-2 border-tan2 text-xl pb-10">
     <h5 className="font-headers text-4xl">Deposit Policy</h5>
-      <p className="text-lg"><b>To prevent no-shows and last minute cancellations, </b>there is a deposit policy of <b>half the service total </b>
-      to confirm any appointment <b>(Ex:</b> First visit - 75,000 won deposit)
+    <section className="text-center text-lg">
+      <p ><b>To prevent no-shows and last minute cancellations, </b>there is a deposit policy of <b>half the service total </b>
+      to confirm any appointment <br></br><b>(Ex:</b> First visit - 75,000 won deposit)
       </p>
       <p>
       To confirm your appointment, please send the deposit by bank transfer <b>within 1 hour</b> of receiving your appointment details
@@ -72,7 +71,7 @@ function Treatments(){
       <p>
       For any changes, you must notify me no less than 72 hours before your appointment. Otherwise, your appointment will be considered canceled 
       </p>
-
+</section>
   
   </div>
   </div>
