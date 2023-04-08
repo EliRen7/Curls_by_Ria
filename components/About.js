@@ -15,7 +15,7 @@ function About(){
         <div>
      <h1 className="font-headers text-6xl mt-40 text-rose-300 ml-[8rem] mb-10" >About Me</h1>
     <div className="card lg:card-side w-11/12">
-  <img src="./assets/profile2.jpg" className="w-96 ml-40 rounded-lg border-dotted border-black border-8"/>
+  <img src="./assets/profile2.jpg" className="w-96 ml-40 mr-5 rotate-6 rounded-3xl border-dotted border-black border-8"/>
   <div className="card-body">
     <h2 className="card-title font-descriptions text-3xl">Hello, I'm Ria!</h2>
     <p className="text-lg text-justify mt-5"> 

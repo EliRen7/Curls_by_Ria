@@ -1,5 +1,6 @@
 import React from "react";
 import { AiFillYoutube } from "react-icons/ai";
+
 import Modal from "./Modal";
 
  function NavBar() {
@@ -64,11 +65,15 @@ import Modal from "./Modal";
               <a>Pricing</a>
             </li>
             <li>
+                Contact
+            </li>
+            <li>
               <a href="https://www.youtube.com/@WavyCurlyRia" target="_blank">
                 <AiFillYoutube />
                 YouTube
               </a>
             </li>
+            
           </ul>
         </div>
       </div>
@@ -104,6 +109,7 @@ import Modal from "./Modal";
           </li>
           <li> */}
             <a>Testimonials</a>
+            <a>Contact</a>
           </li>
           <li>
             <a href="https://www.youtube.com/@WavyCurlyRia" target="_blank">

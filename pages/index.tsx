@@ -4,7 +4,9 @@ import Treatments from '../components/Treatments'
 import Testimonials from '../components/Testimonials'
 import Footer from '../components/Footer'
 import About from '../components/About'
+import Contact from '../components/Contact'
 import { Inter } from 'next/font/google'
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,10 +18,14 @@ export default function Home() {
     <Treatments />
     <Testimonials />
     <About />
+    <Contact />
     <Footer />
     </div>
   )
 }
+
+
+   
 
 
 
