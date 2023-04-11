@@ -11,7 +11,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'tan': '#FFFFFA',
+        'tan': '#FAF9F6',
         'tan2' : ' #e3dac9',
       },
     },
@@ -19,6 +19,24 @@ module.exports = {
       headers:['Amatic SC', 'cursive'],
       descriptions:['Patrick Hand', 'cursive']
     },
+    keyframes: {
+      'fade-in-down': {
+          '0%': {
+              opacity: '0',
+              transform: 'translateY(-10px)'
+          },
+          '100%': {
+              opacity: '1',
+              transform: 'translateY(0)'
+          },
+      }
+  },
+  animation: {
+      'fade-in-down': 'fade-in-down 2s ease-out'
+  }
   },
   plugins: [require("daisyui")],
 }
+
+
+// #FFFFFA

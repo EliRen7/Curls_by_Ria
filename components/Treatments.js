@@ -2,49 +2,51 @@
 function Treatments(){
     return(
       <div className='bg-tan'>
-       <div className="flex flex-col w-10/12 pt-40 ml-[8rem] ">
-       <h1 className="font-headers text-6xl mb-0 text-rose-300" >Services/Information</h1>
-       {/* <h3 className="mt-0 ml-5 text-lg">What to expect</h3> */}
-       <h6 className="font-descriptions ml-5">During your first visit and any following full visits, we will do a consultation first followed by dry cutting,
+       <div className="flex flex-col w-10/12 pt-40 ml-[8rem]">
+       <h1 className="font-headers text-6xl mb-0 text-rose-300 " >Services/Information</h1>
+       <h6 className="font-descriptions ml-5 pt-5">During your first visit and any following full visits, we will do a consultation first followed by dry cutting,
         washing, styling, and setting your curls. <br></br> Throughout the entire process, I will be giving you <b>step by step guidance </b> 
          so you will be able to do this at home. 
        </h6>
   <div className="grid h-90 card bg-tan place-items-center border-2 border-tan2 text-xl ">
-    <h5 className="font-headers text-4xl">Treatments </h5>
+    <h5 className="font-headers text-4xl">Treatments & Prices </h5> 가격표
       <ul className="list-disc text-lg pl-20 pb-5">
-        <li className="p-5">
-          <b>First/Full visit (2-3 hours) 150,000 won</b>
+        <li>
+          First/Full visit (2-3 hours) <b>150,000 ₩</b>
+          <br></br>첫방문/풀방문 (2~3시간) <b>150,000 ₩</b>
         </li>
-        <li className="p-5">
-          <b>Cut Only (45 mins-1hour) 80,000 won <br/><small>**Offered only to existing clients</small></b>
+        <li>
+          Cut Only (45 mins-1hour) <b>80,000 ₩ <br/><small>**Offered only to existing clients**</small></b>
+          <br></br>커트만 (45분~1시간) <b>80,000 ₩ <br></br><small>**회원들만 가능**</small></b>
         </li>
-        <li className="p-5">
-          <b>Olaplex treatment 40,000 won</b>
+        <li>
+          Olaplex treatment <b>40,000 ₩</b>
+          <br></br>올라플렉스 트리트먼트 <b>40,000 ₩ </b>
         </li>
-        <li className="p-5">
-           <b>Online Consultation (45mins) 60,000 won</b>
+        <li>
+           Online Consultation (45mins) <b>60,000 ₩</b> 
+           <br></br>온라인 상담 (45분) <b>60,000 ₩</b>
         </li>
-
       </ul>
   </div> 
   <div className="divider"></div> 
   <div className="grid h-100 card bg-tan place-items-center border-2 border-tan2 text-xl ">
     <h5 className="font-headers text-4xl">Prepping</h5> 
   <ul className="list-disc text-lg pl-40 pb-5">
-        <li className="p-5">
+        <li className="pt-5">
           Come with a <b>fresh, clean hair</b> (no more than 2 days since your last wash) 
-        </li>
-        <li className="p-5">
+        </li> 
+        <li>
           Hair should be <b>detangled and knot-free </b>
           <small>**If I have to detangle your hair, it will be an extra <b>40,000</b> won charge</small>
         </li>
-        <li className="p-5">
+        <li>
           Do<b> NOT</b> put your hair up in clips, braids, twist outs, buns, headbands ponytails, etc.
         </li>
-        <li className="p-5">
+        <li>
           Your hair should be in its <b>NATURAL state</b> 
         </li>
-        <li className="p-5">
+        <li>
           Please <b>avoid</b> products with silicones, heavy butters, and oils
           (<b>clarify</b> your hair if you have been using them prior to yor cut)
         </li>
@@ -52,12 +54,35 @@ function Treatments(){
         be <b>charged the full appointment price <br></br></b> and will need to <b>reschedule again at full price</b>
       </small>
       </ul>
+      <ul className="list-disc text-lg pl-20">
+        <li>
+        산뜻하고 깨끗한 머리로 오세요 (마지막 감은 후 2일 이내)
+        </li>
+        <li>
+          머리카락은 헝클어지거나 매듭이 없어야 합니다.
+          <small> **머리를 디탱글링 해야 한다면 <b>4만원</b> 추가요금이 부과됩니다**</small>
+        </li>
+        <li>
+        머리를 클립, 땋기, 비틀기, 번,
+        머리띠, 포니테일로 올리지 마세요.
+        </li>
+        <li>  
+        머리카락이 자연 상태여야 합니다. 
+        </li>
+        <li>
+        실리콘, 헤비버터, 오일이 함유된 제품은 피하세요.
+        (컷 전에 사용하신 경우 머리카락을
+        디톡스 해 주세요)
+        </li>
+      <small>**커트 준비가 제대로 되어있지 않으면 준비된 상태에서재방문이 필요합니다. <br></br>재방문으로 다시 예약을 잡아야 할 경우, 당일의 예약비와 재방문 비용 모두를 부담해야 합니다. 재방문 비용은 원가로 진행됩니다. (할인 없음)
+      </small>
+      </ul>
   </div>
   <div className="divider"></div> 
-  <div className="grid h-80 card bg-tan place-items-center border-2 border-tan2 text-xl pb-10">
+  <div className="grid h-100 card bg-tan place-items-center border-2 border-tan2 text-xl pb-10">
     <h5 className="font-headers text-4xl">Deposit Policy</h5>
-    <section className="text-center text-lg">
-      <p ><b>To prevent no-shows and last minute cancellations, </b>there is a deposit policy of <b>half the service total </b>
+    <section className="text-center text-lg pt-5">
+      <p><b>To prevent no-shows and last minute cancellations, </b>there is a deposit policy of <b>half the service total </b>
       to confirm any appointment <br></br><b>(Ex:</b> First visit - 75,000 won deposit)
       </p>
       <p>
@@ -71,8 +96,30 @@ function Treatments(){
       <p>
       For any changes, you must notify me no less than 72 hours before your appointment. Otherwise, your appointment will be considered canceled 
       </p>
-</section>
-  
+      </section>
+
+      <section className="text-center text-lg pt-5">
+        <p>
+        노쇼/당일취소 방지를 위해 부득이하게 예약금제를 시행합니다. 예약금 안내 후 1시간이내에 입금이 확인되면 예약이
+        확정됩니다~
+        </p>
+        <p>
+        입금 후 입금완료 문자 보내주세용^^
+        </p>
+        <p>
+        예약금은 고객님이 원하신 서비스
+        총 가격의 반값입니다.
+        예 첫방문 - 75,000원 예약금
+        </p>
+        <p>
+        서비스 후 남은 잔액만
+        지불하면 됩니다.
+        </p>
+        <p>
+        ‼️예약금은 환불 불가능합니다‼️
+        예약 변경은 3일전까지 미리 알려주시면 다른 날짜로 변경할수있어요~ 신중하게 생각하시고 예약 부탁 드립니다♥️
+        </p>
+      </section>
   </div>
   </div>
   </div>
