@@ -5,7 +5,7 @@ function Footer() {
     return(
       <footer className="footer items-center p-4 bg-zinc-300 text-neutral-content pt-0">
       <div className="items-center grid-flow-col">
-        <img src="./assets/curls-icon.png" className="w-40"/>
+        <img src="./assets/curlsbyrialogo2.png" className="w-40"/>
         {/* <p className='mt-20 '>Copyright © 2023 - All right reserved</p> */}
       </div> 
       <div className="grid-flow-col gap-4 md:place-self-center md:justify-self-end ">

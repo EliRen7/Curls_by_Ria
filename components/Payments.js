@@ -50,7 +50,7 @@ const ButtonWrapper = ({ currency, showSpinner }) => {
                 }}
                 onApprove={function (data, actions) {
                     return actions.order.capture().then(function () {
-                        "You have completed the transaction"
+                        alert("You have completed the transaction")
                     });
                 }}
             />
@@ -64,7 +64,8 @@ export default function Payments() {
 		<div style={{ maxWidth: "750px", minHeight: "200px" }}>
             <PayPalScriptProvider
                 options={{
-                    "client-id": "test",
+                    "client-id": "AaBXRXaIC-6yWZMf7ArGnM9AuThO5BQpoqm_Ikz31JMX-KMFPLRs17Dc3HeZTP_9achfMV8u0Tc0MhiD",
+                    "disable-funding": "paylater",
                     components: "buttons",
                     currency: "USD"
                 }}

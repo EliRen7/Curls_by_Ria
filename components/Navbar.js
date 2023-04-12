@@ -59,13 +59,12 @@ import Modal from "./Modal";
             </li>
             <li> */}
 
-            <a className="justify-between">Contact</a>
             </li>
             <li>
               <a>Pricing</a>
             </li>
             <li>
-                Contact
+                <a>Contact</a>
             </li>
             <li>
               <a href="https://www.youtube.com/@WavyCurlyRia" target="_blank">
