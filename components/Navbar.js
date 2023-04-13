@@ -108,7 +108,7 @@ import Modal from "./Modal";
           </li>
           <li> */}
             <a>Testimonials</a>
-            <a>Contact</a>
+            <a href="./contact">Contact</a>
           </li>
           <li>
             <a href="https://www.youtube.com/@WavyCurlyRia" target="_blank">

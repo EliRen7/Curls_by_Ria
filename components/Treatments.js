@@ -9,7 +9,7 @@ function Treatments(){
          so you will be able to do this at home. 
        </h6>
   <div className="grid h-90 card bg-tan place-items-center border-2 border-tan2 text-xl ">
-    <h5 className="font-headers text-4xl">Treatments & Prices </h5> 가격표
+    <h5 className="font-headers text-4xl  text-violet-400">Treatments & Prices </h5> 가격표
       <ul className="list-disc text-lg pl-20 pb-5">
         <li>
           First/Full visit (2-3 hours) <b>150,000 ₩</b>
@@ -31,7 +31,7 @@ function Treatments(){
   </div> 
   <div className="divider"></div> 
   <div className="grid h-100 card bg-tan place-items-center border-2 border-tan2 text-xl ">
-    <h5 className="font-headers text-4xl">Prepping</h5> 
+    <h5 className="font-headers text-4xl  text-violet-400">Prepping</h5> 
   <ul className="list-disc text-lg pl-40 pb-5">
         <li className="pt-5">
           Come with a <b>fresh, clean hair</b> (no more than 2 days since your last wash) 
@@ -80,7 +80,7 @@ function Treatments(){
   </div>
   <div className="divider"></div> 
   <div className="grid h-100 card bg-tan place-items-center border-2 border-tan2 text-xl pb-10">
-    <h5 className="font-headers text-4xl">Deposit Policy</h5>
+    <h5 className="font-headers text-4xl  text-violet-400">Deposit Policy</h5>
     <section className="text-center text-lg pt-5">
       <p><b>To prevent no-shows and last minute cancellations, </b>there is a deposit policy of <b>half the service total </b>
       to confirm any appointment <br></br><b>(Ex:</b> First visit - 75,000 won deposit)

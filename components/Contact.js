@@ -26,3 +26,8 @@ function Contact () {
 }
 
 export default Contact;
+
+
+
+
+// text-gray-500 for the text description under the "Contact Me " title
