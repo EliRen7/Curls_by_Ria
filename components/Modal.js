@@ -43,8 +43,8 @@ function Modal() {
                 <option>Olaplex Treatment (Deposit-45,000 ₩ or $32)</option>
                 <option>Online Consultation (45 mins) Deposit- </option> 
               </select>
+              
             </label>
-          
         
             <label className="input-group input-group-sm m-4">
               <span>Payment</span>
