@@ -3,7 +3,7 @@ import {AiFillInstagram} from 'react-icons/ai'
 
 function Testimonials(){
     return(
-      <div className='bg-tan pb-20'>
+      <div className='bg-tan pb-20' id='testimonials'>
       <div className="mb-8 pt-40 text-center">
       <h1 className="font-headers text-6xl text-rose-300">Testimonials & Gallery</h1>
       <p className="text-lg text-violet-400">Read more reviews on Instagram. Swipe left in the gallery for more!</p>
@@ -59,25 +59,25 @@ function Testimonials(){
   <div className="card-body">
   <div className="w-64 carousel rounded-box">
   <div className="carousel-item w-full">
-    <img src="/assets/testimonial1.jpg" className="w-full" alt="Tailwind CSS Carousel component" />
+    <img src="/assets/testimonial1.jpg" className="w-full" alt="img-gallery" />
   </div> 
   <div className="carousel-item w-full">
-    <img src="/assets/testimonial1.5.jpg" className="w-full" alt="Tailwind CSS Carousel component" />
+    <img src="/assets/testimonial1.5.jpg" className="w-full" alt="img-gallery" />
   </div> 
   <div className="carousel-item w-full">
-    <img src="/assets/testimonial1.jpg"  className="w-full" alt="Tailwind CSS Carousel component" />
+    <img src="/assets/testimonial1.jpg"  className="w-full" alt="img-gallery" />
   </div> 
   <div className="carousel-item w-full">
-    <img src="/assets/testimonial1.5.jpg" className="w-full" alt="Tailwind CSS Carousel component" />
+    <img src="/assets/testimonial1.5.jpg" className="w-full" alt="img-gallery" />
   </div> 
   <div className="carousel-item w-full">
-    <img src="/assets/testimonial1.jpg"  className="w-full" alt="Tailwind CSS Carousel component" />
+    <img src="/assets/testimonial1.jpg"  className="w-full" alt="img-gallery" />
   </div> 
   <div className="carousel-item w-full">
-    <img src="/assets/testimonial1.5.jpg" className="w-full" alt="Tailwind CSS Carousel component" />
+    <img src="/assets/testimonial1.5.jpg" className="w-full" alt="img-gallery" />
   </div> 
   <div className="carousel-item w-full">
-    <img src="/assets/testimonial1.jpg"  className="w-full" alt="Tailwind CSS Carousel component" />
+    <img src="/assets/testimonial1.jpg"  className="w-full" alt="img-gallery" />
   </div>
 </div>
   </div>
@@ -86,25 +86,25 @@ function Testimonials(){
   <div className="card-body">
   <div className="w-64 carousel rounded-box">
   <div className="carousel-item w-full">
-    <img src="/assets/testimonial1.jpg" className="w-full" alt="Tailwind CSS Carousel component" />
+    <img src="/assets/testimonial1.jpg" className="w-full" alt="img-gallery" />
   </div> 
   <div className="carousel-item w-full">
-    <img src="/assets/testimonial1.5.jpg" className="w-full" alt="Tailwind CSS Carousel component" />
+    <img src="/assets/testimonial1.5.jpg" className="w-full" alt="img-gallery" />
   </div> 
   <div className="carousel-item w-full">
-    <img src="/assets/testimonial1.jpg"  className="w-full" alt="Tailwind CSS Carousel component" />
+    <img src="/assets/testimonial1.jpg"  className="w-full" alt="img-gallery" />
   </div> 
   <div className="carousel-item w-full">
-    <img src="/assets/testimonial1.5.jpg" className="w-full" alt="Tailwind CSS Carousel component" />
+    <img src="/assets/testimonial1.5.jpg" className="w-full" alt="img-gallery" />
   </div> 
   <div className="carousel-item w-full">
-    <img src="/assets/testimonial1.jpg"  className="w-full" alt="Tailwind CSS Carousel component" />
+    <img src="/assets/testimonial1.jpg"  className="w-full" alt="img-gallery" />
   </div> 
   <div className="carousel-item w-full">
-    <img src="/assets/testimonial1.5.jpg" className="w-full" alt="Tailwind CSS Carousel component" />
+    <img src="/assets/testimonial1.5.jpg" className="w-full" alt="img-gallery" />
   </div> 
   <div className="carousel-item w-full">
-    <img src="/assets/testimonial1.jpg"  className="w-full" alt="Tailwind CSS Carousel component" />
+    <img src="/assets/testimonial1.jpg"  className="w-full" alt="img-gallery" />
   </div>
 </div>
   </div>
@@ -113,25 +113,25 @@ function Testimonials(){
   <div className="card-body">
   <div className="w-64 carousel rounded-box">
   <div className="carousel-item w-full">
-    <img src="/assets/testimonial1.jpg" className="w-full" alt="Tailwind CSS Carousel component" />
+    <img src="/assets/testimonial1.jpg" className="w-full" alt="img-gallery" />
   </div> 
   <div className="carousel-item w-full">
-    <img src="/assets/testimonial1.5.jpg" className="w-full" alt="Tailwind CSS Carousel component" />
+    <img src="/assets/testimonial1.5.jpg" className="w-full" alt="img-gallery" />
   </div> 
   <div className="carousel-item w-full">
-    <img src="/assets/testimonial1.jpg"  className="w-full" alt="Tailwind CSS Carousel component" />
+    <img src="/assets/testimonial1.jpg"  className="w-full" alt="img-gallery" />
   </div> 
   <div className="carousel-item w-full">
-    <img src="/assets/testimonial1.5.jpg" className="w-full" alt="Tailwind CSS Carousel component" />
+    <img src="/assets/testimonial1.5.jpg" className="w-full" alt="img-gallery" />
   </div> 
   <div className="carousel-item w-full">
-    <img src="/assets/testimonial1.jpg"  className="w-full" alt="Tailwind CSS Carousel component" />
+    <img src="/assets/testimonial1.jpg"  className="w-full" alt="img-gallery" />
   </div> 
   <div className="carousel-item w-full">
-    <img src="/assets/testimonial1.5.jpg" className="w-full" alt="Tailwind CSS Carousel component" />
+    <img src="/assets/testimonial1.5.jpg" className="w-full" alt="img-gallery" />
   </div> 
   <div className="carousel-item w-full">
-    <img src="/assets/testimonial1.jpg"  className="w-full" alt="Tailwind CSS Carousel component" />
+    <img src="/assets/testimonial1.jpg"  className="w-full" alt="img-gallery" />
   </div>
 </div>
   </div>

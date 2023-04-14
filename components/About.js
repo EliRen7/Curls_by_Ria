@@ -1,9 +1,9 @@
 function About(){
     return (
-        <div className="bg-tan">
+        <div className="bg-tan" id="about">
      <h1 className="font-headers text-6xl pt-5 text-rose-300 ml-[8rem] mb-10" >About Me</h1>
     <div className="card lg:card-side w-11/12">
-  <img src="./assets/about-ria.jpg" className="w-96 ml-40 mr-5 rotate-6 rounded-3xl "/>
+  <img src="./assets/about-ria.jpg" className="w-96 ml-40 mr-10 rotate-6 rounded-3xl hover:rotate-12"/>
   <div className="card-body">
     <h2 className="card-title font-descriptions text-3xl  text-violet-300">Hello, I'm Ria!</h2>
     <p className="text-lg text-justify mt-5"> 

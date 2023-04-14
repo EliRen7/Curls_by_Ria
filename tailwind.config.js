@@ -28,12 +28,9 @@ module.exports = {
           '100%': {
               opacity: '1',
               transform: 'translateY(0)'
-          },
+          }, 
       }
   },
-  animation: {
-      'fade-in-down': 'fade-in-down 2s ease-out'
-  }
   },
   plugins: [require("daisyui")],
 }
