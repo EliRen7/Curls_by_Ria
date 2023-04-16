@@ -2,6 +2,7 @@ import Payments from './Payments'
 
 
 function Modal() {
+
   return (
     <div>
       <label
@@ -13,8 +14,6 @@ function Modal() {
       <label htmlFor="my-modal-4" className="modal cursor-pointer">
         <label className="modal-box relative bg-tan" htmlFor="">
           <h3 className="text-lg font-bold text-center">Welcome!</h3>
-         
-
           <h4 className="pt-5 m-5">Step 1: Click to request an appointment date</h4>
         
           <a href="https://calendly.com/curlsbyria/appointment" target="_blank"
@@ -25,13 +24,21 @@ function Modal() {
 
 
       <h4 className="pt-5 m-5">Step 2: Confirm requested date with deposit transfer</h4>
+      <div className="form-control">
+  <label className="label cursor-pointer">
+    <span className="label-text ml-40" >Change currency rate to USD ($)</span> 
+    <input type="checkbox" className="toggle" />
+    {/* add "checked" to the input on the toggle to convert won to usd" */}
+  </label>
+</div>
+
 
       <label className="input-group input-group-sm m-4">
               <span>Full Name</span>
               <input type="text" placeholder="First & Last Name" className="input input-bordered w-80 input-warning" />
             </label> 
 
-
+{/* 
             <label className="input-group input-group-sm m-4">
               <span >Treatments</span>
               <select className="select w-full max-w-xs input-warning">
@@ -44,8 +51,37 @@ function Modal() {
                 <option>Online Consultation (45 mins) Deposit- </option> 
               </select>
               
-            </label>
-        
+            </label> */}
+
+            
+
+
+   <div className="form-control">
+   <span className='ml-40'>Treatments</span>
+        <label className="label cursor-pointer">
+          <label>First/Full visit<span> ₩75,000</span></label>
+          <input type="radio" name="radio-10" className="radio checked:bg-red-500" checked />
+        </label>
+      </div>
+      <div className="form-control">
+        <label className="label cursor-pointer">
+          <label>Cut Only visit <span className="label-text">₩65,000</span></label> 
+          <input type="radio" name="radio-10" className="radio checked:bg-red-500" checked />
+        </label>
+      </div>
+      <div className="form-control">
+        <label className="label cursor-pointer">
+          <label>Olaplex treatment <span className="label-text">₩50,000</span> </label>
+          <input type="radio" name="radio-10" className="radio checked:bg-red-500" checked />
+        </label>
+      </div>
+      <div className="form-control">
+        <label className="label cursor-pointer">
+          <label>Online Consultation  <span className="label-text">₩30,000</span> </label>
+          <input type="radio" name="radio-10" className="radio checked:bg-red-500" checked />
+        </label>
+      </div>
+
             <label className="input-group input-group-sm m-4">
               <span>Payment</span>
               <select className="select w-full max-w-xs">

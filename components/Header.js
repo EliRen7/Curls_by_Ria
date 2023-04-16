@@ -4,7 +4,7 @@ function Header(){
 
 <div className="hero min-h-screen bg-rose-50">
 <div className="hero-content flex-col lg:flex-row-reverse">
-  <img src='/assets/hairdryer.jpg' className="max-w-md mt-20"/>
+  <img src='/assets/main-pic2.JPG' className="max-w-md mt-20"/>
   <div>
   <img src='/assets/curlsbyrialogo2.png'  className="w-9/12 mr-20" />
     <p className="py-4 pr-20 text-lg">Provident cupiditate voluptatem et in. 
