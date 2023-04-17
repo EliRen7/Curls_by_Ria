@@ -1,3 +1,6 @@
+import {AiOutlineArrowUp} from 'react-icons/ai'
+
+
 function Contact () {
     return(
         <section class="bg-tan dark:bg-gray-900 pt-40 pb-40 " id="contact">
@@ -20,6 +23,11 @@ function Contact () {
           <button type="submit" class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-rose-300 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Send message</button>
       </form> 
   </div>
+  <button className="btn btn-circle btn-outline ">
+      <a href='#home' />
+    <AiOutlineArrowUp />
+    </button>
+    
 </section>
 
 

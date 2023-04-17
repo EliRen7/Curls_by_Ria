@@ -2,7 +2,7 @@
 function Header(){
     return(
 
-<div className="hero min-h-screen bg-rose-50">
+<div className="hero min-h-screen bg-rose-50" id="home">
 <div className="hero-content flex-col lg:flex-row-reverse">
   <img src='/assets/main-pic2.JPG' className="max-w-md mt-20"/>
   <div>

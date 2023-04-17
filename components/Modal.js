@@ -24,19 +24,21 @@ function Modal() {
 
 
       <h4 className="pt-5 m-5">Step 2: Confirm requested date with deposit transfer</h4>
-      <div className="form-control">
-  <label className="label cursor-pointer">
-    <span className="label-text ml-40" >Change currency rate to USD ($)</span> 
-    <input type="checkbox" className="toggle" />
-    {/* add "checked" to the input on the toggle to convert won to usd" */}
-  </label>
-</div>
+ 
 
 
       <label className="input-group input-group-sm m-4">
               <span>Full Name</span>
               <input type="text" placeholder="First & Last Name" className="input input-bordered w-80 input-warning" />
             </label> 
+
+            {/* <div className="form-control">
+  <label className="label cursor-pointer">
+    <span className="label-text ml-40" >Change currency rate to USD ($)</span> 
+    <input type="checkbox" className="toggle" />
+    add "checked" to the input on the toggle to convert won to usd"
+      </label>
+      </div> */}
 
 {/* 
             <label className="input-group input-group-sm m-4">
@@ -57,7 +59,7 @@ function Modal() {
 
 
    <div className="form-control">
-   <span className='ml-40'>Treatments</span>
+   <span className='ml-40'>Deposit prices</span>
         <label className="label cursor-pointer">
           <label>First/Full visit<span> ₩75,000</span></label>
           <input type="radio" name="radio-10" className="radio checked:bg-red-500" checked />
