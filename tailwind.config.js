@@ -19,20 +19,9 @@ module.exports = {
       headers:['Amatic SC', 'cursive'],
       descriptions:['Patrick Hand', 'cursive']
     },
-    keyframes: {
-      'fade-in-down': {
-          '0%': {
-              opacity: '0',
-              transform: 'translateY(-10px)'
-          },
-          '100%': {
-              opacity: '1',
-              transform: 'translateY(0)'
-          }, 
-      }
   },
-  },
-  plugins: [require("daisyui")],
+  plugins: [
+    require("daisyui")],
 }
 
 

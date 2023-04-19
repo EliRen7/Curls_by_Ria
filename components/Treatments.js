@@ -3,7 +3,7 @@ function Treatments(){
     return(
       <div className='bg-tan scroll-smooth' id="treatments">
        <div className="flex flex-col w-10/12 pt-40 ml-[8rem]">
-       <h1 className="font-headers text-6xl mb-0 text-rose-300 " >Services/Information</h1>
+       <h1 className="font-headers text-6xl mb-0 text-rose-300">Services/Information</h1>
        <h6 className="font-descriptions ml-5 pt-5">During your first visit and any following full visits, we will do a consultation first followed by dry cutting,
         washing, styling, and setting your curls. <br></br> Throughout the entire process, I will be giving you <b>step by step guidance </b> 
          so you will be able to do this at home. 

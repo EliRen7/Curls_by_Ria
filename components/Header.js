@@ -4,9 +4,9 @@ function Header(){
 
 <div className="hero min-h-screen bg-rose-50" id="home">
 <div className="hero-content flex-col lg:flex-row-reverse">
-  <img src='/assets/main-pic2.JPG' className="max-w-md mt-20"/>
+  <img src='/assets/main-pic2.JPG' className="max-w-md mt-20 rounded-xl"/>
   <div>
-  <img src='/assets/curlsbyrialogo2.png'  className="w-9/12 mr-20" />
+  <img src='/assets/curlsbyrialogo2.png'  className="w-9/12 mr-20 delay-[300ms] duration-[600ms] taos:translate-x-[-200px] taos:opacity-0" data-taos-offset="400" />
     <p className="py-4 pr-20 text-lg">Provident cupiditate voluptatem et in. 
     Quaerat fugiat ut assumenda excepturi exercitationem quasi. 
     In deleniti eaque aut repudiandae et a id nisi.Provident cupiditate voluptatem et in.

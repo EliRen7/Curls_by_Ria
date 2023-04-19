@@ -1,7 +1,7 @@
 function About(){
     return (
         <div className="bg-tan" id="about">
-     <h1 className="font-headers text-6xl pt-5 text-rose-300 ml-[8rem] mb-10" >About Me</h1>
+     <h1 className="font-headers text-6xl pt-10 text-rose-300 ml-[8rem] mb-10" >About Me</h1>
     <div className="card lg:card-side w-11/12">
   <img src="./assets/about-ria.jpg" className="w-96 ml-40 mr-10 rotate-6 rounded-3xl hover:rotate-12"/>
   <div className="card-body">

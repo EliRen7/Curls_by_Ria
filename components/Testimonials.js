@@ -1,4 +1,5 @@
 import {AiFillInstagram} from 'react-icons/ai'
+import{AiOutlineArrowLeft} from 'react-icons/ai'
 
 
 function Testimonials(){
@@ -6,7 +7,7 @@ function Testimonials(){
       <div className='bg-tan pb-20' id='testimonials'>
       <div className="mb-8 pt-40 text-center">
       <h1 className="font-headers text-6xl text-rose-300">Testimonials & Gallery</h1>
-      <p className="text-lg text-violet-400">Read more reviews on Instagram. Swipe left in the gallery for more!</p>
+      <p className="text-lg text-violet-400">Read more reviews on Instagram!</p>
       <a href='https://www.instagram.com/curls.byria/?hl=en' target="_blank"> <AiFillInstagram className=' w-10 h-10 ml-[46rem]'/></a>
   </div>
   <div className="lg:grid lg:grid-cols-3 lg:gap-x-6 m-10 pb-5">
@@ -59,26 +60,31 @@ function Testimonials(){
   <div className="card-body">
   <div className="w-64 carousel rounded-box">
   <div className="carousel-item w-full">
-    <img src="/assets/testimonial1.jpg" className="w-full" alt="img-gallery" />
+    <img src="/assets/tight-curls 1.jpg" className="w-full object-cover" alt="img-gallery" id='tight-curls 6' />
   </div> 
   <div className="carousel-item w-full">
-    <img src="/assets/testimonial1.5.jpg" className="w-full" alt="img-gallery" />
+    <img src="/assets/tight-curls 2.jpg" className="w-full object-cover" alt="img-gallery" id='tight-curls 2' />
   </div> 
   <div className="carousel-item w-full">
-    <img src="/assets/testimonial1.jpg"  className="w-full" alt="img-gallery" />
+    <img src="/assets/tight-curls 3.jpg"  className="w-full object-cover" alt="img-gallery" id='tight-curls 3' />
+  </div> 
+  <div className="carousel-item w-full">  
+    <img src="/assets/tight-curls 4.jpg" className="w-full object-cover" alt="img-gallery" id='tight-curls 4' />
   </div> 
   <div className="carousel-item w-full">
-    <img src="/assets/testimonial1.5.jpg" className="w-full" alt="img-gallery" />
+    <img src="/assets/tight-curls 5.jpg"  className="w-full object-cover" alt="img-gallery" id='tight-curls 5' />
   </div> 
   <div className="carousel-item w-full">
-    <img src="/assets/testimonial1.jpg"  className="w-full" alt="img-gallery" />
+    <img src="/assets/tight-curls 6.jpg" className="w-full object-cover" alt="img-gallery" id='tight-curls 1' />
   </div> 
-  <div className="carousel-item w-full">
-    <img src="/assets/testimonial1.5.jpg" className="w-full" alt="img-gallery" />
-  </div> 
-  <div className="carousel-item w-full">
-    <img src="/assets/testimonial1.jpg"  className="w-full" alt="img-gallery" />
-  </div>
+</div>
+<div className="flex justify-center w-full gap-2 ">
+  <a href="#tight-curls 6" className="btn btn-xs bg-rose-300 border-0 ">1</a> 
+  <a href="#tight-curls 2" className="btn btn-xs bg-rose-200 border-0">2</a> 
+  <a href="#tight-curls 3" className="btn btn-xs bg-rose-300 border-0">3</a> 
+  <a href="#tight-curls 4" className="btn btn-xs bg-rose-200 border-0">4</a>
+  <a href="#tight-curls 5" className="btn btn-xs bg-rose-300 border-0">5</a>
+  <a href="#tight-curls 1" className="btn btn-xs bg-rose-200 border-0">6</a>
 </div>
   </div>
 </div>
@@ -86,26 +92,31 @@ function Testimonials(){
   <div className="card-body">
   <div className="w-64 carousel rounded-box">
   <div className="carousel-item w-full">
-    <img src="/assets/testimonial1.jpg" className="w-full" alt="img-gallery" />
+    <img src="/assets/medium-curls 2.jpg" className="w-full object-cover" alt="img-gallery" id='medium-curls 2' />
   </div> 
   <div className="carousel-item w-full">
-    <img src="/assets/testimonial1.5.jpg" className="w-full" alt="img-gallery" />
+    <img src="/assets/medium-curls 1.jpg" className="w-full object-cover" alt="img-gallery" id='medium-curls 1' />
   </div> 
   <div className="carousel-item w-full">
-    <img src="/assets/testimonial1.jpg"  className="w-full" alt="img-gallery" />
+    <img src="/assets/medium-curls 3.jpg"  className="w-full object-cover" alt="img-gallery" id='medium-curls 3' />
   </div> 
   <div className="carousel-item w-full">
-    <img src="/assets/testimonial1.5.jpg" className="w-full" alt="img-gallery" />
+    <img src="/assets/medium-curls 4.jpg" className="w-full object-cover" alt="img-gallery" id='medium-curls 4' />
   </div> 
   <div className="carousel-item w-full">
-    <img src="/assets/testimonial1.jpg"  className="w-full" alt="img-gallery" />
+    <img src="/assets/medium-curls 5.jpg"  className="w-full object-cover" alt="img-gallery" id='medium-curls 5' />
   </div> 
   <div className="carousel-item w-full">
-    <img src="/assets/testimonial1.5.jpg" className="w-full" alt="img-gallery" />
+    <img src="/assets/medium-curls 6.jpg" className="w-full object-cover" alt="img-gallery" id='medium-curls 6' />
   </div> 
-  <div className="carousel-item w-full">
-    <img src="/assets/testimonial1.jpg"  className="w-full" alt="img-gallery" />
-  </div>
+</div>
+<div className="flex justify-center w-full gap-2 ">
+  <a href="#medium-curls 2" className="btn btn-xs bg-rose-300 border-0">1</a> 
+  <a href="#medium-curls 1" className="btn btn-xs bg-rose-200 border-0 ">2</a> 
+  <a href="#medium-curls 3" className="btn btn-xs bg-rose-300 border-0">3</a> 
+  <a href="#medium-curls 4" className="btn btn-xs bg-rose-200 border-0">4</a>
+  <a href="#medium-curls 5" className="btn btn-xs bg-rose-300 border-0">5</a>
+  <a href="#medium-curls 6" className="btn btn-xs bg-rose-200 border-0">6</a>
 </div>
   </div>
 </div>
@@ -113,26 +124,31 @@ function Testimonials(){
   <div className="card-body">
   <div className="w-64 carousel rounded-box">
   <div className="carousel-item w-full">
-    <img src="/assets/testimonial1.jpg" className="w-full" alt="img-gallery" />
+    <img src="/assets/light-curls 1.jpg" className="w-full object-cover" alt="img-gallery" id='light-curls 1'  />
   </div> 
   <div className="carousel-item w-full">
-    <img src="/assets/testimonial1.5.jpg" className="w-full" alt="img-gallery" />
+    <img src="/assets/light-curls 2.jpg" className="w-full object-cover" alt="img-gallery" id='light-curls 2' />
   </div> 
   <div className="carousel-item w-full">
-    <img src="/assets/testimonial1.jpg"  className="w-full" alt="img-gallery" />
+    <img src="/assets/light-curls 3.jpg"  className="w-full object-cover" alt="img-gallery" id='light-curls 3' />
   </div> 
   <div className="carousel-item w-full">
-    <img src="/assets/testimonial1.5.jpg" className="w-full" alt="img-gallery" />
+    <img src="/assets/light-curls 4.jpg" className="w-full object-cover" alt="img-gallery" id='light-curls 4' />
   </div> 
   <div className="carousel-item w-full">
-    <img src="/assets/testimonial1.jpg"  className="w-full" alt="img-gallery" />
+    <img src="/assets/light-curls 5.jpg"  className="w-full object-cover" alt="img-gallery" id='light-curls 5' />
   </div> 
   <div className="carousel-item w-full">
-    <img src="/assets/testimonial1.5.jpg" className="w-full" alt="img-gallery" />
+    <img src="/assets/light-curls 6.jpg" className="w-full object-cover" alt="img-gallery" id='light-curls 6' />
   </div> 
-  <div className="carousel-item w-full">
-    <img src="/assets/testimonial1.jpg"  className="w-full" alt="img-gallery" />
-  </div>
+</div>
+<div className="flex justify-center w-full gap-2 ">
+  <a href="#light-curls 1" className="btn btn-xs bg-rose-300 border-0 ">1</a> 
+  <a href="#light-curls 2" className="btn btn-xs bg-rose-200 border-0">2</a> 
+  <a href="#light-curls 3" className="btn btn-xs bg-rose-300 border-0">3</a> 
+  <a href="#light-curls 4" className="btn btn-xs bg-rose-200 border-0">4</a>
+  <a href="#light-curls 5" className="btn btn-xs bg-rose-300 border-0">5</a>
+  <a href="#light-curls 6" className="btn btn-xs bg-rose-200 border-0">6</a>
 </div>
   </div>
 </div>
