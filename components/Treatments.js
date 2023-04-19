@@ -1,15 +1,25 @@
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 function Treatments(){
+
+  useEffect(() => {
+    AOS.init({
+      duration : 2000
+    });
+  }, []);
+
     return(
       <div className='bg-tan scroll-smooth' id="treatments">
        <div className="flex flex-col w-10/12 pt-40 ml-[8rem]">
-       <h1 className="font-headers text-6xl mb-0 text-rose-300">Services/Information</h1>
+       <h1 className="font-headers text-6xl mb-0 text-rose-300" data-aos="fade-right">Services/Information</h1>
        <h6 className="font-descriptions ml-5 pt-5">During your first visit and any following full visits, we will do a consultation first followed by dry cutting,
         washing, styling, and setting your curls. <br></br> Throughout the entire process, I will be giving you <b>step by step guidance </b> 
          so you will be able to do this at home. 
        </h6>
   <div className="grid h-90 card bg-tan place-items-center border-2 border-tan2 text-xl ">
-    <h5 className="font-headers text-4xl  text-violet-400">Treatments & Prices </h5> 가격표
+    <h5 className="font-headers text-4xl  text-violet-400" data-aos="fade-right">Treatments & Prices </h5> 가격표
       <ul className="list-disc text-lg pl-20 pb-5">
         <li>
           First/Full visit (2-3 hours) <b>150,000 ₩</b>
@@ -31,7 +41,7 @@ function Treatments(){
   </div> 
   <div className="divider"></div> 
   <div className="grid h-100 card bg-tan place-items-center border-2 border-tan2 text-xl ">
-    <h5 className="font-headers text-4xl  text-violet-400">Prepping</h5> 
+    <h5 className="font-headers text-4xl  text-violet-400" data-aos="fade-right">Prepping</h5> 
   <ul className="list-disc text-lg pl-40 pb-5">
         <li className="pt-5">
           Come with a <b>fresh, clean hair</b> (no more than 2 days since your last wash) 
@@ -80,7 +90,7 @@ function Treatments(){
   </div>
   <div className="divider"></div> 
   <div className="grid h-100 card bg-tan place-items-center border-2 border-tan2 text-xl pb-10">
-    <h5 className="font-headers text-4xl  text-violet-400">Deposit Policy</h5>
+    <h5 className="font-headers text-4xl  text-violet-400" data-aos="fade-right">Deposit Policy</h5>
     <section className="text-center text-lg pt-5">
       <p><b>To prevent no-shows and last minute cancellations, </b>there is a deposit policy of <b>half the service total </b>
       to confirm any appointment <br></br><b>(Ex:</b> First visit - 75,000 won deposit)

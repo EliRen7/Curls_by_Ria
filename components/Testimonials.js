@@ -6,12 +6,12 @@ function Testimonials(){
     return(
       <div className='bg-tan pb-20' id='testimonials'>
       <div className="mb-8 pt-40 text-center">
-      <h1 className="font-headers text-6xl text-rose-300">Testimonials & Gallery</h1>
-      <p className="text-lg text-violet-400">Read more reviews on Instagram!</p>
+      <h1 className="font-headers text-6xl text-rose-300" data-aos="fade-up">Testimonials & Gallery</h1>
+      <p className="text-lg text-violet-400" data-aos="fade-up">Read more reviews on Instagram!</p>
       <a href='https://www.instagram.com/curls.byria/?hl=en' target="_blank"> <AiFillInstagram className=' w-10 h-10 ml-[46rem]'/></a>
   </div>
   <div className="lg:grid lg:grid-cols-3 lg:gap-x-6 m-10 pb-5">
-      <div className="p-4 text-gray-800 rounded-lg shadow-md bg-gradient-to-r from-orange-100 to-rose-100">
+      <div className="p-4 text-gray-800 rounded-lg shadow-md bg-gradient-to-r from-orange-100 to-rose-100" data-aos="flip-left">
           <div className="mb-2">
               <p className="mb-2 text-center text-gray-600 ">
                   " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique sapiente iusto esse. "
@@ -26,7 +26,7 @@ function Testimonials(){
               </div>
           </div> 
       </div>
-      <div className="p-4 text-gray-800 rounded-lg shadow-md bg-gradient-to-r from-orange-200 to-rose-200 ">
+      <div className="p-4 text-gray-800 rounded-lg shadow-md bg-gradient-to-r from-orange-200 to-rose-200 " data-aos="flip-right">
           <div className="mb-2">
               <p className="mb-2 text-center text-gray-600 ">
                   " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique sapiente iusto esse. "
@@ -41,7 +41,7 @@ function Testimonials(){
               </div>
           </div>
       </div>
-      <div className="p-4 text-gray-800 rounded-lg shadow-md bg-gradient-to-r from-orange-100 to-rose-100">
+      <div className="p-4 text-gray-800 rounded-lg shadow-md bg-gradient-to-r from-orange-100 to-rose-100" data-aos="flip-left">
           <div className="mb-2">
               <p className="mb-2 text-center text-gray-600 ">
                   " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique sapiente iusto esse. "
@@ -56,7 +56,7 @@ function Testimonials(){
               </div>
           </div>
       </div>
-      <div className="card lg:card-side bg-violet-300 shadow-2xl w-80 mt-40 ml-[4rem]">
+  <div className="card lg:card-side bg-violet-300 shadow-2xl w-80 mt-40 ml-[4rem]"  data-aos="fade-up">
   <div className="card-body">
   <div className="w-64 carousel rounded-box">
   <div className="carousel-item w-full">
@@ -88,7 +88,7 @@ function Testimonials(){
 </div>
   </div>
 </div>
-<div className="card lg:card-side  bg-violet-300 shadow-2xl w-80 mt-20 mb-20 ml-[4rem]">
+<div className="card lg:card-side  bg-violet-300 shadow-2xl w-80 mt-20 mb-20 ml-[4rem]"  data-aos="fade-up" data-aos-duration="3000">
   <div className="card-body">
   <div className="w-64 carousel rounded-box">
   <div className="carousel-item w-full">
@@ -120,7 +120,7 @@ function Testimonials(){
 </div>
   </div>
 </div>
-<div className="card lg:card-side  bg-violet-300  shadow-2xl w-80 mt-40 ml-[4rem]">
+<div className="card lg:card-side  bg-violet-300  shadow-2xl w-80 mt-40 ml-[4rem]"  data-aos="fade-up">
   <div className="card-body">
   <div className="w-64 carousel rounded-box">
   <div className="carousel-item w-full">
