@@ -79,8 +79,8 @@ function Testimonials(){
   </div> 
 </div>
 <div className="flex justify-center w-full gap-2 ">
-  <a href="#tight-curls 6" className="btn btn-xs bg-rose-300 border-0 ">1</a> 
-  <a href="#tight-curls 2" className="btn btn-xs bg-rose-200 border-0">2</a> 
+  <a href="#tight-curls 2" className="btn btn-xs bg-rose-300 border-0 ">1</a> 
+  <a href="#tight-curls 6" className="btn btn-xs bg-rose-200 border-0">2</a> 
   <a href="#tight-curls 3" className="btn btn-xs bg-rose-300 border-0">3</a> 
   <a href="#tight-curls 4" className="btn btn-xs bg-rose-200 border-0">4</a>
   <a href="#tight-curls 5" className="btn btn-xs bg-rose-300 border-0">5</a>
