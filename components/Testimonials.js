@@ -1,5 +1,5 @@
 import {AiFillInstagram} from 'react-icons/ai'
-import{AiOutlineArrowLeft} from 'react-icons/ai'
+import {FaLongArrowAltRight} from 'react-icons/fa'
 
 
 function Testimonials(){
@@ -26,7 +26,7 @@ function Testimonials(){
           <img src='./assets/review 5.jpg' className=""></img>
           </div>
       </div>
-  <div className="card lg:card-side  bg-gradient-to-r from-rose-400 to-rose-300 shadow-2xl w-80 mt-40 ml-[4rem]"  data-aos="fade-right">
+  <div className="card lg:card-side  bg-gradient-to-r from-rose-300 to-rose-200 shadow-2xl w-80 mt-40 ml-[4rem]"  data-aos="fade-right">
   <div className="card-body">
   <div className="w-64 carousel rounded-box">
   <div className="carousel-item w-full">
@@ -47,18 +47,19 @@ function Testimonials(){
   <div className="carousel-item w-full">
     <img src="/assets/tight-curls 6.jpg" className="w-full object-cover" alt="img-gallery" id='tight-curls 1' />
   </div> 
-</div>
-<div className="flex justify-center w-full gap-2 ">
-  <a href="#tight-curls 2" className="btn btn-xs bg-rose-300 text-white border-none">1</a> 
-  <a href="#tight-curls 6" className="btn btn-xs bg-rose-300 text-white border-0">2</a> 
-  <a href="#tight-curls 3" className="btn btn-xs bg-rose-300 text-white border-0">3</a> 
-  <a href="#tight-curls 4" className="btn btn-xs bg-rose-300 text-white border-0">4</a>
-  <a href="#tight-curls 5" className="btn btn-xs bg-rose-300 text-white border-0">5</a>
-  <a href="#tight-curls 1" className="btn btn-xs bg-rose-300 text-white border-0">6</a>
-</div>
+</div> 
+<span className='text-2xl ml-20 animate-pulse text-violet-800 font-descriptions'>Swipe left <FaLongArrowAltRight className='w-20'/></span>
+{/* <div className="flex justify-center w-full gap-2 ">
+  <a href="#tight-curls 2" className="btn btn-xs bg-gradient-to-r from-violet-300 to-violet-400 text-white border-none">1</a> 
+  <a href="#tight-curls 6" className="btn btn-xs bg-gradient-to-r from-violet-300 to-violet-400 text-white border-0">2</a> 
+  <a href="#tight-curls 3" className="btn btn-xs bg-gradient-to-r from-violet-300 to-violet-400 text-white border-0">3</a> 
+  <a href="#tight-curls 4" className="btn btn-xs bg-gradient-to-r from-violet-300 to-violet-400 text-white border-0">4</a>
+  <a href="#tight-curls 5" className="btn btn-xs bg-gradient-to-r from-violet-300 to-violet-400 text-white border-0">5</a>
+  <a href="#tight-curls 1" className="btn btn-xs bg-gradient-to-r from-violet-300 to-violet-400 text-white border-0">6</a>
+</div> */}
   </div>
 </div>
-<div className="card lg:card-side  bg-gradient-to-r from-rose-400 to-rose-300 shadow-2xl w-80 mt-20 mb-20 ml-[4rem]"  data-aos="fade-up" data-aos-duration="3000">
+<div className="card lg:card-side  bg-gradient-to-r from-rose-300 to-rose-200 shadow-2xl w-80 mt-20 mb-20 ml-[4rem]"  data-aos="fade-up" data-aos-duration="3000">
   <div className="card-body">
   <div className="w-64 carousel rounded-box">
   <div className="carousel-item w-full">
@@ -80,17 +81,18 @@ function Testimonials(){
     <img src="/assets/medium-curls 6.jpg" className="w-full object-cover" alt="img-gallery" id='medium-curls 6' />
   </div> 
 </div>
-<div className="flex justify-center w-full gap-2 ">
-  <a href="#medium-curls 2" className="btn btn-xs bg-rose-300 text-white border-0">1</a> 
-  <a href="#medium-curls 1" className="btn btn-xs bg-rose-300 text-white border-0 ">2</a> 
-  <a href="#medium-curls 3" className="btn btn-xs bg-rose-300 text-white border-0">3</a> 
-  <a href="#medium-curls 4" className="btn btn-xs bg-rose-300 text-white border-0">4</a>
-  <a href="#medium-curls 5" className="btn btn-xs bg-rose-300 text-white border-0">5</a>
-  <a href="#medium-curls 6" className="btn btn-xs bg-rose-300 text-white border-0">6</a>
-</div>
+<span className='text-2xl ml-20 animate-pulse text-violet-800 font-descriptions'>Swipe left <FaLongArrowAltRight className='w-20'/></span>
+{/* <div className="flex justify-center w-full gap-2 ">
+  <a href="#medium-curls 2" className="btn btn-xs bg-gradient-to-r from-violet-300 to-violet-400 text-white border-0">1</a> 
+  <a href="#medium-curls 1" className="btn btn-xs bg-gradient-to-r from-violet-300 to-violet-400 text-white border-0 ">2</a> 
+  <a href="#medium-curls 3" className="btn btn-xs bg-gradient-to-r from-violet-300 to-violet-400 text-white border-0">3</a> 
+  <a href="#medium-curls 4" className="btn btn-xs bg-gradient-to-r from-violet-300 to-violet-400 text-white border-0">4</a>
+  <a href="#medium-curls 5" className="btn btn-xs bg-gradient-to-r from-violet-300 to-violet-400 text-white border-0">5</a>
+  <a href="#medium-curls 6" className="btn btn-xs bg-gradient-to-r from-violet-300 to-violet-400 text-white border-0">6</a>
+</div> */}
   </div>
 </div>
-<div className="card lg:card-side   bg-gradient-to-r from-rose-300 to-rose-400 shadow-2xl w-80 mt-40 ml-[4rem]"  data-aos="fade-left">
+<div className="card lg:card-side bg-gradient-to-r from-rose-300 to-rose-200 shadow-2xl w-80 mt-40 ml-[4rem]"  data-aos="fade-left">
   <div className="card-body">
   <div className="w-64 carousel rounded-box">
   <div className="carousel-item w-full">
@@ -112,14 +114,15 @@ function Testimonials(){
     <img src="/assets/light-curls 6.jpg" className="w-full object-cover" alt="img-gallery" id='light-curls 6' />
   </div> 
 </div>
-<div className="flex justify-center w-full gap-2">
-  <a href="#light-curls 1" className="btn btn-xs bg-rose-300 text-white border-0 ">1</a> 
-  <a href="#light-curls 2" className="btn btn-xs bg-rose-300 text-white border-0">2</a> 
-  <a href="#light-curls 3" className="btn btn-xs bg-rose-300 text-white border-0">3</a> 
-  <a href="#light-curls 4" className="btn btn-xs bg-rose-300 text-white border-0">4</a>
-  <a href="#light-curls 5" className="btn btn-xs bg-rose-300 text-white border-0">5</a>
-  <a href="#light-curls 6" className="btn btn-xs bg-rose-300 text-white border-0">6</a>
-</div>
+<span className='text-2xl ml-20 animate-pulse text-violet-800 font-descriptions'>Swipe left <FaLongArrowAltRight className='w-20'/></span>
+{/* <div className="flex justify-center w-full gap-2">
+  <a href="#light-curls 1" className="btn btn-xs bg-gradient-to-r from-violet-300 to-violet-400 text-white border-0 ">1</a> 
+  <a href="#light-curls 2" className="btn btn-xs bg-gradient-to-r from-violet-300 to-violet-400 text-white border-0">2</a> 
+  <a href="#light-curls 3" className="btn btn-xs bg-gradient-to-r from-violet-300 to-violet-400 text-white border-0">3</a> 
+  <a href="#light-curls 4" className="btn btn-xs bg-gradient-to-r from-violet-300 to-violet-400 text-white border-0">4</a>
+  <a href="#light-curls 5" className="btn btn-xs bg-gradient-to-r from-violet-300 to-violet-400 text-white border-0">5</a>
+  <a href="#light-curls 6" className="btn btn-xs bg-gradient-to-r from-violet-300 to-violet-400 text-white border-0">6</a>
+</div> */}
   </div>
 </div>
   </div>

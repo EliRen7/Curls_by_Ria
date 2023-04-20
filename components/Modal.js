@@ -7,23 +7,26 @@ function Modal() {
     <div>
       <label
         htmlFor="my-modal-4"
-        className="btn bg-rose-300 border-rose-300 text-base mb-30 mr-10">
+        className="btn bg-rose-300 border-rose-300 text-base mb-30 mr-10 ">
         Book Now</label>
       <form>
       <input type="checkbox" id="my-modal-4" className="modal-toggle" />
       <label htmlFor="my-modal-4" className="modal cursor-pointer">
         <label className="modal-box relative bg-tan" htmlFor="">
           <h3 className="text-lg font-bold text-center">Welcome!</h3>
-          <h4 className="pt-5 m-5">Step 1: Click to request an appointment date</h4>
+          <h4 className="pt-5 m-5">Step 1: Click to request an appointment date
+          <br></br>1단계: 약속 날짜를 요청하려면 클릭하십시오.
+          </h4>
         
           <a href="https://calendly.com/curlsbyria/appointment" target="_blank"
           className="mt-5 px-6 py-3 ml-40 text-md text-black no-underline btn-sm bg-amber-300 rounded hover:bg-yellow-500">Request
           </a>
-
             <div className="divider"></div> 
 
 
-      <h4 className="pt-5 m-5">Step 2: Confirm requested date with deposit transfer</h4>
+      <h4 className="pt-5 m-5">Step 2: Confirm requested date with deposit transfer
+      <br></br>2단계: 입금으로 요청 날짜 확인
+      </h4>
  
 
 
@@ -59,7 +62,7 @@ function Modal() {
 
 
    <div className="form-control">
-   <span className='ml-40'>Deposit prices</span>
+   <span className='ml-24'>Deposit prices for <b>bank transfers</b></span>
         <label className="label cursor-pointer">
           <label>First/Full visit<span> ₩75,000</span></label>
           <input type="radio" name="radio-10" className="radio checked:bg-red-500" checked />

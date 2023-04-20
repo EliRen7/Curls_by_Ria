@@ -15,7 +15,7 @@ function Header(){
      같은 그래픽 요소나 시각적 연출을 보여줄 때 사용하는 표준 채우기 텍스트로, 최종 결과물에 들어가는 실제적인 문장 
      내용이 채워지기 전에 시각 디자인 프로젝트
      </p>
-     <div className='fixed ml-[81rem] border-white border-2 bg-gradient-to-r from-purple-600 to-pink-600 rounded-3xl opacity-60 group-hover:opacity-100 transition duration-1000 group-hover:duration-200" data-aos="fade-left "' data-aos="fade-up">
+     <div className='fixed ml-[81rem]  bg-gradient-to-r from-purple-600 to-pink-600 rounded-3xl opacity-60 group-hover:opacity-100 transition duration-1000 group-hover:duration-200" data-aos="fade-left "' data-aos="fade-up">
       <a href='#home'>
     <AiOutlineArrowUp className='w-10 h-10 text-white'/>
     </a>
