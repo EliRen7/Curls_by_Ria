@@ -4,8 +4,8 @@ import {FaLongArrowAltRight} from 'react-icons/fa'
 
 function Testimonials(){
     return(
-      <div className='bg-tan pb-20' id='testimonials'>
-      <div className="mb-8 pt-40 text-center">
+      <div className='bg-tan pb-20  ' id='testimonials'>
+      <div className="mb-8 pt-40 text-center ">
       <h1 className="font-headers text-6xl text-rose-300" data-aos="fade-up">Testimonials & Gallery</h1>
       <p className="text-lg text-violet-400" data-aos="fade-up">Read more reviews on Instagram!</p>
       <a href='https://www.instagram.com/curls.byria/?hl=en' target="_blank"> <AiFillInstagram className=' w-10 h-10 ml-[46rem]'/></a>
@@ -48,7 +48,7 @@ function Testimonials(){
     <img src="/assets/tight-curls 6.jpg" className="w-full object-cover" alt="img-gallery" id='tight-curls 1' />
   </div> 
 </div> 
-<span className='text-2xl ml-20 animate-pulse text-violet-800 font-descriptions'>Swipe left <FaLongArrowAltRight className='w-20'/></span>
+<span className='text-xl ml-20 animate-pulse text-yellow-100 font-descriptions'>Swipe left <FaLongArrowAltRight className='w-20'/></span>
 {/* <div className="flex justify-center w-full gap-2 ">
   <a href="#tight-curls 2" className="btn btn-xs bg-gradient-to-r from-violet-300 to-violet-400 text-white border-none">1</a> 
   <a href="#tight-curls 6" className="btn btn-xs bg-gradient-to-r from-violet-300 to-violet-400 text-white border-0">2</a> 
@@ -81,7 +81,7 @@ function Testimonials(){
     <img src="/assets/medium-curls 6.jpg" className="w-full object-cover" alt="img-gallery" id='medium-curls 6' />
   </div> 
 </div>
-<span className='text-2xl ml-20 animate-pulse text-violet-800 font-descriptions'>Swipe left <FaLongArrowAltRight className='w-20'/></span>
+<span className='text-xl ml-20 animate-pulse text-yellow-100 font-descriptions'>Swipe left <FaLongArrowAltRight className='w-20'/></span>
 {/* <div className="flex justify-center w-full gap-2 ">
   <a href="#medium-curls 2" className="btn btn-xs bg-gradient-to-r from-violet-300 to-violet-400 text-white border-0">1</a> 
   <a href="#medium-curls 1" className="btn btn-xs bg-gradient-to-r from-violet-300 to-violet-400 text-white border-0 ">2</a> 
@@ -92,7 +92,7 @@ function Testimonials(){
 </div> */}
   </div>
 </div>
-<div className="card lg:card-side bg-gradient-to-r from-rose-300 to-rose-200 shadow-2xl w-80 mt-40 ml-[4rem]"  data-aos="fade-left">
+<div className="card lg:card-side   bg-gradient-to-r from-rose-300 to-rose-200 shadow-2xl w-80 mt-40 ml-[4rem]"  data-aos="fade-left">
   <div className="card-body">
   <div className="w-64 carousel rounded-box">
   <div className="carousel-item w-full">
@@ -114,7 +114,7 @@ function Testimonials(){
     <img src="/assets/light-curls 6.jpg" className="w-full object-cover" alt="img-gallery" id='light-curls 6' />
   </div> 
 </div>
-<span className='text-2xl ml-20 animate-pulse text-violet-800 font-descriptions'>Swipe left <FaLongArrowAltRight className='w-20'/></span>
+<span className='text-xl ml-20 animate-pulse text-yellow-100 font-descriptions'>Swipe left <FaLongArrowAltRight className='w-20'/></span>
 {/* <div className="flex justify-center w-full gap-2">
   <a href="#light-curls 1" className="btn btn-xs bg-gradient-to-r from-violet-300 to-violet-400 text-white border-0 ">1</a> 
   <a href="#light-curls 2" className="btn btn-xs bg-gradient-to-r from-violet-300 to-violet-400 text-white border-0">2</a> 

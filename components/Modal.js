@@ -1,13 +1,17 @@
 import Payments from './Payments'
+// import Select from './Select'
+
 
 
 function Modal() {
 
+
   return (
+    
     <div>
       <label
         htmlFor="my-modal-4"
-        className="btn bg-rose-300 border-rose-300 text-base mb-30 mr-10 ">
+        className="btn bg-rose-300 border-rose-300 rounded-3xl md:rounded-lg md:text-base md:w-32 md:h-10 md:mb-30 md:mr-10 ml-80 w-60 h-32 text-4xl ">
         Book Now</label>
       <form>
       <input type="checkbox" id="my-modal-4" className="modal-toggle" />
@@ -24,16 +28,16 @@ function Modal() {
             <div className="divider"></div> 
 
 
-      <h4 className="pt-5 m-5">Step 2: Confirm requested date with deposit transfer
+      <h4 className="pt-5 m-5">Step 2: Confirm requested date with deposit payment
       <br></br>2단계: 입금으로 요청 날짜 확인
       </h4>
  
 
 
-      <label className="input-group input-group-sm m-4">
+      {/* <label className="input-group input-group-sm m-4">
               <span>Full Name</span>
               <input type="text" placeholder="First & Last Name" className="input input-bordered w-80 input-warning" />
-            </label> 
+            </label>  */}
 
             {/* <div className="form-control">
   <label className="label cursor-pointer">
@@ -62,46 +66,55 @@ function Modal() {
 
 
    <div className="form-control">
-   <span className='ml-24'>Deposit prices for <b>bank transfers</b></span>
-        <label className="label cursor-pointer">
-          <label>First/Full visit<span> ₩75,000</span></label>
-          <input type="radio" name="radio-10" className="radio checked:bg-red-500" checked />
+   <span className='ml-24 mt-5'>Deposit prices for <b>bank transfers</b></span>
+        <label className="label cursor-pointer ml-5">
+          <label>First/Full visit (첫방문/풀방문) <span> ₩75,000</span></label>
+          {/* <input type="radio" name="radio-10" className="radio checked:bg-red-500" checked /> */}
         </label>
       </div>
       <div className="form-control">
-        <label className="label cursor-pointer">
-          <label>Cut Only visit <span className="label-text">₩65,000</span></label> 
-          <input type="radio" name="radio-10" className="radio checked:bg-red-500" checked />
+        <label className="label cursor-pointer ml-5">
+          <label>Cut Only visit (커트만) <span className="label-text"> ₩65,000</span></label> 
+          {/* <input type="radio" name="radio-10" className="radio checked:bg-red-500" checked /> */}
         </label>
       </div>
       <div className="form-control">
-        <label className="label cursor-pointer">
-          <label>Olaplex treatment <span className="label-text">₩50,000</span> </label>
-          <input type="radio" name="radio-10" className="radio checked:bg-red-500" checked />
+        <label className="label cursor-pointer ml-5">
+          <label>Olaplex treatment (올라플렉스 트리트먼트) <span className="label-text"> ₩50,000</span> </label>
+          {/* <input type="radio" name="radio-10" className="radio checked:bg-red-500" checked /> */}
         </label>
       </div>
       <div className="form-control">
-        <label className="label cursor-pointer">
-          <label>Online Consultation  <span className="label-text">₩30,000</span> </label>
-          <input type="radio" name="radio-10" className="radio checked:bg-red-500" checked />
+        <label className="label cursor-pointer ml-5">
+          <label>Online Consultation (온라인 상담)<span className="label-text"> ₩30,000</span> </label>
+          {/* <input type="radio" name="radio-10" className="radio checked:bg-red-500" checked /> */}
         </label>
       </div>
 
             <label className="input-group input-group-sm m-4">
-              <span>Payment</span>
-              <select className="select w-full max-w-xs">
+              <span>Deposit Info</span>
+              <label className='ml-5'>NH Bank 2343-2343-54456667 Alice Green</label>
+              {/* <select className="select w-full max-w-xs">
                 <option>Select your preferred method</option>
                 <option>Bank Transfer (NH Bank 2343-2343-54456667 Alice Green) </option>
                 <option>PayPal </option>
-              </select>
+              </select> */}
             </label>
         
-          <div className="modal-action pb-5">
+          {/* <div className="modal-action pb-5">
             <label htmlFor="my-modal" className="btn">
               Submit!
             </label>
-          </div>
+          </div> */}
+            <div className="divider">OR</div>
+            {/* <select id="services">
+            <options value="first">First: $70.00</options>
+            <options value="cut">First: $50.00</options>
+            <options value="olaplex">First: $30.00</options>
+            <options value="online">First: $20.00</options>
+          </select> */}
           <Payments />
+          {/* <Select /> */}
         </label>
       </label>
       </form>

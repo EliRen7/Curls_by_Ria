@@ -5,13 +5,13 @@ import Modal from "./Modal";
 
  function NavBar() {
   return (
-    <div className="navbar bg-rose-100 fixed w-full h-10 z-[100]">
+    <div className="navbar h-44 bg-rose-100 fixed w-full md:h-10 z-[100]">
       <div className="navbar-start">
         <div className="dropdown">
-          <label tabIndex={0} className="btn btn-ghost lg:hidden">
+          <label tabIndex={0} className="btn btn-ghost h-28 lg:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5"
+              className=" h-28 md:h-5 md:w-5"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -26,25 +26,24 @@ import Modal from "./Modal";
             </svg>
           </label>
           <ul
-            tabIndex={0}
-            className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+            className="menu menu-compact dropdown-content mt-3 mr-5 p-32 w-screen h-60"
           >
             <li>
-              <a>About</a>
+              <a className="text-6xl" href="#about">About</a>
             </li>
-            <li tabIndex={0}>
-              <a href="">
+            <li>
+              <a className="text-6xl" href="#treatments">
                 Services
               </a>
             </li>
             <li>
-              <a>Pricing</a>
+              <a className="text-6xl">Testimonials</a>
             </li>
             <li>
-                <a>Contact</a>
+                <a className="text-6xl" href="#contact">Contact</a>
             </li>
             <li>
-              <a href="https://www.youtube.com/@WavyCurlyRia" target="_blank">
+              <a href="https://www.youtube.com/@WavyCurlyRia" target="_blank" className="text-6xl mr-40 invisible">
                 <AiFillYoutube />
                 YouTube
               </a>
@@ -54,7 +53,7 @@ import Modal from "./Modal";
         </div>
       </div>
       <div className="navbar-center hidden lg:flex pb-20">
-        <ul className="menu menu-horizontal px-16 mt-20 text-black">
+        <ul className="menu menu-horizontal px-18 mt-20 text-black">
           <li>
             <a href="#about">About Ria</a>
           </li>
