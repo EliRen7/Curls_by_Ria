@@ -1,6 +1,5 @@
 import React from "react";
 import { AiFillYoutube } from "react-icons/ai";
-
 import Modal from "./Modal";
 
  function NavBar() {
@@ -26,24 +25,24 @@ import Modal from "./Modal";
             </svg>
           </label>
           <ul
-            className="menu menu-compact dropdown-content mt-3 mr-5 p-32 w-screen h-60"
+            className="menu menu-compact bg-violet-200 dropdown-content mt-10 gap-7 p-32 rounded-3xl "
           >
             <li>
-              <a className="text-6xl" href="#about">About</a>
+              <a className=" text-white text-7xl" href="#about">About</a>
             </li>
             <li>
-              <a className="text-6xl" href="#treatments">
+              <a className=" text-white text-7xl" href="#treatments">
                 Services
               </a>
             </li>
             <li>
-              <a className="text-6xl">Testimonials</a>
+              <a className=" text-white text-7xl">Testimonials</a>
             </li>
             <li>
-                <a className="text-6xl" href="#contact">Contact</a>
+                <a className=" text-white text-7xl" href="#contact">Contact</a>
             </li>
             <li>
-              <a href="https://www.youtube.com/@WavyCurlyRia" target="_blank" className="text-6xl mr-40 invisible">
+              <a href="https://www.youtube.com/@WavyCurlyRia" target="_blank" className=" text-white text-7xl">
                 <AiFillYoutube />
                 YouTube
               </a>

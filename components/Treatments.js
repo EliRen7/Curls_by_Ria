@@ -11,15 +11,15 @@ function Treatments(){
   }, []);
 
     return(
-      <div className='bg-tan scroll-smooth ' id="treatments">
+      <div className='bg-tan scroll-smooth w-[80rem] md:w-full' id="treatments">
        <div className="flex flex-col w-10/12 pt-40 ml-[8rem]">
-       <h1 className="font-headers text-6xl mb-0 text-rose-300" data-aos="fade-right">Services/Information</h1>
+       <h1 className="font-headers text-[9rem] ml-20 md:ml-0 md:text-6xl md:mb-0 text-rose-300" data-aos="fade-right">Services/Information</h1>
        <h6 className="font-descriptions ml-5 pt-5">During your first visit and any following full visits, we will do a consultation first followed by dry cutting,
         washing, styling, and setting your curls. <br></br> Throughout the entire process, I will be giving you <b>step by step guidance </b> 
          so you will be able to do this at home.<br></br>
          첫방문 신 및 이후 풀방문 시, 먼저 상담 후 드라이 커팅, 머리감기, 스타일링, 디퓨즈 등을 진행하겠습니다! 이 모든 과정을 통해 제가단계별 안내를 해드릴서 하실 수 있을 겁니다~ 
        </h6>
-  <div className="grid h-90 card bg-tan place-items-center border-2 border-tan2 text-xl ">
+  <div className="grid h- md:w-full md:h-90 card bg-tan place-items-center border-2 border-tan2 text-xl ">
     <h5 className="font-headers text-4xl  text-violet-400" data-aos="fade-right">Treatments & Prices </h5>
       <ul className="list-disc text-lg pl-20 pb-5">
         <li>

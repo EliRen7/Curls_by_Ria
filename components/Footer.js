@@ -1,6 +1,7 @@
 import {AiFillInstagram} from 'react-icons/ai'
 import {AiFillYoutube} from 'react-icons/ai'
 import {AiFillFacebook} from 'react-icons/ai'
+
 function Footer() {
     return(
       <footer className="footer items-center p-4 bg-zinc-300 text-neutral-content">
