@@ -3,12 +3,11 @@ import { PayPalScriptProvider, PayPalButtons, usePayPalScriptReducer } from "@pa
 
 
 // This values are the props in the UI
-const amount = 2
+// const amount = 
 const currency = "USD";
 const style = {"layout":"vertical"};
 
-
-const ButtonWrapper = ({ currency, showSpinner }) => {
+const ButtonWrapper = ({ currency, showSpinner, amount }) => {
     const [{ options, isPending }, dispatch] = usePayPalScriptReducer();
 
     useEffect(() => {
@@ -21,7 +20,8 @@ const ButtonWrapper = ({ currency, showSpinner }) => {
         });
     }, [currency, showSpinner]);
 
-    return (<>
+    return (
+    <>
             { (showSpinner && isPending) && <div className="spinner" /> }
             
             <PayPalButtons
@@ -57,7 +57,8 @@ const ButtonWrapper = ({ currency, showSpinner }) => {
     );
 }
 
-export default function Payments() {
+export default function Payments({amount}) {
+
 	return (
         
 		<div style={{ maxWidth: "750px", minHeight: "200px" }}>
@@ -73,6 +74,7 @@ export default function Payments() {
 				<ButtonWrapper
                     currency={currency}
                     showSpinner={false}
+                    amount={amount}
                 />
 			</PayPalScriptProvider>
 		</div>

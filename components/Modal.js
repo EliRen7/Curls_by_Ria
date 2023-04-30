@@ -1,9 +1,17 @@
 import Payments from './Payments'
+import {useState} from 'react'
 
 
 function Modal() {
+
+const [services, setServices] = useState(0)
+
+function handleChange(event) {
+    setServices(event.target.value)
+}
+
   return (
-    
+
     <div>
       <label
         htmlFor="my-modal-5"
@@ -27,10 +35,6 @@ function Modal() {
       <h4 className="pt-5 m-5">Step 2: Confirm requested date with deposit payment
       <br></br>2단계: 입금으로 요청 날짜 확인
       </h4>
- 
-
-
-            
 
 
    <div className="form-control">
@@ -60,20 +64,21 @@ function Modal() {
               <label className='ml-5'>NH Bank 2343-2343-54456667 Alice Green</label>
             </label>
         
-          {/* <div className="modal-action pb-5">
-            <label htmlFor="my-modal" className="btn">
-              Submit!
-            </label>
-          </div> */}
             <div className="divider">OR</div>
-              <select id="services" className="select ml-20 mb-10 w-full max-w-xs">
+              <select 
+                id="options" 
+                className="select ml-20 mb-10 w-full max-w-xs"
+                value={services}
+                onChange={handleChange}
+                name="options"
+                >
                 <option>Select a service</option>
-                <option id='first'>First/Full  ₩75,000 </option>
-                <option id='cut'>Cut only  ₩65,000 </option>
-                <option id='online'>Online Consultation  ₩30,000 </option>
-                <option id='olaplex'>Olaplex  ₩50,000 </option>
+                <option value='75'>First/Full $75 </option>
+                <option value='65'>Cut only $65 </option>
+                <option value='30'>Online Consultation $30 </option>
+                <option value='50'>Olaplex $50 </option>
               </select>
-          <Payments />
+          <Payments amount={services}/>
         </label>
       </label>
       </form>
