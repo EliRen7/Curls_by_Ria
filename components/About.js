@@ -1,6 +1,6 @@
 function About(){
     return (
-        <div className="bg-tan" id="about">
+        <div className="bg-tan w-[80rem] md:w-full" id="about">
      <h1 className="font-headers text-6xl pt-10 text-rose-300 ml-[8rem] mb-10"  data-aos="fade-right" >About Me</h1>
     <div className="card lg:card-side w-11/12">
   <img src="./assets/IMG_1029.JPG" className="w-96 h-full mt-10 ml-40 mr-10 rotate-6 rounded-3xl hover:rotate-12"/>
