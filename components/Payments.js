@@ -3,7 +3,6 @@ import { PayPalScriptProvider, PayPalButtons, usePayPalScriptReducer } from "@pa
 
 
 // This values are the props in the UI
-// const amount = 
 const currency = "USD";
 const style = {"layout":"vertical"};
 
@@ -42,7 +41,6 @@ const ButtonWrapper = ({ currency, showSpinner, amount }) => {
                             ],
                         })
                         .then((orderId) => {
-                            // Your code here after create the order
                             return orderId;
                         });
                 }}
@@ -67,7 +65,7 @@ export default function Payments({amount}) {
                     'client-id': process.env.NEXT_PUBLIC_CLIENT_ID,
                     "disable-funding": "paylater",
                     components: "buttons",
-                    currency: "USD"
+                    currency: "USD",
                 }
             }
             >

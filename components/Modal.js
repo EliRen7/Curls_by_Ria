@@ -104,6 +104,3 @@ export default Modal;
 // https://calendly.com/curlsbyria/appointment
 
 
-
-// Paypal 
-// AUueiUYoZNbL6wrH4Oroh3O_tTOSCobcsdsH5WLJQF93uJDq1nnnDnc80o8r7psaHKYPRHpIhOVATqRd
