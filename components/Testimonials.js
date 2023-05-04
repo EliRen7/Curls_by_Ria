@@ -1,5 +1,5 @@
 import {AiFillInstagram} from 'react-icons/ai'
-import {FaLongArrowAltRight} from 'react-icons/fa'
+import {FaLongArrowAltLeft} from 'react-icons/fa'
 
 
 function Testimonials(){
@@ -49,49 +49,49 @@ function Testimonials(){
     <img src="/assets/tight-curls 2.jpg"  alt="img" />
   </div> 
   <div className="carousel-item">
-    <img src="/assets/tight-curls 3.jpg" alt="img" id='first' />
+    <img src="/assets/light-curls 1.jpg" alt="img" id='first' />
   </div> 
   <div className="carousel-item">
-    <img src="/assets/medium-curls 2.jpg" id='second' alt="img" />
+    <img src="/assets/medium-curls 2.jpg" id='img' alt="img" />
   </div> 
   <div className="carousel-item">
-    <img src="/assets/medium-curls 3.jpg" alt="Burger" />
+    <img src="/assets/medium-curls 3.jpg" alt="img" />
   </div> 
   <div className="carousel-item">
-    <img src="/assets/medium-curls 4.jpg"  alt="Burger" />
+    <img src="/assets/medium-curls 4.jpg"  alt="img" />
   </div> 
   <div className="carousel-item">
-    <img src="/assets/medium-curls 6.jpg" alt="Burger" />
+    <img src="/assets/medium-curls 6.jpg" alt="img" />
   </div>
   <div className="carousel-item">
-    <img src="/assets/light-curls 1.jpg" alt="Burger" />
+    <img src="/assets/tight-curls 3.jpg" alt="img" />
   </div>
   <div className="carousel-item">
-    <img src="/assets/light-curls 4.jpg" alt="Burger" />
+    <img src="/assets/light-curls 4.jpg" alt="img" />
   </div>
   <div className="carousel-item">
-    <img src="/assets/light-curls 5.jpg" alt="Burger" />
+    <img src="/assets/light-curls 5.jpg" alt="img" />
   </div>
   <div className="carousel-item">
-    <img src="/assets/tight-curls 6.jpg"  alt="Burger" />
+    <img src="/assets/tight-curls 6.jpg"  alt="img" />
   </div>
   <div className="carousel-item">
-    <img src="/assets/light-curls 3.jpg"   alt="Burger" />
+    <img src="/assets/light-curls 3.jpg"   alt="img" />
   </div>
   <div className="carousel-item">
-    <img src="/assets/light-curls 2.jpg" alt="Burger" />
+    <img src="/assets/light-curls 2.jpg" alt="img" />
   </div>
   <div className="carousel-item">
-    <img src="/assets/light-curls 6.jpg"  alt="Burger" />
+    <img src="/assets/light-curls 6.jpg"  alt="img" />
   </div>
   <div className="carousel-item">
-    <img src="/assets/tight-curls 5.jpg" alt="Burger" />
+    <img src="/assets/tight-curls 5.jpg" alt="img" />
   </div>
   <div className="carousel-item">
-    <img src="/assets/tight-curls 6.jpg"  alt="Burger" />
+    <img src="/assets/tight-curls 6.jpg"  alt="img" />
   </div>
 </div>
-<span className='md:text-xl md:ml-[45rem] text-7xl ml-[32rem] animate-pulse text-rose-400 font-descriptions'>Swipe left <FaLongArrowAltRight className='md:ml-[45rem] w-20 ml-[37rem]'/></span>
+<span className='md:text-xl md:ml-[45rem] text-7xl ml-[32rem] animate-pulse text-rose-400 font-descriptions'>Swipe left <FaLongArrowAltLeft className='md:ml-[45rem] w-20 ml-[37rem]'/></span>
 <div className='md:invisible divider pt-20'></div>
  </div>
     )

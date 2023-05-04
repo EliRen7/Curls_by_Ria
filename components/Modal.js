@@ -20,14 +20,14 @@ function handleChange(event) {
       <form>
       <input type="checkbox" id="my-modal-5" className="modal-toggle" />
       <label htmlFor="my-modal-5" className="modal cursor-pointer">
-        <label className="modal-box relative bg-tan md:w-auto">
+        <label className="modal-box  relative bg-tan md:w-auto">
           <h3 className="text-lg font-bold text-center">Welcome!</h3>
-          <h4 className="pt-5 m-5">Step 1: Click to request an appointment date
+          <h4 className=" pt-5 m-5">Step 1: Click to request an appointment date
           <br></br>1단계: 약속 날짜를 요청하려면 클릭하십시오.
           </h4>
         
           <a href="https://calendly.com/curlsbyria/appointment" target="_blank"
-          className="mt-5 px-6 py-3 ml-40 text-md text-black no-underline btn-sm bg-amber-300 rounded hover:bg-yellow-500">Request
+          className="mt-5 px-6 py-3 ml-36 text-md text-black no-underline btn-sm bg-amber-300 rounded hover:bg-yellow-500">Request
           </a>
             <div className="divider"></div> 
 
@@ -38,7 +38,7 @@ function handleChange(event) {
 
 
    <div className="form-control">
-   <span className='ml-44 mt-5'>Deposit prices</span>
+   <span className='ml-24 mt-5 text-md'><b>Deposit prices (Bank Transfer option)</b></span>
         <label className="label cursor-pointer ml-5">
           <label>First/Full visit (첫방문/풀방문) <span> ₩75,000</span></label>
         </label>
@@ -59,8 +59,9 @@ function handleChange(event) {
         </label>
       </div>
 
+
             <label className="input-group input-group-sm m-4">
-              <span>Bank Info</span>
+              <span>Bank Transfer</span>
               <label className='ml-5'>NH Bank 2343-2343-54456667 Alice Green</label>
             </label>
         
@@ -72,7 +73,7 @@ function handleChange(event) {
                 onChange={handleChange}
                 name="options"
                 >
-                <option>Select a service</option>
+                <option>Select a service ($USD)</option>
                 <option value='75'>First/Full $75 </option>
                 <option value='65'>Cut only $65 </option>
                 <option value='30'>Online Consultation $30 </option>
