@@ -27,7 +27,7 @@ function handleChange(event) {
           </h4>
         
           <a href="https://calendly.com/curlsbyria/appointment" target="_blank"
-          className="mt-5 px-6 py-3 ml-36 text-md text-black no-underline btn-sm bg-amber-300 rounded hover:bg-yellow-500">Request
+          className="mt-5 px-6 py-3 ml-36 text-md text-black no-underline btn-sm bg-rose-300 rounded "><b>Request</b>
           </a>
             <div className="divider"></div> 
 

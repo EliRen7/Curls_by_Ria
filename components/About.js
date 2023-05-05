@@ -5,9 +5,9 @@ function About(){
     <div className="card lg:card-side w-11/12">
   <img src="./assets/IMG_1029.JPG" className="md:w-96 md:h-full mt-10 ml-40 mr-10 rotate-6 rounded-3xl hover:rotate-12"/>
   <div className="card-body" data-aos="fade-left">
-    <h2 className="card-title font-descriptions ml-20 md:ml-0 text-8xl md:text-3xl  text-violet-300"  >Hello, I'm Ria!</h2>
+    <h2 className="card-title font-about ml-20 md:ml-0 text-8xl md:text-3xl   text-rose-300"  >Hey y’all!</h2>
     <p className="pl-20 md:pl-0 text-7xl md:text-lg text-justify mt-5 " > 
-    Hey y’all! My name is Ria, and I am the owner of Curls by Ria. I’ve been in the curly hair game personally since 2018 when I started to learn about how to care for my own naturally wavy hair.
+    My name is Ria, and I am the owner of Curls by Ria. I’ve been in the curly hair game personally since 2018 when I started to learn about how to care for my own naturally wavy hair.
     Then, once I got my official hairdresser’s license in South Korea, I launched Curls by Ria in 2021. I’ve actually been passionate about hair and the beauty world in general ever since I was in middle school, so it kind of seemed like fate when circumstances led me to where I am today: doing what I love + what I’m good at + what others need. 
     Since 2021, I’ve invested a lot into becoming the best curl specialist I can be by receiving professional education from Curly Hair Artistry through their Mastery Program and Cut it Kinky (the pioneers of tight curl education). Back in April 2023, I also got officially licensed as a barber in South Korea so I can further serve my clients.
       <br></br>

@@ -16,8 +16,10 @@ module.exports = {
       },
     },
     fontFamily:{
-      headers:['Amatic SC', 'cursive'],
-      descriptions:['Patrick Hand', 'cursive']
+      headers:['Contrail One', 'cursive'],
+      descriptions:['Patrick Hand', 'cursive'],
+      about: ['Pacifico', 'cursive'],
+      korean: ['Single Day', 'cursive']
     },
   },
   plugins: [

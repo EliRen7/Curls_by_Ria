@@ -25,7 +25,7 @@ import Modal from "./Modal";
             </svg>
           </label>
           <ul
-            className="menu menu-compact bg-violet-200 dropdown-content mt-10 gap-7 p-32 rounded-3xl "
+            className="menu menu-compact bg-rose-300 dropdown-content mt-10 gap-7 p-32 rounded-3xl "
           >
             <li>
               <a className=" text-white text-7xl" href="#about">About</a>

@@ -13,7 +13,7 @@ function Treatments(){
     return(
       <div className='bg-tan scroll-smooth w-[80rem] md:w-full' id="treatments">
        <div className="flex flex-col w-10/12 pt-40 ml-[8rem]">
-       <h1 className="font-headers text-[9rem] ml-20 md:pt-0 md:ml-0 md:text-6xl text-rose-300" data-aos="fade-right">Services/Information</h1>
+       <h1 className="font-headers text-[9rem] ml-20 md:pt-0 md:ml-0 md:text-6xl text-rose-300" data-aos="fade-right">Services</h1>
        <h6 className="text-justify leading-relaxed text-7xl pt-40 pb-40 font-descriptions md:text-lg md:ml-5 md:pt-5 md:pb-0 ">**During your first visit and any following full visits, we will do a consultation first followed by dry cutting,
         washing, styling, and setting your curls. <br></br> Throughout the entire process, I will be giving you <b>step by step guidance </b> 
          so you will be able to do this at home.
@@ -22,7 +22,8 @@ function Treatments(){
        </h6>
        <div className="divider md:invisible"></div> 
   <div className="grid mt-48 md:mt-0 md:w-full md:h-90 card bg-tan place-items-center md:border-2 border-tan2 text-xl ">
-    <h5 className="font-headers text-9xl md:text-4xl  text-violet-400" data-aos="fade-right">Treatments & Prices </h5>
+    <h5 className="font-headers text-9xl md:text-4xl  text-rose-300" data-aos="fade-right">Price List </h5>
+    <h3 className='font-korean'>가격표</h3>
       <ul className="leading-normal list-disc pl:10 text-7xl  md:text-lg md:pl-20 md:pb-0 pb-40">
         <li>
           First/Full visit (2-3 hours) <b>150,000 ₩</b>
@@ -44,7 +45,7 @@ function Treatments(){
   </div> 
   <div className="divider"></div> 
   <div className="grid h-100 card bg-tan place-items-center md:border-2 border-tan2 text-xl ">
-    <h5 className="font-headers mt-48 md:mt-0 text-9xl md:text-4xl  text-violet-400" data-aos="fade-right">Prepping</h5> 
+    <h5 className="font-headers mt-48 md:mt-0 text-9xl md:text-4xl  text-rose-300" data-aos="fade-right">Appointment Prep</h5> 
   <ul className="list-disc text-7xl md:text-lg md:pl-40 pb-5">
         <li className="pt-5">
           Come with a <b>fresh, clean hair</b> (no more than 2 days since your last wash) 
@@ -93,7 +94,7 @@ function Treatments(){
   </div>
   <div className="divider"></div> 
   <div className="grid h-100 card bg-tan place-items-center md:border-2 border-tan2 text-xl pb-10">
-    <h5 className="font-headers text-9xl mt-48 md:mt-0 md:text-4xl  text-violet-400" data-aos="fade-right">Deposit Policy</h5>
+    <h5 className="font-headers text-9xl mt-48 md:mt-0 md:text-4xl  text-rose-300" data-aos="fade-right">Deposit Policy 예약금제</h5>
     <section className="text-center text-7xl md:text-lg pt-5">
       <p><b>To prevent no-shows and last minute cancellations, </b>there is a deposit policy of <b>half the service total </b>
       to confirm any appointment <br></br><b>(Ex:</b> First visit - 75,000 won deposit)
