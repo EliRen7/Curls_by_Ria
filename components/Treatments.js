@@ -13,39 +13,55 @@ function Treatments(){
     return(
       <div className='bg-tan scroll-smooth w-[80rem] md:w-full' id="treatments">
        <div className="flex flex-col w-10/12 pt-40 ml-[8rem]">
-       <h1 className="font-headers text-[9rem] ml-20 md:pt-0 md:ml-0 md:text-6xl text-rose-300" data-aos="fade-right">Services</h1>
-       <h6 className="text-justify leading-relaxed text-7xl pt-40 pb-40 font-descriptions md:text-lg md:ml-5 md:pt-5 md:pb-0 ">**During your first visit and any following full visits, we will do a consultation first followed by dry cutting,
-        washing, styling, and setting your curls. <br></br> Throughout the entire process, I will be giving you <b>step by step guidance </b> 
-         so you will be able to do this at home.
-         <br></br>
-         첫방문 신 및 이후 풀방문 시, 먼저 상담 후 드라이 커팅, 머리감기, 스타일링, 디퓨즈 등을 진행하겠습니다! 이 모든 과정을 통해 제가단계별 안내를 해드릴서 하실 수 있을 겁니다~**
-       </h6>
-       <div className="divider md:invisible"></div> 
-  <div className="grid mt-48 md:mt-0 md:w-full md:h-90 card bg-tan place-items-center md:border-2 border-tan2 text-xl ">
-    <h5 className="font-headers text-9xl md:text-4xl  text-rose-300" data-aos="fade-right">Price List </h5>
-    <h3 className='font-korean'>가격표</h3>
+       <h1 className="font-headers text-[9rem] pt-20 ml-[19rem] md:pt-0 md:ml-0 md:text-6xl text-rose-300" data-aos="fade-right">Services</h1>
+       <h5 className="font-headers text-7xl ml-80 mt-32 md:ml-[34rem] md:mt-5 md:text-3xl text-rose-300" data-aos="fade-right">What to expect</h5>
+       <div className="grid md:grid-cols-2 h-100 card bg-tan place-items-center md:border-2 border-tan2 text-xl pb-10">
+    <section className="text-center text-7xl md:text-lg pt-5">
+      <p>
+      **For every visit (excluding the Express Cut service), you will receive a detox/clarifying treatment, wash, style, and cut. 
+      The Complete Curl Care includes step by step instruction as well as product recommendations all written down on your very 
+      own personalized Curl Care sheet!
+      </p>
+      <br></br>
+      <p>
+      **Express Cuts are only offered to existing clients who have mastered styling their curls at home - you must receive permission to be able to book this service!
+      </p>
+      </section>
+      <section className="text-center text-7xl md:text-lg pt-5 font-Korean">
+       <p>
+       **방문 시마다(익스프레스 커트 서비스 제외) 디톡스/스케일링 트리트먼트, 샴푸, 스타일링, 컬 바이 컬 커트 들어갑니다. 
+       첫방문에는 단계별 맞춤형 지침과 제품 추천 포함되어 있으며 모든 내용이 맞춤형 ‘컬케어’ 시트에 작성합니다!
+       </p>
+       <br></br>
+       <p>
+       **익스프레스 커트 서비스는 집에서 컬 스타일링에 숙달된 기존 고객에게만 제공됩니다. 이 서비스를 예약하려면 허가를 받아야 합니다!
+       </p>
+      </section>
+  </div>
+  <div className="divider"></div> 
+  <div className="grid md:grid-cols-2 mt-48 md:mt-0 md:w-full md:h-90 card bg-tan place-items-center md:border-2 border-tan2 text-xl ">
+    <h5 className="font-headers text-9xl md:text-3xl  text-rose-300" data-aos="fade-right">Price List </h5>
+    <h5 className='font-koreanHeader md:text-3xl text-7xl'>가격표</h5>
       <ul className="leading-normal list-disc pl:10 text-7xl  md:text-lg md:pl-20 md:pb-0 pb-40">
+        <h6 className='text-rose-300 font-headers'>Full Prices</h6>
         <li>
-          First/Full visit (2-3 hours) <b>150,000 ₩</b>
-          <br></br>첫방문/풀방문 (2~3시간) <b>150,000 ₩</b>
+        Complete Curl Care- ₩200,000 <b>*new clients</b> 
         </li>
         <li>
-          Cut Only (45 mins-1hour) <b>80,000 ₩ <br/><small>**Offered only to existing clients**</small></b>
-          <br></br>커트만 (45분~1시간) <b>80,000 ₩ <br></br><small>**회원들만 가능**</small></b>
+        Curl Cultivation- ₩150,000 <b>*existing clients</b>
+        </li>
+        <h6>Add-Ons</h6>
+        <li>
+        Curl Restoration Treatment- ₩50,000 <b>*K18 + Olaplex services</b> 
         </li>
         <li>
-          Olaplex treatment <b>40,000 ₩</b>
-          <br></br>올라플렉스 트리트먼트 <b>40,000 ₩ </b>
-        </li>
-        <li>
-           Online Consultation (45mins) <b>60,000 ₩</b> 
-           <br></br>온라인 상담 (45분) <b>60,000 ₩</b>
+        Color Services- ₩50,000 + <b>*price can go up after consultation</b>
         </li>
       </ul>
   </div> 
   <div className="divider"></div> 
   <div className="grid h-100 card bg-tan place-items-center md:border-2 border-tan2 text-xl ">
-    <h5 className="font-headers mt-48 md:mt-0 text-9xl md:text-4xl  text-rose-300" data-aos="fade-right">Appointment Prep</h5> 
+    <h5 className="font-headers mt-48 md:mt-0 text-9xl md:text-3xl  text-rose-300" data-aos="fade-right">Appointment Prep</h5> 
   <ul className="list-disc text-7xl md:text-lg md:pl-40 pb-5">
         <li className="pt-5">
           Come with a <b>fresh, clean hair</b> (no more than 2 days since your last wash) 
@@ -94,7 +110,7 @@ function Treatments(){
   </div>
   <div className="divider"></div> 
   <div className="grid h-100 card bg-tan place-items-center md:border-2 border-tan2 text-xl pb-10">
-    <h5 className="font-headers text-9xl mt-48 md:mt-0 md:text-4xl  text-rose-300" data-aos="fade-right">Deposit Policy 예약금제</h5>
+    <h5 className="font-headers text-9xl mt-48 md:mt-0 md:text-3xl  text-rose-300" data-aos="fade-right">Deposit Policy 예약금제</h5>
     <section className="text-center text-7xl md:text-lg pt-5">
       <p><b>To prevent no-shows and last minute cancellations, </b>there is a deposit policy of <b>half the service total </b>
       to confirm any appointment <br></br><b>(Ex:</b> First visit - 75,000 won deposit)

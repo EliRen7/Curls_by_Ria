@@ -4,7 +4,10 @@ import { PayPalScriptProvider, PayPalButtons, usePayPalScriptReducer } from "@pa
 
 // This values are the props in the UI
 const currency = "USD";
-const style = {"layout":"vertical"};
+const style = {
+                "layout":"vertical",
+                "color": "silver"
+            };
 
 const ButtonWrapper = ({ currency, showSpinner, amount }) => {
     const [{ options, isPending }, dispatch] = usePayPalScriptReducer();

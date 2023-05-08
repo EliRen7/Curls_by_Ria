@@ -19,7 +19,9 @@ module.exports = {
       headers:['Contrail One', 'cursive'],
       descriptions:['Patrick Hand', 'cursive'],
       about: ['Pacifico', 'cursive'],
-      korean: ['Single Day', 'cursive']
+      koreanHeader: ['Single Day', 'cursive'],
+      Korean: ['Nanum Gothic', 'sans-serif']
+
     },
   },
   plugins: [
