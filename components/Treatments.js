@@ -13,7 +13,7 @@ function Treatments(){
     return(
       <div className='bg-tan scroll-smooth w-[80rem] md:w-full' id="treatments">
        <div className="flex flex-col w-10/12 pt-40 ml-[8rem]">
-       <h1 className="font-headers text-[9rem] pt-20 ml-[19rem] md:pt-0 md:ml-0 md:text-6xl text-rose-300" data-aos="fade-right">Services</h1>
+       <h1 className="font-headers text-[9rem] pt-20 ml-[19rem] md:pt-0 md:ml-0 md:text-5xl text-rose-300" data-aos="fade-right">Services</h1>
        <h5 className="font-headers text-7xl ml-80 mt-32 md:ml-[34rem] md:mt-5 md:text-3xl text-rose-300" data-aos="fade-right">What to expect</h5>
        <div className="grid md:grid-cols-2 h-100 card bg-tan place-items-center md:border-2 border-tan2 text-xl pb-10">
     <section className="text-center text-7xl md:text-lg pt-5">

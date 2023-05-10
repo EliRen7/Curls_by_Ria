@@ -23,7 +23,7 @@ function handleChange(event) {
         <label className="modal-box  relative bg-tan md:w-auto">
           <h3 className="text-lg font-bold text-center">Welcome!</h3>
           <h4 className=" pt-5 m-5">Step 1: Click to request an appointment date
-          <br></br>1단계: 약속 날짜를 요청하려면 클릭하십시오.
+          <br></br>1단계: 예약을 요청하려면 아래 버튼을 클릭하세요
           </h4>
         
           <a href="https://calendly.com/curlsbyria/appointment" target="_blank"
@@ -33,36 +33,28 @@ function handleChange(event) {
 
 
       <h4 className="pt-5 m-5">Step 2: Confirm requested date with deposit payment
-      <br></br>2단계: 입금으로 요청 날짜 확인
+      <br></br>2단계: 예약금을 입금하면 예약이 확정됩니다
       </h4>
 
 
    <div className="form-control">
-   <span className='ml-24 mt-5 text-md'><b>Deposit prices (Bank Transfer option)</b></span>
+   <span className='ml-20 mt-5 text-md'><b>Deposit prices (Bank Transfer option)</b>
+   <br></br><b>예약금표 (계좌이체 가능) </b>
+   </span>
         <label className="label cursor-pointer ml-5">
-          <label>First/Full visit (첫방문/풀방문) <span> ₩75,000</span></label>
+          <label>Complete Curl Care - ₩100,000 *new clients</label>
         </label>
       </div>
       <div className="form-control">
         <label className="label cursor-pointer ml-5">
-          <label>Cut Only visit (커트만) <span className="label-text"> ₩65,000</span></label> 
-        </label>
-      </div>
-      <div className="form-control">
-        <label className="label cursor-pointer ml-5">
-          <label>Olaplex treatment (올라플렉스 트리트먼트) <span className="label-text"> ₩50,000</span> </label>
-        </label>
-      </div>
-      <div className="form-control">
-        <label className="label cursor-pointer ml-5">
-          <label>Online Consultation (온라인 상담)<span className="label-text"> ₩30,000</span> </label>
+          <label>Curl Cultivation - ₩75,000 *existing clients</label> 
         </label>
       </div>
 
 
             <label className="input-group input-group-sm m-4">
               <span>Bank Transfer</span>
-              <label className='ml-5'>NH Bank 2343-2343-54456667 Alice Green</label>
+              <label className='ml-5'><b>하나은행 876-910169-83207 CHO SOOHYUN</b></label>
             </label>
         
             <div className="divider">OR</div>
@@ -74,10 +66,8 @@ function handleChange(event) {
                 name="options"
                 >
                 <option>Select a service ($USD)</option>
-                <option value='75'>First/Full $75 </option>
-                <option value='65'>Cut only $65 </option>
-                <option value='30'>Online Consultation $30 </option>
-                <option value='50'>Olaplex $50 </option>
+                <option value='100'>Complete Curl Care $100 </option>
+                <option value='75'>Curl Cultivation $75 </option>
               </select>
           <Payments amount={services}/>
         </label>
