@@ -40,7 +40,7 @@ function Treatments(){
   </div>
   <div className="divider"></div> 
   <div className="grid md:grid-cols-2 mt-48 md:mt-0 md:w-full md:h-90 card bg-tan place-items-center md:border-2 border-tan2 text-xl ">
-    <h5 className="font-headers text-9xl md:text-3xl  text-rose-300" data-aos="fade-right">Price List </h5>
+    <h5 className="font-headers text-8xl md:text-3xl  text-rose-300" data-aos="fade-right">Price List </h5>
     <h5 className='font-koreanHeader md:text-4xl text-7xl text-rose-300' data-aos="fade-right">가격표</h5>
       <ul className="leading-normal list-disc pl:10 text-7xl  md:text-lg md:pl-20 md:pb-0 pb-40">
         <h6 className='text-rose-300 font-headers'>Full Prices</h6>
@@ -76,7 +76,7 @@ function Treatments(){
       </ul>
   </div> 
   <div className="divider"></div> 
-  <h5 className="font-headers text-7xl ml-80 mt-32 md:ml-[33rem] md:mt-5 md:text-3xl text-rose-300" data-aos="fade-right">Appointment Prep</h5>
+  <h5 className="font-headers text-8xl ml-44 mt-32 md:ml-[33rem] md:mt-5 md:text-3xl text-rose-300" data-aos="fade-right">Appointment Prep</h5>
        <div className="grid md:grid-cols-2 h-100 card bg-tan place-items-center md:border-2 border-tan2 text-xl pb-10">
     <section className="text-center text-7xl md:text-lg pt-5 md:p-5">
       <p>
@@ -108,7 +108,7 @@ function Treatments(){
       </section>
   </div>
   <div className="divider"></div> 
-  <h5 className="font-headers text-7xl ml-80 mt-32 md:ml-[33rem] md:mt-5 md:text-3xl text-rose-300" data-aos="fade-right">Deposit Policy</h5>
+  <h5 className="font-headers text-8xl ml-64 mt-32 md:ml-[33rem] md:mt-5 md:text-3xl text-rose-300" data-aos="fade-right">Deposit Policy</h5>
        <div className="grid md:grid-cols-2 h-100 card bg-tan place-items-center md:border-2 border-tan2 text-xl pb-10">
     <section className="text-center text-7xl md:text-lg pt-5 md:p-10">
       <p>
@@ -151,7 +151,6 @@ function Treatments(){
       </p>
       </section>
   </div>
- 
   </div>
   </div>
     )

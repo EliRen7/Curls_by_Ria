@@ -92,7 +92,7 @@ function Testimonials(){
   </div>
 </div>
 <span className='md:text-xl md:ml-[45rem] text-7xl ml-[32rem] animate-pulse text-rose-400 font-descriptions'>Swipe left <FaLongArrowAltLeft className='md:ml-[45rem] w-20 ml-[37rem]'/></span>
-<div className='md:invisible divider pt-20'></div>
+<div className='md:invisible divider pt-40 ml-32 mr-32'></div>
  </div>
     )
 }
