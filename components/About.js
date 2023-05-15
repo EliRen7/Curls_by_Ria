@@ -3,9 +3,9 @@ function About(){
         <div className="bg-tan w-[80rem] md:w-full" id="about">
      <h1 className="font-headers text-9xl md:text-5xl pt-[3rem] text-rose-300 ml-[25rem] md:ml-[38rem] mb-5"  data-aos="fade-right" >About Me</h1>
     <div className="card lg:card-side w-11/12 md:ml-[7rem]">
-  <img src="./assets/IMG_1029.JPG" className="md:w-96 md:h-full md:mt-48 md:ml-0 ml-48 w-3/4 mt-24 mr-10 rotate-6 rounded-3xl hover:rotate-12"/>
+  <img src="./assets/IMG_1029.JPG" className="md:w-96 md:h-full md:mt-10 md:ml-0 ml-48 w-3/4 mt-24 mr-10 rotate-6 rounded-3xl hover:rotate-12"/>
  <div className="card-body md:gap-4" data-aos="fade-left">
- <div className="flex justify-center ml-5 md:ml-[.5rem] w-full py-20 md:py-2 gap-3 md:mx-0.5">
+ <div className="flex justify-center ml-5 md:ml-[.5rem] w-full py-20 md:py-0 gap-3 md:mx-0.5">
   <a href="#english" className="btn md:text-md text-5xl btn-lg md:btn-xs bg-rose-300 border-none">English</a> 
   <a href="#korean" className="btn md:text-md text-5xl btn-lg md:btn-xs bg-rose-300 border-none">한국어</a> 
 </div> 

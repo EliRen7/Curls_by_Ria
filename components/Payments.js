@@ -6,7 +6,8 @@ import { PayPalScriptProvider, PayPalButtons, usePayPalScriptReducer } from "@pa
 const currency = "USD";
 const style = {
                 "layout":"vertical",
-                "color": "silver"
+                "color": "silver",
+                "height": 55,
             };
 
 const ButtonWrapper = ({ currency, showSpinner, amount }) => {
@@ -62,7 +63,7 @@ export default function Payments({amount}) {
 
 	return (
         
-		<div style={{ maxWidth: "750px", minHeight: "200px" }}>
+		<div style={{ maxWidth: "90rem", minHeight: "40rem", paddingRight:"10px" }}>
             <PayPalScriptProvider
                 options={{
                     'client-id': process.env.NEXT_PUBLIC_CLIENT_ID,

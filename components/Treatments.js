@@ -14,7 +14,7 @@ function Treatments(){
       <div className='bg-tan scroll-smooth w-[80rem] md:w-full' id="treatments">
        <div className="flex flex-col w-10/12 pt-40 ml-[8rem]">
        <h1 className="font-headers text-[9rem] pt-20 ml-[19rem] md:pt-0 md:ml-0 md:text-5xl text-rose-300" data-aos="fade-right">Services</h1>
-       <h5 className="font-headers text-7xl ml-80 mt-32 md:ml-[34rem] md:mt-5 md:text-3xl text-rose-300" data-aos="fade-right">What to expect</h5>
+       <h5 className="font-headers text-7xl ml-80 mt-32 md:ml-[34rem] md:mt-5 md:text-3xl text-rose-300" data-aos="fade-right">What to Expect</h5>
        <div className="grid md:grid-cols-2 h-100 card bg-tan place-items-center md:border-2 border-tan2 text-xl pb-10">
     <section className="text-center text-7xl md:text-lg pt-5">
       <p>
@@ -22,7 +22,7 @@ function Treatments(){
       The Complete Curl Care includes step by step instruction as well as product recommendations all written down on your very 
       own personalized Curl Care sheet!
       </p>
-      <br></br>
+      <br></br> 
       <p>
       **Express Cuts are only offered to existing clients who have mastered styling their curls at home - you must receive permission to be able to book this service!
       </p>
@@ -45,33 +45,32 @@ function Treatments(){
       <ul className="leading-normal list-disc pl:10 text-7xl  md:text-lg md:pl-20 md:pb-0 pb-40">
         <h6 className='text-rose-300 font-headers'>Full Prices</h6>
         <li>
-        Complete Curl Care - ₩200,000 <b>*new clients</b> 
+        Complete Curl Care - ₩200,000 <b><br></br>*new clients</b> 
         </li>
         <li>
-        Curl Cultivation - ₩150,000 <b>*existing clients</b>
+        Curl Cultivation - ₩150,000 <b><br></br>*existing clients</b>
         </li>
-        <h6 className='text-rose-300 font-headers'>Add-Ons</h6>
+        <h6 className='text-rose-300 font-headers md:mt-5 mt-20'>Add-Ons</h6>
         <li>
-        Curl Restoration Treatment - ₩50,000 <b>*K18 + Olaplex services</b> 
+        Curl Restoration Treatment - ₩50,000 <br></br><b>*K18 + Olaplex services</b> 
         </li>
         <li>
-        Color Services - ₩50,000+ <b>*price can go up after consultation</b>
-        </li>
+        Color Services - ₩50,000+  <br></br><b>*price can go up after consultation</b>
+        </li> 
       </ul>
       <ul className="leading-normal list-disc pl:10 text-7xl  md:text-lg md:pl-20 md:pb-0 pb-40">
-        {/* <h6 className='text-rose-300 font-headers'>Full Prices</h6> */}
         <li>
-        컴플리트 컬 케어 - ₩200,000<b> *첫방문</b>
+        컴플리트 컬 케어 - ₩200,000 <br></br><b>*첫방문</b>
         </li>
         <li>
-        컬 컬티베이션 - ₩150,000 <b> *재방문</b>
+        컬 컬티베이션 - ₩150,000 <br></br><b>*재방문</b>
         </li>
-        <h6 className='text-rose-300 font-koreanHeader'>추가 서비스</h6>
+        <h6 className='text-rose-300 font-koreanHeader md:mt-5 mt-20'>추가 서비스</h6>
         <li>
-        복구 트리트먼트 - ₩50,000 <b>*K18 + Olaplex services</b> 
+        복구 트리트먼트 - ₩50,000 <br></br><b>*K18 + 올라플렉스 트리트먼트</b> 
         </li>
         <li>
-        염색 - ₩50,000+ <b>*상담 후 가격 추가될 수 있습니다</b>
+        염색 - ₩50,000+ <br></br><b>*상담 후 가격 추가될 수 있습니다</b>
         </li>
       </ul>
   </div> 
@@ -113,7 +112,7 @@ function Treatments(){
     <section className="text-center text-7xl md:text-lg pt-5 md:p-10">
       <p>
       <b>To prevent no-shows and last minute cancellations, </b>there is a deposit policy of <b>half the service total </b>
-      to confirm any appointment <br></br><b>(Ex:</b> Curl Cultivation - ₩75,000 deposit)
+      to confirm any appointment <br></br><b>(Ex:</b> Complete Curl Care - ₩100,000 deposit)
       </p>
       <p>
       To confirm your appointment, please send the deposit by bank transfer <b>within 1 hour</b> of receiving your appointment details
@@ -127,10 +126,10 @@ function Treatments(){
       For any changes, you must notify me no less than 72 hours before your appointment. Otherwise, your appointment will be considered canceled 
       </p>
       </section>
-      <section className="text-center text-7xl md:text-lg pt-5 font-Korean md:p-10">
+      <section className="text-center text-7xl md:text-lg pt-20 font-Korean md:p-10">
        
-       <p>
-      노쇼/당일취소 방지를 위해 부득이하게 예약금제를 시행합니다. 예약금 안내 후 1시간이내에 입금이 확인되면 예약이
+      <p>
+      <b>노쇼/당일취소 방지를 위해 부득이하게 예약금제를 시행합니다.</b> 예약금 안내 후 <b>1시간이내에</b> 입금이 확인되면 예약이
       확정됩니다~
       </p>
       <p>
@@ -139,14 +138,14 @@ function Treatments(){
       <p>
       예약금은 고객님이 원하신 서비스
       총 가격의 반값입니다.
-      예 첫방문 - 75,000원 예약금
+    <br></br><b>(예:</b> 첫방문 - 100,000원)
       </p>
       <p>
       서비스 후 남은 잔액만
       지불하면 됩니다.
       </p>
       <p>
-      ‼️예약금은 환불 불가능합니다‼️
+      <b>‼️예약금은 환불 불가능합니다‼️</b><br></br>
       예약 변경은 3일전까지 미리 알려주시면 다른 날짜로 변경할수있어요~ 신중하게 생각하시고 예약 부탁 드립니다♥️
       </p>
       </section>

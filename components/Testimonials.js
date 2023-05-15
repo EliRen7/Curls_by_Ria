@@ -4,7 +4,7 @@ import {FaLongArrowAltLeft} from 'react-icons/fa'
 
 function Testimonials(){
     return(
-      <div className='bg-tan pb-20 w-[80rem] md:w-full ' id='testimonials'>
+      <div className='bg-tan pb-20 w-[80rem] md:w-full' id='testimonials'>
       <div className="mb-8 pt-40 text-center ">
       <h1 className="font-headers text-9xl md:text-5xl text-rose-300" data-aos="fade-up">Testimonials & Gallery</h1>
       <p className=" text-5xl md:text-lg text-rose-300" data-aos="fade-up">Read more reviews on Instagram!</p>
