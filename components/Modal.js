@@ -1,5 +1,7 @@
 import Payments from './Payments'
 import {useState} from 'react'
+import Image from 'next/image';
+import QRCode from '../public/assets/QRcode.JPG'
 
 
 function Modal() {
@@ -52,7 +54,11 @@ function handleChange(event) {
             </label>
             <div className="divider">OR</div>
             <span className='md:ml-28 md:text-base text-4xl'><b>Kakao Pay (scan the QR code)</b></span>
-            <img src='./assets/KakaoBarcode.JPG' className='w-96 md:w-40 md:ml-32 ml-56'></img>
+            <Image
+             src={QRCode} 
+             className='w-96 md:w-40 md:ml-32 ml-56' 
+             alt='img'
+             />
             <div className="divider">OR</div>
               <select 
                 id="options" 

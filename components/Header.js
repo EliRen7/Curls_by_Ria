@@ -1,12 +1,23 @@
 import {AiOutlineArrowUp} from 'react-icons/ai'
+import Image from 'next/image';
+import mainPic from '../public/assets/final.jpg';
+import logo from "../public/assets/curlsbyrialogo2.png"
+ 
 
 function Header(){
     return( 
 <div className="w-max min-h-screen md:w-full pb-60 md:pb-0 md:hero md:min-h-screen bg-rose-50" id="home">
 <div className="hero-content flex-col lg:flex-row-reverse ">
-  <img src='/assets/final.jpg' className="w-auto mt-2/4 md:visible md:max-w-md md:mt-20 md:h-full md:ml-0  " alt='img'/>
+  <Image
+      src={mainPic} 
+      className="w-auto mt-2/4 md:visible md:max-w-md md:mt-20 md:h-full md:ml-0"
+      alt='img'/>
   <div>
-  <img src='/assets/curlsbyrialogo2.png'  className="mr-20 w-full mt-10 md:w-9/12 md:mr-20 md:mt-5 md:ml-5" alt='img' data-aos="fade-down-right"/>
+  <Image 
+      src={logo}  
+      className="mr-20 w-full mt-10 md:w-9/12 md:mr-20 md:mt-5 md:ml-5" 
+      alt='img' 
+      data-aos="fade-down-right"/>
     <p className="invisible md:visible md:py-4 md:p-28 md:text-2xl  text-rose-300 font-about" data-aos="fade-left"> 
     ✨South Korea's first official curl specialist!✨
      </p> 
