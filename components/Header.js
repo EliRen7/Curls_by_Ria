@@ -19,7 +19,7 @@ function Header(){
       alt='img' 
       data-aos="fade-down-right"/>
     <p className="invisible md:visible md:py-4 md:p-28 md:text-2xl  text-rose-300 font-about" data-aos="fade-left"> 
-    South Korea's first official curl specialist!
+    ✨South Korea's first official curl specialist!✨
      </p> 
      <p className="invisible md:visible md:py-0 md:p-40 md:text-2xl font-koreanHeader" data-aos="fade-left">
      대한민국에 최초의 곱슬머리 전문 헤어살롱
