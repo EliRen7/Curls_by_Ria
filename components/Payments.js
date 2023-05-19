@@ -21,7 +21,7 @@ const ButtonWrapper = ({ currency, showSpinner, amount }) => {
                 currency: currency,
             },
         });
-    }, [currency, showSpinner, amount]);
+    }, [currency, showSpinner]);
 
     return (
     <>
