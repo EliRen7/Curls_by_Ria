@@ -1,7 +1,7 @@
 import Payments from './Payments'
 import {useState} from 'react'
 import Image from 'next/image';
-import QRCode from '../public/assets/QRcode.JPG'
+import QRCode from '../public/assets/qr-code.jpg'
 
 
 function Modal() {
