@@ -59,7 +59,7 @@ function handleChange(event) {
              className='w-96 md:w-40 md:ml-32 ml-56' 
              alt='img'
              />
-            <div className="divider">gitOR</div>
+            <div className="divider">OR</div>
               <select 
                 id="options" 
                 className="select ml-44 md:ml-5 mb-20 w-full max-w-lg text-lg md:text-base"
