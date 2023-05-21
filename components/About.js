@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import aboutMePic from '../public/assets/aboutPic.JPG'
+import aboutMePic from '../public/assets/aboutPic.jpg'
 
 
 function About(){
