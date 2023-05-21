@@ -6,10 +6,10 @@ import QRCode from '../public/assets/qr-code.jpg'
 
 function Modal() {
 
-const [services, setServices] = useState(0)
+const [price, setPrice] = useState(0)
 
 function handleChange(event) {
-    setServices(event.target.value)
+    setPrice(event.target.value)
 }
 
   return (
@@ -59,19 +59,19 @@ function handleChange(event) {
              className='w-96 md:w-40 md:ml-32 ml-56' 
              alt='img'
              />
-            <div className="divider">OR</div>
+            <div className="divider">gitOR</div>
               <select 
                 id="options" 
-                className="select ml-44 md:ml-5 mb-20 w-full max-w-sm text-lg md:text-base"
-                value={services}
-                onChange={handleChange}
+                className="select ml-44 md:ml-5 mb-20 w-full max-w-lg text-lg md:text-base"
+                value={price}
+                onChange={handleChange}  
                 name="options"
                 >
                 <option>Select a service ($USD)</option>
                 <option value='100'>Complete Curl Care $100 </option>
                 <option value='75'>Curl Cultivation $75 </option>
               </select>
-          <Payments amount={services}/>
+          <Payments amount={price}/>
         </label>
       </label>
       </form>
