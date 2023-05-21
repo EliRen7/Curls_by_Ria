@@ -21,7 +21,7 @@ const ButtonWrapper = ({ currency, showSpinner, amount }) => {
                 currency: currency,
             },
         });
-    }, [currency, showSpinner]);
+    }, []);
 
     return (
     <>
@@ -82,3 +82,6 @@ export default function Payments({amount}) {
 		</div>
 	);
         }
+
+
+        // [currency, showSpinner]
