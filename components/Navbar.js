@@ -27,7 +27,7 @@ import Modal from "./Modal";
           <ul
             className="menu menu-compact bg-rose-300 dropdown-content mt-10 gap-7 p-32 rounded-3xl "
           >
-            <li>
+            <li tabIndex={0}>
               <a className=" text-white text-7xl" href="#about">About</a>
             </li>
             <li>
@@ -36,7 +36,7 @@ import Modal from "./Modal";
               </a>
             </li>
             <li>
-              <a className=" text-white text-7xl">Testimonials</a>
+              <a className=" text-white text-7xl" href="#testimonials">Testimonials</a>
             </li>
             <li>
                 <a className=" text-white text-7xl" href="#contact">Contact</a>

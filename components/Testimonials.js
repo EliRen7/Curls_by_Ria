@@ -28,7 +28,7 @@ function Testimonials(){
     return(
       <div className='bg-tan pb-20 w-[80rem] md:w-full' id='testimonials'>
       <div className="mb-8 pt-40 text-center ">
-      <h1 className="font-headers text-9xl md:text-5xl text-rose-300" data-aos="fade-up">Testimonials & Gallery</h1>
+      <h1 className="font-headers text-9xl md:text-5xl text-rose-300" data-aos="fade-up">Testimonials <br></br> & Gallery</h1>
       <p className=" text-5xl md:text-lg text-rose-300" data-aos="fade-up">Read more reviews on Instagram!</p>
       <a href='https://www.instagram.com/curls.byria/?hl=en' target="_blank"> <AiFillInstagram className='w-32 h-32 ml-[35rem] md:w-10 md:h-10 md:ml-[46rem]'/></a>
   </div>
