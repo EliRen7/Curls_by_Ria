@@ -7,7 +7,7 @@ import Modal from "./Modal";
     <div className="navbar h-44 bg-rose-100 fixed w-full md:h-10 z-[100]">
       <div className="navbar-start">
         <div className="dropdown">
-          <label tabIndex={0} className="btn btn-ghost h-28 lg:hidden">
+          <label className="btn btn-ghost h-28 lg:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className=" h-28 md:h-5 md:w-5"
@@ -27,7 +27,7 @@ import Modal from "./Modal";
           <ul
             className="menu menu-compact bg-rose-300 dropdown-content mt-10 gap-7 p-32 rounded-3xl "
           >
-            <li>
+            <li tabIndex={0}>
               <a className=" text-white text-7xl" href="#about">About Ria</a>
             </li>
             <li tabIndex={0}>
