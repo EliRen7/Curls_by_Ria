@@ -30,7 +30,7 @@ import Modal from "./Modal";
             <li>
               <a className=" text-white text-7xl" href="#about">About Ria</a>
             </li>
-            <li>
+            <li tabIndex={0}>
               <a className=" text-white text-7xl" href="#treatments">Services</a>
               <a className=" text-white text-7xl" href="#testimonials">Testimonials</a>
               <a className=" text-white text-7xl" href="#contact">Contact</a>
