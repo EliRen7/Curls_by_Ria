@@ -31,15 +31,9 @@ import Modal from "./Modal";
               <a className=" text-white text-7xl" href="#about">About</a>
             </li>
             <li>
-              <a className=" text-white text-7xl" href="#treatments">
-                Services
-              </a>
-            </li>
-            <li>
+              <a className=" text-white text-7xl" href="#treatments">Services</a>
               <a className=" text-white text-7xl" href="#testimonials">Testimonials</a>
-            </li>
-            <li>
-                <a className=" text-white text-7xl" href="#contact">Contact</a>
+              <a className=" text-white text-7xl" href="#contact">Contact</a>
             </li>
             <li>
               <a href="https://www.youtube.com/@WavyCurlyRia" target="_blank" className=" text-white text-7xl">
@@ -57,10 +51,7 @@ import Modal from "./Modal";
             <a href="#about">About Ria</a>
           </li>
           <li tabIndex={0}>
-            <a href="#treatments">
-              Services
-            </a>
-        
+            <a href="#treatments">Services</a>
             <a href="#testimonials">Testimonials</a>
             <a href="#contact">Contact</a>
           </li>
