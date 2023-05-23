@@ -27,8 +27,8 @@ import Modal from "./Modal";
           <ul
             className="menu menu-compact bg-rose-300 dropdown-content mt-10 gap-7 p-32 rounded-3xl "
           >
-            <li tabIndex={0}>
-              <a className=" text-white text-7xl" href="#about">About</a>
+            <li>
+              <a className=" text-white text-7xl" href="#about">About Ria</a>
             </li>
             <li>
               <a className=" text-white text-7xl" href="#treatments">Services</a>
