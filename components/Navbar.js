@@ -7,7 +7,7 @@ import Modal from "./Modal";
     <div className="navbar h-44 bg-rose-100 fixed w-full md:h-10 z-[100]">
       <div className="navbar-start">
         <div className="dropdown">
-          <label className="btn btn-ghost h-28 lg:hidden">
+          <label tabIndex={0} className="btn btn-ghost h-28 lg:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className=" h-28 md:h-5 md:w-5"
