@@ -10,8 +10,9 @@ function Header(){
 <div className="hero-content  flex-col lg:flex-row-reverse ">
   <Image
       src={mainPic} 
-      className="w-auto mt-[12rem] md:visible md:max-w-md md:mt-20 md:h-full md:ml-0"
-      alt='img'/>
+      className="w-auto mt-[12rem] md:visible md:max-w-md md:mt-20 md:h-full md:ml-0 "
+      alt='img'
+      data-aos="fade-left"/>
   <div>
   <Image 
       src={logo}  
