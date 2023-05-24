@@ -144,7 +144,7 @@ function Testimonials(){
   <div className="carousel-item">
     <Image
     src={tightCurls1} 
-    className='w-fit md:h-80 '
+    className='md:w-fit md:h-80 '
     alt="img" />
   </div>
   <div className="carousel-item">
