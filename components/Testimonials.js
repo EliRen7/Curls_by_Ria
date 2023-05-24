@@ -66,7 +66,7 @@ function Testimonials(){
 </div>
 </div>
 
-  <div className="carousel rounded-box  ml-20 mr-20 md:w-fit md:h-80 ">
+  <div className="carousel rounded-box  ml-20 mr-20 md:w-fit md:h-80 lg:w-fit ">
   <div className="carousel-item">
     <Image
     src={mediumCurls1} 

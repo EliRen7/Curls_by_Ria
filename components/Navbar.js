@@ -25,37 +25,28 @@ import Modal from "./Modal";
             </svg>
           </label>
           <ul
-            className="menu menu-compact bg-rose-300 dropdown-content mt-10 gap-7 p-32 rounded-3xl "
+            className="menu menu-compact bg-rose-300 dropdown-content mt-10 gap-9 p-32 rounded-3xl "
           >
-            <li tabIndex={0}>
+            <li tabIndex={0} className="gap-6">
               <a className=" text-white text-7xl" href="#about">About Ria</a>
-            </li>
-            <li tabIndex={0}>
               <a className=" text-white text-7xl" href="#treatments">Services</a>
               <a className=" text-white text-7xl" href="#testimonials">Testimonials</a>
               <a className=" text-white text-7xl" href="#contact">Contact</a>
-            </li>
-            <li>
-              <a href="https://www.youtube.com/@WavyCurlyRia" target="_blank" className=" text-white text-7xl">
+              <a href="https://www.youtube.com/@WavyCurlyRia" className=" text-white text-7xl">
                 <AiFillYoutube />
                 YouTube
               </a>
             </li>
-            
           </ul>
         </div>
       </div>
       <div className="navbar-center hidden lg:flex pb-20">
         <ul className="menu menu-horizontal px-18 mt-20 text-black">
-          <li>
-            <a href="#about">About Ria</a>
-          </li>
           <li tabIndex={0}>
+            <a href="#about">About Ria</a>
             <a href="#treatments">Services</a>
             <a href="#testimonials">Testimonials</a>
             <a href="#contact">Contact</a>
-          </li>
-          <li>
             <a href="https://www.youtube.com/@WavyCurlyRia" target="_blank">
               <AiFillYoutube />
               YouTube
