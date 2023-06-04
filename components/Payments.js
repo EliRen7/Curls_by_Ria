@@ -73,7 +73,7 @@ export default function Payments({amount}) {
             }
             >
 				<ButtonWrapper
-		    className= dark:bg-tan
+		    className= "dark:bg-tan"
                     currency={currency}
                     showSpinner={false}
                     amount={amount}
