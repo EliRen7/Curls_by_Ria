@@ -49,7 +49,7 @@ function handleChange(event) {
         </label>
       </div>
             <label className="input-group text-4xl md:text-sm m-4 pt-10 md:pt-0 pb-10 mb:pb-0">
-              <span className='whitespace-nowrap'>Korean Bank Transfer</span>
+              <span className='whitespace-nowrap dark:bg-white'>Korean Bank Transfer</span>
               <label className='ml-5'><b>하나은행 876-910169-83207 CHO SOOHYUN</b></label>
             </label>
             <div className="divider">OR</div>
@@ -62,7 +62,7 @@ function handleChange(event) {
             <div className="divider">OR</div>
               <select 
                 id="options" 
-                className="select ml-44 md:ml-5 mb-20 w-full max-w-lg text-lg md:text-base"
+                className="select ml-44 md:ml-5 mb-20 w-full max-w-lg text-lg md:text-base dark:bg-white"
                 value={price}
                 onChange={handleChange}  
                 name="options"
