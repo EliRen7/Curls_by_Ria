@@ -20,7 +20,7 @@ function Contact () {
               <label for="message" className="block mb-2 text-5xl md:text-sm font-medium text-gray-900 dark:text-gray-400">Your message</label>
               <textarea id="message" name='message' rows="6" className="block p-2.5 w-full text-4xl md:text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:bg-white dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Leave a comment..."></textarea>
           </div>
-          <button type="submit" className=" py-8 md:py-3 px-5 text-5xl md:text-sm font-medium text-center text-white rounded-lg bg-rose-300 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-white dark:hover:bg-primary-700 dark:focus:ring-primary-800">Submit</button>
+          <button type="submit" className=" py-8 md:py-3 px-5 text-5xl md:text-sm font-medium text-center text-white rounded-lg bg-rose-300 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Submit</button>
       </form> 
   </div>
     
