@@ -14,9 +14,9 @@ function Footer() {
           alt='img'/>
       </div> 
       <div className="grid-flow-col gap-4 md:place-self-center md:justify-self-auto mr-40 mt-10">
-        <a href='https://www.instagram.com/curls.byria/?hl=en' target="_blank"> <AiFillInstagram className='w-20 h-20 md:w-10 md:h-10'/></a> 
-        <a href='https://www.youtube.com/@WavyCurlyRia' target="_blank"> <AiFillYoutube className='w-20 h-20 md:w-10 md:h-10 '/></a>
-        <a href='https://facebook.com/curlsbyria' target="_blank"><AiFillFacebook className='w-20 h-20 md:w-10 md:h-10' /></a>
+        <a href='https://www.instagram.com/curls.byria/?hl=en' target="_blank"> <AiFillInstagram className='w-20 h-20 md:w-10 md:h-10 dark:bg-white'/></a> 
+        <a href='https://www.youtube.com/@WavyCurlyRia' target="_blank"> <AiFillYoutube className='w-20 h-20 md:w-10 md:h-10 dark:bg-white'/></a>
+        <a href='https://facebook.com/curlsbyria' target="_blank"><AiFillFacebook className='w-20 h-20 md:w-10 md:h-10 dark:bg-white' /></a>
       </div>
     </footer>
     )
