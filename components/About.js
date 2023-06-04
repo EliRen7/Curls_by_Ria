@@ -13,8 +13,8 @@ function About(){
    alt='img'/>
  <div className="card-body md:gap-4" data-aos="fade-left">
  <div className="flex justify-center ml-5 md:ml-[.5rem] w-full py-20 md:py-0 gap-3 md:mx-0.5">
-  <a href="#english" className="btn md:text-md text-5xl btn-lg md:btn-xs bg-rose-300 border-none">English</a> 
-  <a href="#korean" className="btn md:text-md text-5xl btn-lg md:btn-xs bg-rose-300 border-none">한국어</a> 
+  <a href="#english" className="btn md:text-md text-5xl btn-lg md:btn-xs bg-rose-300 border-none dark:text-white">English</a> 
+  <a href="#korean" className="btn md:text-md text-5xl btn-lg md:btn-xs bg-rose-300 border-none dark:text-white">한국어</a> 
 </div> 
  <h2 className="card-title font-about ml-[22rem] md:ml-[22rem] md:mx-[21rem] text-8xl md:text-3xl text-rose-300">Hey y’all!</h2>
  <div className="carousel w-full">
