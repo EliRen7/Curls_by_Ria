@@ -68,7 +68,7 @@ function handleChange(event) {
                 name="options"
                 >
                 <option>Select a service ($USD)</option>
-                <option value='100'>Complete Curl Care $100 </option>
+                <option value='1'>Complete Curl Care $1 </option>
                 <option value='75'>Curl Cultivation $75 </option>
               </select>
           <Payments amount={price}/>
@@ -85,16 +85,10 @@ export default Modal;
 
 
 
-// options={{
-//   "client-id": 
-//     "AaBXRXaIC-6yWZMf7ArGnM9AuThO5BQpoqm_Ikz31JMX-KMFPLRs17Dc3HeZTP_9achfMV8u0Tc0MhiD"
-// }}
 
 
 
 
-// Calendy
 
-// https://calendly.com/curlsbyria/appointment
 
 
