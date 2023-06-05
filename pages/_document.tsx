@@ -5,7 +5,7 @@ export default function Document() {
     <Html lang="en">
       <Head>
       <link rel='shortcut icon' href='assets/favicon.ico' />
-      <Head />
+      </Head>
       <body>
         <Main />
         <NextScript />
