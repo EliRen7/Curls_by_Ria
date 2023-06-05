@@ -3,7 +3,8 @@ import { Html, Head, Main, NextScript } from 'next/document'
 export default function Document() {
   return (
     <Html lang="en">
-      <link rel="shortcut icon" href="../public/assets/favricon.ico" />
+      <Head>
+      <link rel='shortcut icon' href='assets/favicon.ico' />
       <Head />
       <body>
         <Main />
