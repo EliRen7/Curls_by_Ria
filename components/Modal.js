@@ -53,7 +53,7 @@ function handleChange(event) {
               <label className='ml-5'><b>KB Bank국민은행 740901-01-680388 CHO SOOHYUN</b></label>
             </label>
             <div className="divider">OR</div>
-            <span className='md:ml-28 md:text-base md:text-2xl text-3xl'><b>Kakao Pay (desktop: scan QR code/mobile: press & hold)</b></span>
+            <span className='md:ml-28 md:text-base md:text-lg text-3xl'><b>Kakao Pay (desktop: scan QR code/mobile: press & hold)</b></span>
             <Image
              src={QRCode} 
              className='w-96 md:w-40 md:ml-32 ml-56' 
