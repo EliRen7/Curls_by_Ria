@@ -1,11 +1,11 @@
 import Image from 'next/image';
 import {FaLongArrowAltLeft} from 'react-icons/fa'
-import Location1 from '../public/assets/location1.JPG'
-import Location2 from '../public/assets/location2.JPG'
-import Location3 from '../public/assets/location3.JPG'
-import Location4 from '../public/assets/location4.JPG'
-import Location5 from '../public/assets/location5.JPG'
-import Location6 from '../public/assets/location6.JPG'
+import Location1 from '../public/assets/location1.jpg'
+import Location2 from '../public/assets/location2.jpg'
+import Location3 from '../public/assets/location3.jpg'
+import Location4 from '../public/assets/location4.jpg'
+import Location5 from '../public/assets/location5.jpg'
+import Location6 from '../public/assets/location6.jpg'
 
 export default function Location(){
     return (
