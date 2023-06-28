@@ -32,6 +32,7 @@ import Modal from "./Modal";
               <a className=" text-white text-7xl" href="#treatments">Services</a>
               <a className=" text-white text-7xl" href="#testimonials">Testimonials</a>
               <a className=" text-white text-7xl" href="#contact">Contact</a>
+              <a className=" text-white text-7xl" href="#location">Location</a>
               <a href="https://www.youtube.com/@WavyCurlyRia" className=" text-white text-7xl">
                 <AiFillYoutube />
                 YouTube
@@ -47,6 +48,7 @@ import Modal from "./Modal";
             <a href="#treatments">Services</a>
             <a href="#testimonials">Testimonials</a>
             <a href="#contact">Contact</a>
+            <a href="#location">Location</a>
             <a href="https://www.youtube.com/@WavyCurlyRia" target="_blank">
               <AiFillYoutube />
               YouTube
