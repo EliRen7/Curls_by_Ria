@@ -5,6 +5,7 @@ import Testimonials from '../components/Testimonials'
 import Footer from '../components/Footer'
 import About from '../components/About'
 import Contact from '../components/Contact'
+import Location from '../components/Location'
 import { Inter } from 'next/font/google'
 
 
@@ -18,6 +19,7 @@ export default function Home() {
     <Treatments />
     <Testimonials />
     <About />
+    <Location />
     <Contact />
     <Footer />
     </div>
