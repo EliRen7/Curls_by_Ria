@@ -41,7 +41,7 @@ function About(){
    
 </div>
 </div> 
-  <div className="md:invisible divider p-10 "></div>
+  // <div className="md:invisible divider p-10 "></div>
 </div>
 </div>
     )
