@@ -10,7 +10,7 @@ import Location6 from '../public/assets/location6.jpg'
 export default function Location(){
     return (
     <div className="bg-tan w-[80rem] md:w-full pt-[8rem]" id='location'>
-    <h1 className="font-headers text-9xl md:text-5xl pt-[3rem] text-rose-300 ml-[18rem] md:ml-[38rem]"  data-aos="fade-right" >Location Guide</h1>
+    <h1 className="font-headers text-9xl md:text-5xl pt-[3rem] text-rose-300 ml-[15rem] md:ml-[38rem]"  data-aos="fade-right" >Location Guide</h1>
     <div className="flex justify-center ml-5 md:ml-[1px] w-full py-20 md:py-0 gap-3 md:mx-0.5">
   <a href="#englishlocation" className="btn md:text-md text-5xl btn-lg md:btn-xs bg-rose-300 border-none dark:text-white">English</a> 
   <a href="#koreanlocation" className="btn md:text-md text-5xl btn-lg md:btn-xs bg-rose-300 border-none dark:text-white">한국어</a> 
