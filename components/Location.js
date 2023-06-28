@@ -15,7 +15,7 @@ export default function Location(){
   <a href="#englishlocation" className="btn md:text-md text-5xl btn-lg md:btn-xs bg-rose-300 border-none dark:text-white">English</a> 
   <a href="#koreanlocation" className="btn md:text-md text-5xl btn-lg md:btn-xs bg-rose-300 border-none dark:text-white">한국어</a> 
 </div> 
-<div className="carousel w-full">
+<div className="carousel w-full mt-0">
  <div id="englishlocation" className="carousel-item w-full">
      <p className="indent-9 pl-20 pr-20 md:pl-20 text-7xl md:text-lg text-justify mt-60 md:mt-[0rem]" > 
      It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
