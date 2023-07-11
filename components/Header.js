@@ -1,7 +1,7 @@
 import {AiOutlineArrowUp} from 'react-icons/ai'
 import Image from 'next/image';
 import mainPic from '../public/assets/final.jpg';
-import logo from "../public/assets/curlsbyrialogo2.png"
+import logo from "../public/assets/logo.png"
  
 
 function Header(){
