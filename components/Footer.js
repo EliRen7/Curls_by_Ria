@@ -2,7 +2,7 @@ import {AiFillInstagram} from 'react-icons/ai'
 import {AiFillYoutube} from 'react-icons/ai'
 import {AiFillFacebook} from 'react-icons/ai'
 import Image from 'next/image';
-import footerLogo from '../public/assets/curls-icon white.png'
+import footerLogo from '../public/assets/logo.png'
 
 function Footer() {
     return(
