@@ -5,7 +5,7 @@ import logo from "../public/assets/logo.png"
 
 function Header(){
     return( 
-<div className="w-[80rem] min-h-screen md:w-full pb-96 md:pb-0 md:hero md:min-h-screen bg-rose-50" id="home">
+<div className="w-[80rem] min-[110rem] md:w-full pb-96 md:pb-0 md:hero md:min-h-screen bg-rose-50" id="home">
 <div className="hero-content  flex-col lg:flex-row-reverse ">
   <div>
   <Image 
