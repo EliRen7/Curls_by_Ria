@@ -1,6 +1,6 @@
 import {AiOutlineArrowUp} from 'react-icons/ai'
 import Image from 'next/image';
-import mainPic from '../public/assets/final.jpg';
+// import mainPic from '../public/assets/final.jpg';
 import logo from "../public/assets/logo.png"
  
 
@@ -8,11 +8,11 @@ function Header(){
     return( 
 <div className="w-[80rem] min-h-screen md:w-full pb-96 md:pb-0 md:hero md:min-h-screen bg-rose-50" id="home">
 <div className="hero-content  flex-col lg:flex-row-reverse ">
-  <Image
-      src={mainPic} 
-      className="w-auto mt-[12rem] md:visible md:max-w-md md:mt-20 md:h-full md:ml-0 "
-      alt='img'
-      data-aos="fade-left"/>
+  // <Image
+  //     src={mainPic} 
+  //     className="w-auto mt-[12rem] md:visible md:max-w-md md:mt-20 md:h-full md:ml-0 "
+  //     alt='img'
+  //     data-aos="fade-left"/>
   <div>
   <Image 
       src={logo}  
