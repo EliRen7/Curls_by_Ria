@@ -1,5 +1,8 @@
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Image from 'next/image';
+import Expectations1 from '../public/assets/expectations1.jpg'
+import Expectations2 from '../public/assets/expectations2.jpg'
 import { useEffect } from 'react';
 
 function Treatments(){
@@ -11,31 +14,22 @@ function Treatments(){
   }, []);
 
     return(
-      <div className='bg-tan scroll-smooth w-[80rem] md:w-full' id="treatments">
+      <div className='bg-white scroll-smooth w-[84rem] md:w-full' id="treatments">
        <div className="flex flex-col w-10/12 pt-40 ml-[8rem]">
-       <h1 className="font-headers text-[9rem] pt-20 ml-[19rem] md:pt-0 md:ml-0 md:text-5xl text-rose-300" data-aos="fade-right">Services</h1>
-       <h5 className="font-headers text-7xl ml-80 mt-32 md:ml-[34rem] md:mt-5 md:text-3xl text-rose-300" data-aos="fade-right">What to Expect</h5>
-       <div className="grid md:grid-cols-2 h-100 card bg-tan place-items-center md:border-2 border-tan2 text-xl pb-10">
-    <section className="text-center text-7xl md:text-lg pt-5">
-      <p>
-      **For every visit (excluding the Express Cut service), you will receive a detox/clarifying treatment, wash, style, and cut. 
-      The Complete Curl Care includes step by step instruction as well as product recommendations all written down on your very 
-      own personalized Curl Care sheet!
-      </p>
-      <br></br> 
-      <p>
-      **Express Cuts are only offered to existing clients who have mastered styling their curls at home - you must receive permission to be able to book this service!
-      </p>
+       <div className="grid md:grid-cols-2 h-100 card place-items-center pb-10 md:ml-32">
+    <section className="pt-5">
+    <Image
+      src={Expectations1}
+      className='md:w-4/5 h-auto'
+      alt='img'
+      />
       </section>
-      <section className="text-center text-7xl md:text-lg pt-5 font-Korean">
-       <p>
-       **방문 시마다(익스프레스 커트 서비스 제외) 디톡스/스케일링 트리트먼트, 샴푸, 스타일링, 컬 바이 컬 커트 들어갑니다. 
-       첫방문에는 단계별 맞춤형 지침과 제품 추천 포함되어 있으며 모든 내용이 맞춤형 ‘컬케어’ 시트에 작성합니다!
-       </p>
-       <br></br>
-       <p>
-       **익스프레스 커트 서비스는 집에서 컬 스타일링에 숙달된 기존 고객에게만 제공됩니다. 이 서비스를 예약하려면 허가를 받아야 합니다!
-       </p>
+      <section className="pt-5">
+      <Image
+      src={Expectations2}
+      className='md:w-4/5 h-auto'
+      alt='img'
+      />
       </section>
   </div>
   <div className="divider"></div> 
