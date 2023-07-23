@@ -3,6 +3,9 @@ import 'aos/dist/aos.css';
 import Image from 'next/image';
 import Expectations1 from '../public/assets/expectations1.jpg'
 import Expectations2 from '../public/assets/expectations2.jpg'
+import Prices1 from '../public/assets/prices1.jpg'
+import Prices2 from '../public/assets/prices2.jpg'
+
 import { useEffect } from 'react';
 
 function Treatments(){
@@ -16,7 +19,7 @@ function Treatments(){
     return(
       <div className='bg-white scroll-smooth w-[84rem] md:w-full' id="treatments">
        <div className="flex flex-col w-10/12 pt-40 ml-[8rem]">
-       <div className="grid md:grid-cols-2 h-100 card place-items-center pb-10 md:ml-32">
+       <div className="grid md:grid-cols-2  md:ml-20 mt-48 md:mt-0 md:w-full md:h-90 card bg-white place-items-center ">
     <section className="pt-5">
     <Image
       src={Expectations1}
@@ -33,40 +36,21 @@ function Treatments(){
       </section>
   </div>
   <div className="divider"></div> 
-  <div className="grid md:grid-cols-2 mt-48 md:mt-0 md:w-full md:h-90 card bg-tan place-items-center md:border-2 border-tan2 text-xl ">
-    <h5 className="font-headers text-8xl md:text-3xl  text-rose-300" data-aos="fade-right">Price List </h5>
-    <h5 className='font-koreanHeader md:text-4xl text-7xl text-rose-300' data-aos="fade-right">가격표</h5>
-      <ul className="leading-normal list-disc pl:10 text-7xl  md:text-lg md:pl-20 md:pb-0 pb-40">
-        <h6 className='text-rose-300 font-headers'>Full Prices</h6>
-        <li>
-        Complete Curl Care - ₩200,000 <b><br></br>*new clients</b> 
-        </li>
-        <li>
-        Curl Cultivation - ₩150,000 <b><br></br>*existing clients</b>
-        </li>
-        <h6 className='text-rose-300 font-headers md:mt-5 mt-20'>Add-Ons</h6>
-        <li>
-        Curl Restoration Treatment - ₩50,000 <br></br><b>*K18 + Olaplex services</b> 
-        </li>
-        <li>
-        Color Services - ₩50,000+  <br></br><b>*price can go up after consultation</b>
-        </li> 
-      </ul>
-      <ul className="leading-normal list-disc pl:10 text-7xl  md:text-lg md:pl-20 md:pb-0 pb-40">
-        <li>
-        컴플리트 컬 케어 - ₩200,000 <br></br><b>*첫방문</b>
-        </li>
-        <li>
-        컬 컬티베이션 - ₩150,000 <br></br><b>*재방문</b>
-        </li>
-        <h6 className='text-rose-300 font-koreanHeader md:mt-5 mt-20'>추가 서비스</h6>
-        <li>
-        복구 트리트먼트 - ₩50,000 <br></br><b>*K18 + 올라플렉스 트리트먼트</b> 
-        </li>
-        <li>
-        염색 - ₩50,000+ <br></br><b>*상담 후 가격 추가될 수 있습니다</b>
-        </li>
-      </ul>
+  <div className="grid md:grid-cols-2 mt-48 md:mt-0 md:w-full md:h-90 card bg-white place-items-center">
+    <section className="pt-5">
+      <Image
+      src={Prices1}
+      className='w-[90rem] md:w-4/5 md:h-auto'
+      alt='img'
+      />
+      </section>
+      <section className="pt-20 md:pt-5">
+      <Image
+      src={Prices2}
+      className='w-[90rem] md:w-4/5 md:h-auto'
+      alt='img'
+      />
+      </section>
   </div> 
   <div className="divider"></div> 
   <h5 className="font-headers text-8xl ml-44 mt-32 md:ml-[33rem] md:mt-5 md:text-3xl text-rose-300" data-aos="fade-right">Appointment Prep</h5>
