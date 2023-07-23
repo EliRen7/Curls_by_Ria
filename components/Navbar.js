@@ -42,7 +42,7 @@ import Modal from "./Modal";
         </div>
       </div>
       <div className="navbar-center hidden lg:flex pb-20">
-        <ul className="menu menu-horizontal px-18 mt-20 text-black">
+        <ul className="menu menu-horizontal px-18 mt-20 text-white">
           <li tabIndex={0}>
             <a href="#about">About Ria</a>
             <a href="#treatments">Services</a>
