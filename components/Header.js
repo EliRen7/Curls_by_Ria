@@ -10,7 +10,7 @@ function Header(){
   <div>
   <Image 
       src={logo}  
-      className="mr-20 w-full mt-10 md:w-9/12 md:mr-20 md:mt-5 md:ml-5" 
+      className="mr-26 w-[92rem] mt-[60rem] md:w-9/12 md:mr-20 md:mt-5 md:ml-5" 
       alt='img' 
       data-aos="fade-down-right"/>
     <p className="text-5xl p-7 md:py-4 md:p-28 md:text-2xl  text-black font-about" data-aos="fade-left"> 
