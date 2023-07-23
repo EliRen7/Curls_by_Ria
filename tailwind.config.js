@@ -13,14 +13,16 @@ module.exports = {
       colors: {
         'tan': '#FAF9F6',
         'tan2' : ' #e3dac9',
-        'korean-description' : '#E73F90'
+        'korean-description' : '#E73F90',
+        'logo-background': '#FFDDF7',
+        'navbar-background': '#FF87C1'
       },
     },
     fontFamily:{
       headers:['Contrail One', 'cursive'],
       about: ['Pacifico', 'cursive'],
       koreanHeader: ['Single Day', 'cursive'],
-      Korean: ['Nanum Gothic', 'sans-serif']
+      Korean: ['Nanum Gothic', 'sans-serif'],
 
     },
   },
