@@ -13,6 +13,7 @@ module.exports = {
       colors: {
         'tan': '#FAF9F6',
         'tan2' : ' #e3dac9',
+        'korean-description' : '#E73F90'
       },
     },
     fontFamily:{
