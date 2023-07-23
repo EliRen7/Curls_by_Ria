@@ -17,7 +17,7 @@ function handleChange(event) {
     <div>
       <label
         htmlFor="my-modal-4"
-        className="btn bg-rose-300 border-rose-300 rounded-3xl dark:text-white md:rounded-lg md:text-base md:w-32 md:h-10 md:mb-30 md:mr-10 ml-80 w-60 h-32 text-4xl ">
+        className="btn bg-korean-description border-rose-300 rounded-3xl dark:text-white md:rounded-lg md:text-base md:w-32 md:h-10 md:mb-30 md:mr-10 ml-80 w-60 h-32 text-4xl ">
         Book Now</label>
       <form>
       <input type="checkbox" id="my-modal-4" className="modal-toggle" />
@@ -28,7 +28,7 @@ function handleChange(event) {
           <br></br>1단계: 예약을 요청하려면 아래 버튼을 클릭하세요
           </h4>
           <a href="https://calendly.com/curlsbyria/appointment" target="_blank"
-          className="mt-5 px-6 py-3 ml-[26rem] md:ml-40 text-4xl md:text-base text-white no-underline btn-sm bg-rose-300 rounded "><b>Request</b>
+          className="mt-5 px-6 py-3 ml-[26rem] md:ml-40 text-4xl md:text-base text-white no-underline btn-sm bg-korean-description rounded "><b>Request</b>
           </a>
             <div className="divider"></div>
       <h4 className="pt-5 m-5 text-5xl md:text-base">Step 2: Confirm requested date with deposit payment
