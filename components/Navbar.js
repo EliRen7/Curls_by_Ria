@@ -4,7 +4,7 @@ import Modal from "./Modal";
 
  function NavBar() {
   return (
-    <div className="navbar h-44 bg-rose-100 fixed w-full md:h-10 z-[100]">
+    <div className="navbar h-44 bg-navbar-background fixed w-full md:h-10 z-[100]">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost h-28 lg:hidden">
