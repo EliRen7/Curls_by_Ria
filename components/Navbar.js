@@ -4,7 +4,7 @@ import Modal from "./Modal";
 
  function NavBar() {
   return (
-    <div className="navbar h-44 bg-rose-100 fixed w-full md:h-10 z-[100]">
+    <div className="navbar h-44 bg-korean-description fixed w-full md:h-10 z-[100]">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost h-28 lg:hidden">
@@ -25,7 +25,7 @@ import Modal from "./Modal";
             </svg>
           </label>
           <ul
-            className="menu menu-compact bg-rose-300 dropdown-content mt-10 gap-9 p-32 rounded-3xl "
+            className="menu menu-compact bg-korean-description dropdown-content mt-10 gap-9 p-32 rounded-3xl "
           >
             <li tabIndex={0} className="gap-6">
               <a className=" text-white text-7xl" href="#about">About Ria</a>
