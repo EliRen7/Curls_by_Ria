@@ -20,14 +20,14 @@ function Treatments(){
     <section className="pt-5">
     <Image
       src={Expectations1}
-      className='md:w-4/5 h-auto'
+      className='w-[90rem] md:w-4/5 h-auto'
       alt='img'
       />
       </section>
-      <section className="pt-5">
+      <section className="pt-20 md:pt-5">
       <Image
       src={Expectations2}
-      className='md:w-4/5 h-auto'
+      className='w-[90rem] md:w-4/5 h-auto'
       alt='img'
       />
       </section>
