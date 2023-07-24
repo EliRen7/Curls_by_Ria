@@ -36,7 +36,7 @@ function Treatments(){
       </section>
   </div>
   <div className="divider"></div> 
-  <div className="grid md:grid-cols-2 mt-48 md:mt-0 md:w-full md:h-90 card bg-white place-items-center">
+  <div className="grid md:grid-cols-2 md:ml-20 mt-48 md:mt-0 md:w-full md:h-90 card bg-white place-items-center">
     <section className="pt-5">
       <Image
       src={Prices1}
