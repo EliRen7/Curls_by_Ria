@@ -4,8 +4,8 @@ import aboutMePic from '../public/assets/about-pic.jpg'
 
 function About(){
     return (
-        <div className="bg-tan w-[80rem] md:w-full" id="about">
-     <h1 className="font-headers text-9xl md:text-5xl pt-[3rem] text-rose-300 ml-[25rem] md:ml-[38rem] mb-5"  data-aos="fade-right" >About Me</h1>
+        <div className="bg-white w-[84rem] md:w-full" id="about">
+     <h1 className="font-headers text-9xl md:text-5xl pt-[3rem] text-korean-description ml-[25rem] md:ml-[38rem] mb-5"  data-aos="fade-right" >About Me</h1>
     <div className="card lg:card-side w-11/12 md:ml-[7rem]">
   <Image 
     src={aboutMePic}
@@ -13,10 +13,10 @@ function About(){
    alt='img'/>
  <div className="card-body md:gap-4" data-aos="fade-left">
  <div className="flex justify-center ml-5 md:ml-[.5rem] w-full py-20 md:py-0 gap-3 md:mx-0.5">
-  <a href="#english" className="btn md:text-md text-5xl btn-lg md:btn-xs bg-rose-300 border-none dark:text-white">English</a> 
-  <a href="#korean" className="btn md:text-md text-5xl btn-lg md:btn-xs bg-rose-300 border-none dark:text-white">한국어</a> 
+  <a href="#english" className="btn md:text-md text-5xl btn-lg md:btn-xs bg-korean-description border-none dark:text-white">English</a> 
+  <a href="#korean" className="btn md:text-md text-5xl btn-lg md:btn-xs bg-korean-description border-none dark:text-white">한국어</a> 
 </div> 
- <h2 className="card-title font-about ml-[22rem] md:ml-[22rem] md:mx-[21rem] text-8xl md:text-3xl text-rose-300">Hey y’all!</h2>
+ <h2 className="card-title font-about ml-[22rem] md:ml-[22rem] md:mx-[21rem] text-8xl md:text-3xl text-korean-description">Hey y’all!</h2>
  <div className="carousel w-full">
  <div id="english" className="carousel-item w-full">
      <p className="indent-9 pl-20 md:pl-5 text-7xl md:text-lg text-justify mt-60 md:mt-[5rem]" > 
@@ -37,8 +37,7 @@ function About(){
          이제, 그 지루한 내용은 그만~! 저는 핑크색에 아주아주 사랑하는 포켓몬 띠부실를 모으는 미국 교포일 뿐이에요 ㅋㅋㅋ 아! 그리고 저는 항상 강아지 두 마리(감자와 슌돌)와 함께 일하는데 혹시 강아지 알레르기가 있거나 예민하신 분들은 알려주세요~
          <br></br>
          Curls by Ria를 방문할 때, 저를 정말 믿을 수 있다고 느끼길 바랍니다. 저는 항상 고객님의 의사가 우선되도록 최선을 다하겠습니다. 여기까지 읽어주셔서 감사합니다~ 빨리 만나고 싶어요!</p>
-   </div>
-   
+   </div>  
 </div>
 </div> 
 </div>
