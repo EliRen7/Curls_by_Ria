@@ -5,6 +5,8 @@ import Expectations1 from '../public/assets/expectations1.jpg'
 import Expectations2 from '../public/assets/expectations2.jpg'
 import Prices1 from '../public/assets/prices1.jpg'
 import Prices2 from '../public/assets/prices2.jpg'
+import Prep1 from '../public/assets/prep1.jpg'
+import Prep2 from '../public/assets/prep2.jpg'
 
 import { useEffect } from 'react';
 
@@ -53,35 +55,20 @@ function Treatments(){
       </section>
   </div> 
   <div className="divider"></div> 
-  <h5 className="font-headers text-8xl ml-44 mt-32 md:ml-[33rem] md:mt-5 md:text-3xl text-rose-300" data-aos="fade-right">Appointment Prep</h5>
-       <div className="grid md:grid-cols-2 h-100 card bg-tan place-items-center md:border-2 border-tan2 text-xl pb-10">
-    <section className="text-center text-7xl md:text-lg pt-5 md:p-5">
-      <p>
-      Come with a fresh, clean hair (no more than 2 days since your last wash) Hair should be detangled and knot-free~
-      <br></br>
-      Do NOT put your hair up in clips, braids, twist outs, buns, headbands ponytails, etc.
-      <br></br>
-      Your hair should be in its NATURAL state
-      <br></br>
-     Please avoid products with silicones, heavy butters, and oils (clarify your hair if you have been using them prior to yor cut)
-     <br></br>
-      **If you do not follow the proper preparations when you come in for your cut and we need to reschedule due to time restraints, 
-      you will be charged the full appointment price and will need to reschedule again at full price**
-      </p>
+    <div className="grid md:grid-cols-2 md:ml-20 mt-48 md:mt-0 md:w-full md:h-90 card bg-white place-items-center">
+    <section className="pt-5">
+      <Image
+      src={Prep1}
+      className='w-[90rem] md:w-4/5 md:h-auto'
+      alt='img'
+      />
       </section>
-      <section className="text-center text-7xl md:text-lg pt-5 font-Korean md:p-5">
-       <p>
-       깨끗한 머리로 오세요 (마지막 감은 후 2일 이내)
-       <br></br>
-       머리카락은 헝클어지거나 매듭이 없어야 합니다.
-       <br></br>
-       머리를 클립, 땋기, 비틀기, 번, 머리띠, 포니테일로 올리지 마세요.
-       <br></br>
-       실리콘, 헤비버터, 오일이 함유된 제품은 피하세요. (컷 전에 사용하신 경우 디톡스 해 주세요)
-       <br></br>
-      **커트 준비가 제대로 되어있지 않으면 준비된 상태에서 재방문이 필요합니다.
-      재방문으로 다시 예약을 잡아야 할 경우, 당일의 예약비와 재방문 비용 모두를 부담해야 합니다. 재방문 비용은 원가로 진행됩니다. (할인 없음)**
-       </p>
+      <section className="pt-20 md:pt-5">
+      <Image
+      src={Prep2}
+      className='w-[90rem] md:w-4/5 md:h-auto'
+      alt='img'
+      />
       </section>
   </div>
   <div className="divider"></div> 
