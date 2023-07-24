@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import Image from 'next/image';
 import Directions from '../public/assets/directions.jpg'
 import Address from '../public/assets/address.jpg'
 
