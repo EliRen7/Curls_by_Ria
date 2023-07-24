@@ -6,7 +6,7 @@ import footerLogo from '../public/assets/logo.png'
 
 function Footer() {
     return(
-      <footer className="footer w-[80rem] md:w-full items-center p-4 bg-zinc-300 text-neutral-content">
+      <footer className="footer w-[84rem] md:w-full items-center p-4 bg-zinc-300 text-neutral-content">
       <div className="items-center grid-flow-col">
         <Image
           src={footerLogo}
