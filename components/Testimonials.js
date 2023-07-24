@@ -70,111 +70,111 @@ function Testimonials(){
   <div className="carousel-item">
     <Image
     src={mediumCurls1} 
-    className=' md:w-fit md:h-80 '
+    className='w-[75rem] md:w-fit md:h-80 '
     alt="img" />
   </div> 
   <div className="carousel-item">
     <Image
     src={mediumCurls5} 
-    className=' md:w-fit md:h-80 '
+    className='w-[75rem] md:w-fit md:h-80 '
     alt="img" />
   </div> 
   <div className="carousel-item">
     <Image
     src={tightCurls4}
-    className=' md:w-fit md:h-80 '
+    className='w-[75rem] md:w-fit md:h-80 '
     alt="img" />
   </div> 
   <div className="carousel-item">
     <Image
     src={tightCurls2}
-    className=' md:w-fit md:h-80 '
+    className='w-[75rem] md:w-fit md:h-80 '
     alt="img" />
   </div> 
   <div className="carousel-item">
     <Image
     src={lightCurls1}
-    className=' md:w-fit md:h-80 '
+    className='w-[75rem] md:w-fit md:h-80 '
      alt="img" 
      id='first' />
   </div> 
   <div className="carousel-item">
     <Image
     src={mediumCurls2} 
-    className='md:w-fit md:h-80 '
+    className='w-[75rem] md:w-fit md:h-80 '
     id='img' 
     alt="img" />
   </div> 
   <div className="carousel-item">
     <Image
     src={mediumCurls3}
-    className=' md:w-fit md:h-80 '
+    className='w-[75rem] md:w-fit md:h-80 '
     alt="img" />
   </div> 
   <div className="carousel-item">
     <Image
     src={mediumCurls4} 
-    className='md:w-fit md:h-80 ' 
+    className='w-[75rem] md:w-fit md:h-80 ' 
     alt="img" />
   </div> 
   <div className="carousel-item">
     <Image
     src={mediumCurls6}
-    className= 'md:w-fit md:h-80 '
+    className= 'w-[75rem] md:w-fit md:h-80 '
     alt="img" />
   </div>
   <div className="carousel-item">
     <Image
     src={tightCurls3} 
-    className='md:w-fit md:h-80 '
+    className='w-[75rem] md:w-fit md:h-80 '
     alt="img" />
   </div>
   <div className="carousel-item">
     <Image 
     src={lightCurls4}
-    className='md:w-fit md:h-80 '
+    className='w-[75rem] md:w-fit md:h-80 '
     alt="img" />
   </div>
   <div className="carousel-item">
     <Image
     src={lightCurls5}
-    className='md:w-fit md:h-80 '
+    className='w-[75rem] md:w-fit md:h-80 '
     alt="img" />
   </div>
   <div className="carousel-item">
     <Image
     src={tightCurls1} 
-    className='md:w-fit md:h-80 '
+    className='w-[75rem] md:w-fit md:h-80 '
     alt="img" />
   </div>
   <div className="carousel-item">
     <Image 
     src={lightCurls3} 
-    className=' md:w-fit md:h-80 '  
+    className='w-[75rem] md:w-fit md:h-80 '  
     alt="img" />
   </div>
   <div className="carousel-item">
     <Image
     src={lightCurls2} 
-    className='md:w-fit md:h-80 '
+    className='w-[75rem] md:w-fit md:h-80 '
     alt="img" />
   </div>
   <div className="carousel-item">
     <Image
     src={lightCurls6} 
-    className='md:w-fit md:h-80 ' 
+    className='w-[75rem] md:w-fit md:h-80 ' 
     alt="img" />
   </div>
   <div className="carousel-item">
     <Image
      src={tightCurls5}
-     className='md:w-fit md:h-80 '
+     className='w-[75rem] md:w-fit md:h-80 '
      alt="img" />
   </div>
   <div className="carousel-item">
     <Image
     src={tightCurls6} 
-    className=' md:w-fit md:h-80 '
+    className='w-[75rem] md:w-fit md:h-80 '
      alt="img" />
   </div>
 </div>
