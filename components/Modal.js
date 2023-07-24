@@ -40,12 +40,12 @@ function handleChange(event) {
    <br></br><span><b className='ml-52  md:ml-32 md:text-sm text-4xl'>예약금표 (계좌이체 가능)</b></span>
    
         <label className="label cursor-pointer ml-28 text-5xl md:text-base">
-          <label>Complete Curl Care - ₩200,000 <br></br>*new clients/첫방문</label>
+          <label>Complete Curl Care - ₩100,000 <br></br>*new clients/첫방문</label>
         </label>
       </div>
       <div className="form-control">
         <label className="label cursor-pointer ml-28 text-5xl md:text-base">
-          <label>Curl Cultivation - ₩150,000<br></br> *existing clients/재방문</label> 
+          <label>Curl Cultivation - ₩75,000<br></br> *existing clients/재방문</label> 
         </label>
       </div>
             <label className="input-group text-4xl md:text-sm m-4 pt-10 md:pt-0 pb-10 mb:pb-0">
@@ -68,8 +68,8 @@ function handleChange(event) {
                 name="options"
                 >
                 <option>Select a service ($USD)</option>
-                <option value='200'>Complete Curl Care $200 </option>
-                <option value='150'>Curl Cultivation $150 </option>
+                <option value='100'>Complete Curl Care $100 </option>
+                <option value='75'>Curl Cultivation $75 </option>
               </select>
           <Payments amount={price}/>
         </label>
