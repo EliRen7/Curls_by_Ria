@@ -19,7 +19,7 @@ module.exports = {
       },
     },
     fontFamily:{
-      headers:['Contrail One', 'cursive'],
+      headers:['Nanum Myeongjo', 'cursive'],
       about: ['Pacifico', 'cursive'],
       koreanHeader: ['Single Day', 'cursive'],
       Korean: ['Nanum Gothic', 'sans-serif'],
