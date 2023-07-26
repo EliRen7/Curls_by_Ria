@@ -21,7 +21,7 @@ module.exports = {
     fontFamily:{
       header:['Nanum Myeongjo', 'sans-serif'],
       about: ['Pacifico', 'cursive'],
-      koreanHeader: ['Hi Melody', 'cursive'],
+      KoreanHeader: ['Hi Melody', 'cursive'],
       Korean: ['Nanum Gothic', 'sans-serif'],
 
     },
