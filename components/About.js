@@ -5,7 +5,7 @@ import aboutMePic from '../public/assets/about-pic.jpg'
 function About(){
     return (
         <div className="bg-white w-[84rem] md:w-full" id="about">
-     <h1 className="font-headers text-9xl md:text-5xl pt-5 text-korean-description ml-[25rem] md:ml-[38rem] mb-5"  data-aos="fade-right" >About Me</h1>
+     <h1 className="font-header text-9xl md:text-5xl pt-5 text-korean-description ml-[25rem] md:ml-[38rem] mb-5"  data-aos="fade-right" >About Me</h1>
     <div className="card lg:card-side w-11/12 md:ml-[7rem]">
   <Image 
     src={aboutMePic}
@@ -16,7 +16,7 @@ function About(){
   <a href="#english" className="btn md:text-md text-5xl btn-lg md:btn-xs bg-korean-description border-none dark:text-white">English</a> 
   <a href="#korean" className="btn md:text-md text-5xl btn-lg md:btn-xs bg-korean-description border-none dark:text-white">한국어</a> 
 </div> 
- <h2 className="card-title font-about ml-[22rem] md:ml-[22rem] md:mx-[21rem] text-8xl md:text-3xl text-korean-description">Hey y’all!</h2>
+ <h2 className="card-title font-header ml-[22rem] md:ml-[22rem] md:mx-[21rem] text-8xl md:text-3xl text-korean-description">Hey y’all!</h2>
  <div className="carousel w-full">
  <div id="english" className="carousel-item w-full">
      <p className="indent-9 pl-20 md:pl-5 text-7xl md:text-lg text-justify mt-60 md:mt-[5rem]" > 
