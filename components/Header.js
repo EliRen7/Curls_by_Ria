@@ -13,7 +13,7 @@ function Header(){
       className="mr-26 w-[92rem] mt-[60rem] md:w-9/12 md:mr-20 md:mt-5 md:ml-40" 
       alt='img' 
       data-aos="fade-down-right"/>
-    <p className="text-5xl ml-32 md:ml-56 p-10 md:py-4 md:p-28 md:text-2xl text-black font-about" data-aos="fade-left"> 
+    <p className="text-5xl ml-32 md:ml-56 p-10 md:py-4 md:p-28 md:text-2xl text-black font-header" data-aos="fade-left"> 
     ✨South Korea&apos;s first official curl specialist!✨ 
      </p> 
      <p className="text-5xl text-korean-description p-10 md:py-0 ml-56 md:ml-56 md:p-40 md:text-2xl font-koreanHeader" data-aos="fade-left">
