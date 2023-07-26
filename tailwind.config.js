@@ -19,9 +19,9 @@ module.exports = {
       },
     },
     fontFamily:{
-      header:['Nanum Myeongjo', 'cursive'],
+      header:['Nanum Myeongjo', 'sans-serif'],
       about: ['Pacifico', 'cursive'],
-      koreanHeader: ['Single Day', 'cursive'],
+      koreanHeader: ['Hi Melody', 'cursive'],
       Korean: ['Nanum Gothic', 'sans-serif'],
 
     },
