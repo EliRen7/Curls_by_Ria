@@ -17,7 +17,7 @@ function handleChange(event) {
     <div>
       <label
         htmlFor="my-modal-4"
-        className="btn bg-korean-description border-rose-300 rounded-3xl dark:text-white md:rounded-lg md:text-base md:w-32 md:h-10 md:mb-30 md:mr-10 ml-80 w-60 h-32 text-4xl ">
+        className="btn bg-korean-description border-korean-description rounded-3xl dark:text-white md:rounded-lg md:text-base md:w-32 md:h-10 md:mb-30 md:mr-10 ml-80 w-60 h-32 text-4xl ">
         Book Now</label>
       <form>
       <input type="checkbox" id="my-modal-4" className="modal-toggle" />
