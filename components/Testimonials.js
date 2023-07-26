@@ -30,7 +30,7 @@ function Testimonials(){
       <div className="mb-8 pt-40 text-center ">
       <h1 className="font-header text-9xl md:text-5xl text-korean-description" data-aos="fade-up">Testimonials</h1>
       <p className=" text-5xl font-header md:text-lg text-korean-description" data-aos="fade-up">Read more reviews on Instagram!</p>
-      <a href='https://www.instagram.com/curls.byria/?hl=en' target="_blank"> <AiFillInstagram className='w-32 h-32 ml-[35rem] md:w-10 md:h-10 md:ml-[46rem]'/></a>
+      <a href='https://www.instagram.com/curlsbyria/?igshid=MzRlODBiNWFlZA%3D%3D' target="_blank"> <AiFillInstagram className='w-32 h-32 ml-[38rem] md:w-10 md:h-10 md:ml-[46rem]'/></a>
   </div>
 
 <div className='grid md:grid-cols-3 pb-20 pl-20 pr-20 gap-10 '>
