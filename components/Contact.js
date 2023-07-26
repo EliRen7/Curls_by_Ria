@@ -3,7 +3,7 @@ import {AiOutlineArrowUp} from 'react-icons/ai'
 
 function Contact () {
     return(
-     <section className="bg-white w-[84rem] md:w-full dark:bg-tan pt-40 pb-60" id="contact">
+     <section className="bg-white w-[84rem] md:w-full pt-40 pb-60" id="contact">
   <div className="py-8 lg:py-16 px-4 mx-auto min-h-screen-xl max-w-screen-lg md:max-w-screen-md rounded-3xl shadow-xl bg-zinc-100 ">
       <h2 className="mb-4 text-9xl md:text-5xl tracking-tight font-extrabold text-center text-korean-description font-headers">Contact Me!</h2>
       <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 text-5xl md:text-xl sm:text-xl">Got a technical issue? Want to send feedback about a service? Need more details about a treatment option? Let me know.</p>
