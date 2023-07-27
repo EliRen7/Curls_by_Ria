@@ -29,6 +29,8 @@ function Treatments(){
       src={Expectations1}
       className='w-[90rem] md:w-4/5 h-auto'
       alt='img'
+      data-aos="zoom-in"
+      data-aos-duration="2000"
       />
       </section>
       <section className="pt-20 md:pt-5">
@@ -36,6 +38,8 @@ function Treatments(){
       src={Expectations2}
       className='w-[90rem] md:w-4/5 h-auto'
       alt='img'
+      data-aos="zoom-in-down"
+      data-aos-duration="2000"
       />
       </section>
   </div>
@@ -46,6 +50,8 @@ function Treatments(){
       src={Prices1}
       className='w-[90rem] md:w-4/5 md:h-auto'
       alt='img'
+      data-aos="zoom-in"
+      data-aos-duration="2000"
       />
       </section>
       <section className="pt-20 md:pt-5">
@@ -53,6 +59,8 @@ function Treatments(){
       src={Prices2}
       className='w-[90rem] md:w-4/5 md:h-auto'
       alt='img'
+      data-aos="zoom-in-down"
+      data-aos-duration="2000"
       />
       </section>
   </div> 
@@ -63,6 +71,8 @@ function Treatments(){
       src={Prep1}
       className='w-[90rem] md:w-4/5 md:h-auto'
       alt='img'
+      data-aos="zoom-in"
+      data-aos-duration="2000"
       />
       </section>
       <section className="pt-20 md:pt-5">
@@ -70,6 +80,8 @@ function Treatments(){
       src={Prep2}
       className='w-[90rem] md:w-4/5 md:h-auto'
       alt='img'
+      data-aos="zoom-in-down"
+      data-aos-duration="2000"
       />
       </section>
   </div>
@@ -80,6 +92,8 @@ function Treatments(){
       src={Deposit1}
       className='w-[90rem] md:w-4/5 md:h-auto'
       alt='img'
+      data-aos="zoom-in"
+      data-aos-duration="2000"
       />
       </section>
       <section className="pt-20 md:pt-5">
@@ -87,6 +101,8 @@ function Treatments(){
       src={Deposit2}
       className='w-[90rem] md:w-4/5 md:h-auto'
       alt='img'
+      data-aos="zoom-in-down"
+      data-aos-duration="2000"
       />
       </section>
   </div>
