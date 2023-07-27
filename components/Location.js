@@ -12,6 +12,8 @@ export default function Location(){
       src={Directions}
       className='w-[90rem] md:w-4/5 md:h-auto'
       alt='img'
+      data-aos="zoom-in"
+      data-aos-duration="2000"
       />
       </section>
       <section className="pt-20 md:pt-5">
@@ -19,6 +21,8 @@ export default function Location(){
       src={Address}
       className='w-[90rem] md:w-4/5 md:h-auto'
       alt='img'
+      data-aos="zoom-in-down"
+      data-aos-duration="2000"
       />
       </section>
   </div>
