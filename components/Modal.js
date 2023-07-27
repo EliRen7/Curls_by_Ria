@@ -28,7 +28,7 @@ function handleChange(event) {
           <br></br>1단계: 예약을 요청하려면 아래 버튼을 클릭하세요
           </h4>
           <a href="https://calendly.com/curlsbyria/appointment" target="_blank"
-          className="mt-5 px-6 py-3 ml-[26rem] md:ml-40 text-4xl md:text-base text-white no-underline btn-sm bg-korean-description rounded "><b>Request</b>
+          className="mt-5 px-6 py-3 ml-[20rem] md:ml-40 text-5xl md:text-base text-white no-underline btn-sm bg-korean-description rounded "><b>Request</b>
           </a>
             <div className="divider"></div>
       <h4 className="pt-5 m-5 text-5xl md:text-base">Step 2: Confirm requested date with deposit payment
@@ -40,20 +40,20 @@ function handleChange(event) {
    <br></br><span><b className='ml-52  md:ml-32 md:text-sm text-4xl'>예약금표 (계좌이체 가능)</b></span>
    
         <label className="label cursor-pointer ml-28 text-5xl md:text-base">
-          <label>Complete Curl Care - ₩100,000 <br></br>*new clients/첫방문</label>
+          <label>Complete Curl Care - ₩200,000 <br></br>*new clients/첫방문</label>
         </label>
       </div>
       <div className="form-control">
         <label className="label cursor-pointer ml-28 text-5xl md:text-base">
-          <label>Curl Cultivation - ₩75,000<br></br> *existing clients/재방문</label> 
+          <label>Curl Cultivation - ₩150,000<br></br> *existing clients/재방문</label> 
         </label>
       </div>
-            <label className="input-group text-4xl md:text-sm m-4 pt-10 md:pt-0 pb-10 mb:pb-0">
+            <label className="input-group text-4xl md:text-sm m-4 pt-10 md:pt-0 pb-10 mb:pb-0 ml-10">
               <span className='whitespace-nowrap dark:bg-white'>Korean Bank Transfer</span>
-              <label className='ml-5'><b>KB Bank국민은행 740901-01-680388 CHO SOOHYUN</b></label>
+              <label className='ml-5'><b>국민은행(KB Bank)<br></br> 740901-01-680388 <br></br> CHO SOOHYUN</b></label>
             </label>
             <div className="divider">OR</div>
-            <span className='md:ml-28 md:text-base text-3xl'><b>Kakao Pay (desktop: scan QR code/mobile: press & hold)</b></span>
+            <span className='ml-10 md:ml-28 md:text-base text-3xl'><b>Kakao Pay (desktop: scan QR code/mobile: press & hold)</b></span>
             <Image
              src={QRCode} 
              className='w-96 md:w-40 md:ml-32 ml-56' 
@@ -68,8 +68,8 @@ function handleChange(event) {
                 name="options"
                 >
                 <option>Select a service ($USD)</option>
-                <option value='100'>Complete Curl Care $100 </option>
-                <option value='75'>Curl Cultivation $75 </option>
+                <option value='200'>Complete Curl Care $200 </option>
+                <option value='150'>Curl Cultivation $150 </option>
               </select>
           <Payments amount={price}/>
         </label>
