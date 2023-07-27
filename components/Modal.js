@@ -22,7 +22,7 @@ function handleChange(event) {
       <form>
       <input type="checkbox" id="my-modal-4" className="modal-toggle" />
       <label htmlFor="my-modal-4" className="modal cursor-pointer font-mono">
-        <label htmlFor="" className="modal-box relative max-w-5xl pt-40 md:pt-5 md:pl-10 pl-20 max-h-screen md:max-h-screen md:w-fit bg-white ">
+        <label htmlFor="" className="modal-box relative max-w-5xl pt-40 md:pt-5 md:pl-10 pl-20 max-h-full md:max-h-screen md:max-w-lg bg-white ">
           <h3 className="text-7xl md:text-2xl font-bold text-center">Welcome!</h3>
           <h4 className=" pt-5 m-5 text-5xl md:text-base">Step 1: Click to request an appointment date
           <br></br>1단계: 예약을 요청하려면 아래 버튼을 클릭하세요
@@ -87,7 +87,7 @@ export default Modal;
 
 
 
-// max-w-lg
+
 // max-h-full
 
 
