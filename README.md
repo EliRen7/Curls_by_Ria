@@ -31,7 +31,7 @@ Welcome to the official website of CurlsByRia, South Korea's first official curl
 
 3. Click the "Book Now" button to schedule your appointment through Calendly.
 
-4 .If you're ready to confirm your appointment, choose a deposit option and complete the payment securely using PayPal Checkout.
+4. If you're ready to confirm your appointment, choose a deposit option and complete the payment securely using PayPal Checkout.
 
 5. For Korean or Foreign resident customers, you can also make payments through bank transfer or Kakao Pay.
 
