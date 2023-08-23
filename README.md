@@ -2,9 +2,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 # CurlsByRia Website
 
-![CurlsByRia](https://curlsbyria.com/)
+![Website](/public/assets/curlsbyriapic.png)
 
-Welcome to the official website of CurlsByRia, South Korea's first official curl specialist! Whether you're a new client looking for complete curl care or an existing client seeking curl cultivation, we're here to provide you with the best hair styling experience. Developed and designed this website for a small business owner who specializes in cutting and styling curly hair. 
+Welcome to the official website of CurlsByRia, South Korea's first official curl specialist! Whether you're a new client looking for complete curl care or an existing client seeking curl cultivation, we're here to provide you with the best hair styling experience. Developed and designed this website for a small business owner who specializes in cutting and styling curly hair. ![CurlsByRia](https://curlsbyria.com/)
 
 ## Features
 
@@ -19,10 +19,6 @@ Welcome to the official website of CurlsByRia, South Korea's first official curl
 - ReactJS
 - Next.js
 - Tailwind CSS
-
-## Screenshots
-
-![Website](/public/assets/curlsbyriapic.png)
 
 
 ## How to Use
