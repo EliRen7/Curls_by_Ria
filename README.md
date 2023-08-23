@@ -19,6 +19,8 @@ Welcome to the official website of CurlsByRia, South Korea's first official curl
 - ReactJS
 - Next.js
 - Tailwind CSS
+- PayPal Checkout
+- Calendy
 
 
 ## How to Use
