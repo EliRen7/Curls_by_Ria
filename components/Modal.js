@@ -27,7 +27,7 @@ function handleChange(event) {
           <h4 className=" pt-5 m-5 text-5xl md:text-base">Step 1: Click to request an appointment date
           <br></br>1단계: 예약을 요청하려면 아래 버튼을 클릭하세요
           </h4>
-          <a href="https://calendly.com/curlsbyria/appointment" target="_blank"
+          <a href="https://calendly.com/curlsbyria" target="_blank"
           className="mt-5 px-6 py-3 ml-[20rem] md:ml-40 text-5xl md:text-base text-white no-underline btn-sm bg-korean-description rounded "><b>Request</b>
           </a>
             <div className="divider"></div>
