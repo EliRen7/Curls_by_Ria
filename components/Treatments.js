@@ -3,12 +3,12 @@ import 'aos/dist/aos.css';
 import Image from 'next/image';
 import Expectations1 from '../public/assets/expectations1.jpg'
 import Expectations2 from '../public/assets/expectations2.jpg'
-import Prices1 from '../public/assets/prices1.jpg'
-import Prices2 from '../public/assets/prices2.jpg'
+import Services from '../public/assets/services.jpg'
+import KoreanService from '../public/assets/koreanservice.jpg'
 import Prep1 from '../public/assets/updated-prep.jpg'
 import Prep2 from '../public/assets/prep2.jpg'
-import Deposit1 from '../public/assets/deposit1.jpg'
-import Deposit2 from '../public/assets/deposit2.jpg'
+import Deposit from '../public/assets/depositpolicy.jpg'
+import Koreandp from '../public/assets/koreandp.jpg'
 
 import { useEffect } from 'react';
 
@@ -45,7 +45,7 @@ function Treatments(){
   <div className="grid md:grid-cols-2 md:ml-20 mt-48 md:mt-0 md:w-full md:h-90 card bg-white place-items-center">
     <section className="pt-5">
       <Image
-      src={Prices1}
+      src={Services}
       className='w-[90rem] md:w-4/5 md:h-auto'
       alt='img'
       data-aos="zoom-in"
@@ -53,7 +53,7 @@ function Treatments(){
       </section>
       <section className="pt-20 md:pt-5">
       <Image
-      src={Prices2}
+      src={KoreanService}
       className='w-[90rem] md:w-4/5 md:h-auto'
       alt='img'
       data-aos="zoom-in"
@@ -83,7 +83,7 @@ function Treatments(){
   <div className="grid md:grid-cols-2 md:ml-20 mt-48 md:mt-0 md:w-full md:h-90 card bg-white place-items-center">
     <section className="pt-5">
     <Image
-      src={Deposit1}
+      src={Deposit}
       className='w-[90rem] md:w-4/5 md:h-auto'
       alt='img'
       data-aos="zoom-in"
@@ -91,7 +91,7 @@ function Treatments(){
       </section>
       <section className="pt-20 md:pt-5">
       <Image
-      src={Deposit2}
+      src={Koreandp}
       className='w-[90rem] md:w-4/5 md:h-auto'
       alt='img'
       data-aos="zoom-in"
