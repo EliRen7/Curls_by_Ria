@@ -68,8 +68,8 @@ function handleChange(event) {
                 name="options"
                 >
                 <option>Select a service ($USD)</option>
-                <option value='200'>Complete Curl Care $200 </option>
-                <option value='150'>Curl Cultivation $150 </option>
+                <option value='100'>Complete Curl Care $100 </option>
+                <option value='75'>Curl Cultivation $75 </option>
               </select>
           <Payments amount={price}/>
         </label>
