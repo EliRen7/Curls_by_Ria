@@ -8,7 +8,7 @@ import KoreanService from '../public/assets/koreanservice.jpg'
 import Prep1 from '../public/assets/updated-prep.jpg'
 import Prep2 from '../public/assets/prep2.jpg'
 import Deposit from '../public/assets/depositpolicy.jpg'
-import Koreandp from '../public/assets/koreandp.jpg'
+import DepositKorean from '../public/assets/depositpolicy2.jpg'
 import DesignCurl from '../public/assets/designcurl.jpg'
 import KoreanDesignCurl from '../public/assets/koreanDesigncurl.jpg'
 
@@ -115,7 +115,7 @@ function Treatments(){
       </section>
       <section className="pt-20 md:pt-5">
       <Image
-      src={Koreandp}
+      src={DepositKorean}
       className='w-[90rem] md:w-4/5 md:h-auto'
       alt='img'
       data-aos="zoom-in"
