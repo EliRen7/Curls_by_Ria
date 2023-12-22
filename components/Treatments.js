@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Expectations1 from '../public/assets/expectations1.jpg'
 import Expectations2 from '../public/assets/expectations2.jpg'
 import Services from '../public/assets/services.jpg'
-import KoreanService from '../public/assets/koreanservice.jpg'
+import KoreanService from '../public/assets/services2.jpg'
 import Prep1 from '../public/assets/updated-prep.jpg'
 import Prep2 from '../public/assets/prep2.jpg'
 import Deposit from '../public/assets/depositpolicy.jpg'
