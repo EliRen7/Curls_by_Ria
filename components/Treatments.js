@@ -9,8 +9,8 @@ import Prep1 from '../public/assets/updated-prep.jpg'
 import Prep2 from '../public/assets/prep2.jpg'
 import Deposit from '../public/assets/depositpolicy.jpg'
 import DepositKorean from '../public/assets/depositpolicy2.jpg'
-import DesignCurl from '../public/assets/color1.jpg'
-import DesignCurl2 from '../public/assets/color2.jpg'
+import DesignCurls from '../public/assets/color1.jpg'
+import DesignCurls2 from '../public/assets/color2.jpg'
 
 
 import { useEffect } from 'react';
@@ -67,7 +67,7 @@ function Treatments(){
   <div className="grid md:grid-cols-2 md:ml-20 mt-48 md:mt-0 md:w-full md:h-90 card bg-white place-items-center ">
     <section className="pt-5">
     <Image
-      src={DesignCurl}
+      src={DesignCurls}
       className='w-[90rem] md:w-4/5 md:h-auto'
       alt='img'
       data-aos="zoom-in"
@@ -76,7 +76,7 @@ function Treatments(){
       </section>
       <section className="pt-20 md:pt-5">
       <Image
-      src={DesignCurl2}
+      src={DesignCurls2}
       className='w-[90rem] md:w-4/5 md:h-auto'
       alt='img'
       data-aos="zoom-in-down"
