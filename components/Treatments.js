@@ -9,8 +9,8 @@ import Prep1 from '../public/assets/updated-prep.jpg'
 import Prep2 from '../public/assets/prep2.jpg'
 import Deposit from '../public/assets/depositpolicy.jpg'
 import DepositKorean from '../public/assets/depositpolicy2.jpg'
-import DesignCurl from '../public/assets/designcurl.jpg'
-import KoreanDesignCurl from '../public/assets/koreanDesigncurl.jpg'
+import DesignCurl from '../public/assets/color1.jpg'
+import DesignCurl2 from '../public/assets/color2.jpg'
 
 
 import { useEffect } from 'react';
@@ -76,7 +76,7 @@ function Treatments(){
       </section>
       <section className="pt-20 md:pt-5">
       <Image
-      src={KoreanDesignCurl}
+      src={DesignCurl2}
       className='w-[90rem] md:w-4/5 md:h-auto'
       alt='img'
       data-aos="zoom-in-down"
