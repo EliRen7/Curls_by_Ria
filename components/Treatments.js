@@ -1,8 +1,8 @@
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Image from 'next/image';
-import Expectations1 from '../public/assets/expectations1.jpg'
-import Expectations2 from '../public/assets/expectations2.jpg'
+import Expectations1 from '../public/assets/what-to-expect.jpg'
+import Expectations2 from '../public/assets/what-to-expect2.jpg'
 import Services from '../public/assets/services.jpg'
 import KoreanService from '../public/assets/services2.jpg'
 import Prep1 from '../public/assets/appoint-prep.jpg'
