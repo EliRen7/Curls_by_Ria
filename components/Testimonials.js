@@ -23,10 +23,39 @@ function Testimonials(){
       <a href='https://www.instagram.com/curlsbyria/?igshid=MzRlODBiNWFlZA%3D%3D' target="_blank"> <AiFillInstagram className='w-32 h-32 ml-[38rem] md:w-10 md:h-10 md:ml-[46rem]'/></a>
   </div>
 <div className='grid md:grid-cols-3 pb-20 pl-20 pr-20 gap-10 '>
-  <div className="card w-full  bg-gradient-to-r from-orange-100 to-rose-100 text-gray-500" data-aos="flip-left">
-
+  <div className="card w-full  bg-gradient-to-r from-orange-100 to-rose-100 text-gray-500" data-aos="flip-left"
         
-         <div className="carousel rounded-box  ml-20 mr-20 md:w-fit md:h-80 lg:w-fit ">
+  <div className="card-body ">
+    <Image 
+        src={review4}
+        className='h-full'
+        alt='img' />
+    <div className="card-actions justify-end">
+    </div>
+  </div>
+</div>
+<div className="card w-full bg-gradient-to-r from-orange-100 to-rose-100 text-gray-500" data-aos="flip-right">
+  <div className="card-body">
+    <Image
+        src={review3} 
+        className='h-full' 
+        alt='img'/>
+    <div className="card-actions justify-end">
+    </div>
+  </div>
+</div>
+<div className="card w-full bg-gradient-to-r from-orange-100 to-rose-100 text-gray-500" data-aos="flip-left">
+  <div className="card-body">
+    <Image 
+        src={review5}
+        className='h-full'
+        alt='img' />
+    <div className="card-actions justify-end">
+    </div>
+  </div>
+</div>
+</div>
+      <div className="carousel rounded-box  ml-20 mr-20 md:w-fit md:h-80 lg:w-fit ">
   <div className="carousel-item">
     <Image
     src={hairimgs1} 
@@ -81,37 +110,6 @@ function Testimonials(){
 <span className='md:text-xl md:ml-[45rem] text-7xl ml-[32rem] animate-pulse text-korean-description font-header'>Swipe left <FaLongArrowAltLeft className='md:ml-[45rem] w-20 ml-[37rem]'/></span>
  </div>
 
-        
-  <div className="card-body ">
-    <Image 
-        src={review4}
-        className='h-full'
-        alt='img' />
-    <div className="card-actions justify-end">
-    </div>
-  </div>
-</div>
-<div className="card w-full bg-gradient-to-r from-orange-100 to-rose-100 text-gray-500" data-aos="flip-right">
-  <div className="card-body">
-    <Image
-        src={review3} 
-        className='h-full' 
-        alt='img'/>
-    <div className="card-actions justify-end">
-    </div>
-  </div>
-</div>
-<div className="card w-full bg-gradient-to-r from-orange-100 to-rose-100 text-gray-500" data-aos="flip-left">
-  <div className="card-body">
-    <Image 
-        src={review5}
-        className='h-full'
-        alt='img' />
-    <div className="card-actions justify-end">
-    </div>
-  </div>
-</div>
-</div>
 
    )
 }
