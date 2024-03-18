@@ -22,9 +22,9 @@ function Testimonials(){
       <p className=" text-5xl font-header md:text-lg text-korean-description" data-aos="fade-up">Read more reviews on Instagram!</p>
       <a href='https://www.instagram.com/curlsbyria/?igshid=MzRlODBiNWFlZA%3D%3D' target="_blank"> <AiFillInstagram className='w-32 h-32 ml-[38rem] md:w-10 md:h-10 md:ml-[46rem]'/></a>
   </div>
-<div className='grid md:grid-cols-3 pb-20 pl-20 pr-20 gap-10 '>
-  <div className="card w-full  bg-gradient-to-r from-orange-100 to-rose-100 text-gray-500" data-aos="flip-left"
-        
+
+<div className='grid md:grid-cols-3 pb-20 pl-20 pr-20 gap-10'>
+  <div className="card w-full  bg-gradient-to-r from-orange-100 to-rose-100 text-gray-500" data-aos="flip-left">
   <div className="card-body ">
     <Image 
         src={review4}
@@ -44,7 +44,7 @@ function Testimonials(){
     </div>
   </div>
 </div>
-<div className="card w-full bg-gradient-to-r from-orange-100 to-rose-100 text-gray-500" data-aos="flip-left">
+<div className="card w-full  bg-gradient-to-r from-orange-100 to-rose-100 text-gray-500" data-aos="flip-left">
   <div className="card-body">
     <Image 
         src={review5}
@@ -55,7 +55,8 @@ function Testimonials(){
   </div>
 </div>
 </div>
-      <div className="carousel rounded-box  ml-20 mr-20 md:w-fit md:h-80 lg:w-fit ">
+
+  <div className="carousel rounded-box ml-20 mr-20 md:w-fit md:h-80 lg:w-fit ">
   <div className="carousel-item">
     <Image
     src={hairimgs1} 
@@ -111,7 +112,6 @@ function Testimonials(){
  </div>
     )
 }
-
 export default Testimonials;
 
 
