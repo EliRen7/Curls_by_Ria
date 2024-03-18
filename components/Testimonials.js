@@ -4,24 +4,14 @@ import Image from 'next/image';
 import review4 from '../public/assets/review 4.jpg'
 import review3 from '../public/assets/review 3.jpg'
 import review5 from '../public/assets/review 5.jpg'
-import mediumCurls1 from '../public/assets/medium-curls 1.jpg'
-import mediumCurls5 from '../public/assets/medium-curls 5.jpg'
-import tightCurls4 from '../public/assets/tight-curls 4.jpg'
-import tightCurls2 from '../public/assets/tight-curls 2.jpg'
-import lightCurls1 from '../public/assets/light-curls 1.jpg'
-import mediumCurls2 from '../public/assets/medium-curls 2.jpg'
-import mediumCurls3 from '../public/assets/medium-curls 3.jpg'
-import mediumCurls4 from '../public/assets/medium-curls 4.jpg'
-import mediumCurls6 from '../public/assets/medium-curls 6.jpg'
-import tightCurls3 from '../public/assets/tight-curls 3.jpg'
-import lightCurls4 from '../public/assets/light-curls 4.jpg'
-import lightCurls5 from '../public/assets/light-curls 5.jpg'
-import tightCurls1 from '../public/assets/tight-curls 1.jpg'
-import lightCurls3 from '../public/assets/light-curls 3.jpg'
-import lightCurls2 from '../public/assets/light-curls 2.jpg'
-import lightCurls6 from '../public/assets/light-curls 6.jpg'
-import tightCurls5 from '../public/assets/tight-curls 5.jpg'
-import tightCurls6 from '../public/assets/tight-curls 6.jpg'
+import hairimgs1 from '../public/assets/hairimgs1.jpg'
+import hairimgs2 from '../public/assets/hairimgs2.jpg'
+import hairimgs3 from '../public/assets/hairimgs3.jpg'
+import hairimgs4 from '../public/assets/hairimgs4.jpg'
+import hairimgs5 from '../public/assets/hairimgs5.jpg'
+import hairimgs6 from '../public/assets/hairimgs6.jpg'
+import hairimgs7 from '../public/assets/hairimgs7.jpg'
+import hairimgs8 from '../public/assets/hairimgs8.jpg'
 
 
 function Testimonials(){
@@ -69,114 +59,54 @@ function Testimonials(){
   <div className="carousel rounded-box  ml-20 mr-20 md:w-fit md:h-80 lg:w-fit ">
   <div className="carousel-item">
     <Image
-    src={mediumCurls1} 
+    src={hairimgs1} 
     className='w-[75rem] md:w-fit md:h-80 '
     alt="img" />
   </div> 
   <div className="carousel-item">
     <Image
-    src={mediumCurls5} 
+    src={hairimgs2} 
     className='w-[75rem] md:w-fit md:h-80 '
     alt="img" />
   </div> 
   <div className="carousel-item">
     <Image
-    src={tightCurls4}
+    src={hairimgs3}
     className='w-[75rem] md:w-fit md:h-80 '
     alt="img" />
   </div> 
   <div className="carousel-item">
     <Image
-    src={tightCurls2}
+    src={hairimgs4}
     className='w-[75rem] md:w-fit md:h-80 '
     alt="img" />
   </div> 
   <div className="carousel-item">
     <Image
-    src={lightCurls1}
+    src={hairimgs5}
     className='w-[75rem] md:w-fit md:h-80 '
      alt="img" 
      id='first' />
   </div> 
   <div className="carousel-item">
     <Image
-    src={mediumCurls2} 
+    src={hairimgs6} 
     className='w-[75rem] md:w-fit md:h-80 '
     id='img' 
     alt="img" />
   </div> 
   <div className="carousel-item">
     <Image
-    src={mediumCurls3}
+    src={hairimgs7}
     className='w-[75rem] md:w-fit md:h-80 '
     alt="img" />
   </div> 
   <div className="carousel-item">
     <Image
-    src={mediumCurls4} 
+    src={hairimgs8} 
     className='w-[75rem] md:w-fit md:h-80 ' 
     alt="img" />
   </div> 
-  <div className="carousel-item">
-    <Image
-    src={mediumCurls6}
-    className= 'w-[75rem] md:w-fit md:h-80 '
-    alt="img" />
-  </div>
-  <div className="carousel-item">
-    <Image
-    src={tightCurls3} 
-    className='w-[75rem] md:w-fit md:h-80 '
-    alt="img" />
-  </div>
-  <div className="carousel-item">
-    <Image 
-    src={lightCurls4}
-    className='w-[75rem] md:w-fit md:h-80 '
-    alt="img" />
-  </div>
-  <div className="carousel-item">
-    <Image
-    src={lightCurls5}
-    className='w-[75rem] md:w-fit md:h-80 '
-    alt="img" />
-  </div>
-  <div className="carousel-item">
-    <Image
-    src={tightCurls1} 
-    className='w-[75rem] md:w-fit md:h-80 '
-    alt="img" />
-  </div>
-  <div className="carousel-item">
-    <Image 
-    src={lightCurls3} 
-    className='w-[75rem] md:w-fit md:h-80 '  
-    alt="img" />
-  </div>
-  <div className="carousel-item">
-    <Image
-    src={lightCurls2} 
-    className='w-[75rem] md:w-fit md:h-80 '
-    alt="img" />
-  </div>
-  <div className="carousel-item">
-    <Image
-    src={lightCurls6} 
-    className='w-[75rem] md:w-fit md:h-80 ' 
-    alt="img" />
-  </div>
-  <div className="carousel-item">
-    <Image
-     src={tightCurls5}
-     className='w-[75rem] md:w-fit md:h-80 '
-     alt="img" />
-  </div>
-  <div className="carousel-item">
-    <Image
-    src={tightCurls6} 
-    className='w-[75rem] md:w-fit md:h-80 '
-     alt="img" />
-  </div>
 </div>
 <span className='md:text-xl md:ml-[45rem] text-7xl ml-[32rem] animate-pulse text-korean-description font-header'>Swipe left <FaLongArrowAltLeft className='md:ml-[45rem] w-20 ml-[37rem]'/></span>
  </div>
