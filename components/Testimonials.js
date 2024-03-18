@@ -55,9 +55,6 @@ function Testimonials(){
   </div>
 </div>
 </div>
-
-         )
-}      
       <div className="carousel rounded-box  ml-20 mr-20 md:w-fit md:h-80 lg:w-fit ">
   <div className="carousel-item">
     <Image
@@ -112,6 +109,8 @@ function Testimonials(){
 </div>
 <span className='md:text-xl md:ml-[45rem] text-7xl ml-[32rem] animate-pulse text-korean-description font-header'>Swipe left <FaLongArrowAltLeft className='md:ml-[45rem] w-20 ml-[37rem]'/></span>
  </div>
+    )
+}
 
 export default Testimonials;
 
