@@ -16,8 +16,8 @@ export default function Home() {
     <div>
     <Navbar />
     <Header/>
-    <Treatments />
     <Testimonials />
+    <Treatments />
     <About />
     <Location />
     <Contact />
