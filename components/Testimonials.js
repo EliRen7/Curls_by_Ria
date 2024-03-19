@@ -109,60 +109,6 @@ function Testimonials(){
   </div>
 </div>
 </div>
-
-//   <div className="carousel rounded-box ml-20 mr-20 md:w-fit md:h-80 lg:w-fit ">
-//   <div className="carousel-item">
-//     <Image
-//     src={hairimgs1} 
-//     className='w-[75rem] md:w-fit md:h-80 '
-//     alt="img" />
-//   </div> 
-//   <div className="carousel-item">
-//     <Image
-//     src={hairimgs2} 
-//     className='w-[75rem] md:w-fit md:h-80 '
-//     alt="img" />
-//   </div> 
-//   <div className="carousel-item">
-//     <Image
-//     src={hairimgs3}
-//     className='w-[75rem] md:w-fit md:h-80 '
-//     alt="img" />
-//   </div> 
-//   <div className="carousel-item">
-//     <Image
-//     src={hairimgs4}
-//     className='w-[75rem] md:w-fit md:h-80 '
-//     alt="img" />
-//   </div> 
-//   <div className="carousel-item">
-//     <Image
-//     src={hairimgs5}
-//     className='w-[75rem] md:w-fit md:h-80 '
-//      alt="img" 
-//      id='first' />
-//   </div> 
-//   <div className="carousel-item">
-//     <Image
-//     src={hairimgs6} 
-//     className='w-[75rem] md:w-fit md:h-80 '
-//     id='img' 
-//     alt="img" />
-//   </div> 
-//   <div className="carousel-item">
-//     <Image
-//     src={hairimgs7}
-//     className='w-[75rem] md:w-fit md:h-80 '
-//     alt="img" />
-//   </div> 
-//   <div className="carousel-item">
-//     <Image
-//     src={hairimgs8} 
-//     className='w-[75rem] md:w-fit md:h-80 ' 
-//     alt="img" />
-//   </div> 
-// </div>
-// <span className='md:text-xl md:ml-[45rem] text-7xl ml-[32rem] animate-pulse text-korean-description font-header'>Swipe left <FaLongArrowAltLeft className='md:ml-[45rem] w-20 ml-[37rem]'/></span>
  </div>
     )
 }
