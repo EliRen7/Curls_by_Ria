@@ -49,7 +49,7 @@ import Modal from "./Modal";
             <a href="#testimonials">Testimonials</a>
             <a href="#contact">Contact</a>
             <a href="#location">Location</a>
-            <a href="https://www.youtube.com/@WavyCurlyRia" target="_blank">
+            <a href="https://m.youtube.com/@CurlsbyRia" target="_blank">
               <AiFillYoutube />
               YouTube
             </a>
