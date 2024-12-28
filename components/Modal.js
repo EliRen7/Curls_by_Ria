@@ -62,7 +62,7 @@ function handleChange(event) {
             <div className="divider">OR</div>
               <select 
                 id="options" 
-                className="select select-bordered select-lg mb-20 w-full max-w-xl dark:bg-white"
+                className="select select-bordered select-lg mb-20 w-full max-w-xl md:text-base dark:bg-white"
                 value={price}
                 onChange={handleChange}  
                 name="options"
