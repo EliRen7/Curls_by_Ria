@@ -8,7 +8,7 @@ function Header() {
   return (
      <div
   className="hero min-h-screen bg-korean-description">
-  <div className="hero-overlay"></div>
+  <div className="hero-overlay md:w-full"></div>
   <div className="hero-content text-neutral-content text-center">
     <div className="max-w-md">
       <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
