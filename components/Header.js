@@ -8,6 +8,9 @@ function Header(){
 <div className="w-[84rem] h-[180rem] md:w-full pb-96 md:pb-0 md:hero md:h-screen bg-logo-background" id="home">
 <div className="hero-content  flex-col lg:flex-row-reverse ">
   <div>
+<div role="alert" className="alert alert-info text-center">
+<span className='text-white text-lg'>I’ll be on maternity leave until July! Stay updated by following me on Instagram (@curlsbyria) for any announcements. Thank you for your support, and I can’t wait to see you all when I return!</span>
+</div>
   <Image 
       src={logo}  
       className="mr-26 w-[92rem] mt-[60rem] md:w-9/12 md:mr-20 md:mt-5 md:ml-40" 
