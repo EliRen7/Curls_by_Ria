@@ -7,7 +7,7 @@ import logo from "../public/assets/logo.png"
 function Header() {
   return (
      <div
-  class="hero min-h-screen bg-korean-description">
+  className="hero min-h-screen bg-korean-description">
   <div className="hero-overlay"></div>
   <div className="hero-content text-neutral-content text-center">
     <div className="max-w-md">
