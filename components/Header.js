@@ -30,9 +30,6 @@ function Header() {
   );
 }
 
-
-
-
      
 // <div className="w-[84rem] h-[180rem] md:w-full pb-96 md:pb-0 md:hero md:h-screen bg-logo-background" id="home">
 // <div className="hero-content  flex-col lg:flex-row-reverse ">
@@ -56,8 +53,6 @@ function Header() {
 //   </div>
 // </div>
 // </div>
-    )
-}
 
 export default Header;
 
