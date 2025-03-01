@@ -10,8 +10,8 @@ function Header(){
   <div className="hero-overlay"></div>
   <div className="hero-content text-neutral-content text-center">
     <div className="max-w-md">
-      <h1 className="mb-5 text-5xl font-bold sm:text-4xl">Hello there</h1>
-      <p className="mb-5 text-lg sm:ml-56 p-10 sm:py-4 sm:p-28 sm:text-2xl">
+      <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
+      <p className="mb-5 text-lg">
       I’ll be on maternity leave until July! Stay updated by following me on Instagram (@curlsbyria) for any announcements. Thank you for your support, and I can’t wait to see you all when I return!
       </p>
       <button className="btn btn-neutral text-white"><a href='https://www.instagram.com/curlsbyria/?igshid=MzRlODBiNWFlZA%3D%3D' target="_blank">Instagram</a></button>
