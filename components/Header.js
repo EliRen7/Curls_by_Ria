@@ -6,27 +6,19 @@ import logo from "../public/assets/logo.png"
 
 function Header() {
   return (
-    <div className="hero min-h-screen bg-korean-description p-4 flex items-center justify-center">
-      <div className="hero-overlay"></div>
-      <div className="hero-content text-neutral-content text-center max-w-xs sm:max-w-md">
-        <h1 className="mb-4 text-3xl sm:text-4xl md:text-5xl font-bold">
-          Hello there
-        </h1>
-        <p className="mb-4 text-base sm:text-lg">
-          I’ll be on maternity leave until July! Stay updated by following me on
-          Instagram (@curlsbyria) for any announcements. Thank you for your
-          support, and I can’t wait to see you all when I return!
-        </p>
-        <a
-          href="https://www.instagram.com/curlsbyria/?igshid=MzRlODBiNWFlZA%3D%3D"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="btn btn-neutral text-white"
-        >
-          Instagram
-        </a>
-      </div>
+     <div
+  class="hero min-h-screen bg-korean-description">
+  <div className="hero-overlay"></div>
+  <div className="hero-content text-neutral-content text-center">
+    <div className="max-w-md">
+      <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
+      <p className="mb-5 text-lg">
+      I’ll be on maternity leave until July! Stay updated by following me on Instagram (@curlsbyria) for any announcements. Thank you for your support, and I can’t wait to see you all when I return!
+      </p>
+      <button className="btn btn-neutral text-white"><a href='https://www.instagram.com/curlsbyria/?igshid=MzRlODBiNWFlZA%3D%3D' target="_blank">Instagram</a></button>
     </div>
+  </div>
+</div>
   );
 }
 
@@ -55,7 +47,6 @@ function Header() {
 // </div>
 
 export default Header;
-
 
 
 
