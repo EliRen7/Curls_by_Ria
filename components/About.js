@@ -5,7 +5,7 @@ import aboutMePic from '../public/assets/profile-pic.jpg'
 function About(){
     return (
         <div className="bg-white w-[84rem] md:w-full" id="about">
-     <h1 className="font-header text-9xl md:text-5xl pt-5 text-korean-description ml-[20rem] md:ml-[40rem] mb-5"  data-aos="fade-right" >About Me</h1>
+     <h1 className="font-header text-9xl md:text-5xl pt-20 text-korean-description ml-[20rem] md:ml-[40rem] mb-5"  data-aos="fade-right" >About Me</h1>
     <div className="card lg:card-side w-11/12 md:ml-[7rem]">
   <Image 
     src={aboutMePic}
