@@ -11,7 +11,8 @@ import Deposit from '../public/assets/depositpolicy.jpg'
 import DepositKorean from '../public/assets/depositpolicy2.jpg'
 import DesignCurls from '../public/assets/color1.jpg'
 import DesignCurls2 from '../public/assets/color2.jpg'
-
+import LatePolicy1 from '../public/assets/late_policy_1.jpg'
+import LatePolicy2 from '../public/assets/late_policy_2.jpg'
 
 import { useEffect } from 'react';
 
@@ -116,6 +117,25 @@ function Treatments(){
       <section className="pt-20 md:pt-5">
       <Image
       src={DepositKorean}
+      className='w-[90rem] md:w-4/5 md:h-auto'
+      alt='img'
+      data-aos="zoom-in"
+      />
+      </section>
+  </div>
+   <div className="divider"></div> 
+  <div className="grid md:grid-cols-2 md:ml-20 mt-48 md:mt-0 md:w-full md:h-90 card bg-white place-items-center">
+    <section className="pt-5">
+    <Image
+      src={LatePolicy1}
+      className='w-[90rem] md:w-4/5 md:h-auto'
+      alt='img'
+      data-aos="zoom-in"
+      />
+      </section>
+      <section className="pt-20 md:pt-5">
+      <Image
+      src={LatePolicy2}
       className='w-[90rem] md:w-4/5 md:h-auto'
       alt='img'
       data-aos="zoom-in"
