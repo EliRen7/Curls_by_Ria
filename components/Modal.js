@@ -73,7 +73,8 @@ function handleChange(event) {
               </select>
                  <h4 className="pt-5 m-5 text-5xl md:text-base"> Due to PayPal's transaction fees as well as bank remission fees
                  (altogether a total of $45 USD), those who use PayPal to send the deposit will need to send $125 for a Complete 
-                 Curl Care Service or $75 for a Curl Cultivation Service. Thank you for your understanding!</h4>
+                 Curl Care Service or $75 for a Curl Cultivation Service. Thank you for your understanding! 
+             </h4>
           <Payments amount={price}/>
         </label>
       </label>
