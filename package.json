@@ -11,7 +11,7 @@
   "dependencies": {
     "@netlify/plugin-nextjs": "^4.37.1",
     "@paypal/react-paypal-js": "^7.8.3",
-    "@types/node": "18.15.10",
+    "@types/node": "22.0.0",
     "@types/react": "18.0.29",
     "@types/react-dom": "18.0.11",
     "aos": "^3.0.0-beta.6",
