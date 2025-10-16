@@ -61,7 +61,6 @@ function handleChange(event) {
              />
                         
             <div className="divider">OR</div>
-         
               <select 
                 id="options" 
                 className="select select-secondary select-lg ml-44 md:ml-0 mb-20 w-full max-w-lg text-2xl md:text-base dark:bg-white"
@@ -73,7 +72,7 @@ function handleChange(event) {
                 <option value='125'>Complete Curl Care $125 </option>
                 <option value='75'>Curl Cultivation $75 </option>
               </select>
-              <p>*Due to PayPal's transaction fees as well as bank remission fees (altogether a total of $45 USD), those who use 
+              <p>*Due to PayPal transaction fees as well as bank remission fees (altogether a total of $45 USD), those who use 
                 PayPal to send the deposit will need to send $125 for a Complete Curl Care service or $75 for a Curl Cultivation 
                 service. Thank you for your understanding!
               </p>
